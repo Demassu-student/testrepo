@@ -164,6 +164,10 @@
 }
 .slotTargetSelectedContent {
   white-space: pre;
+  color: #667084;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 }
 .slotTargetSelectedContent > .__wab_text,
 .slotTargetSelectedContent > .__wab_slot-string-wrapper,
@@ -313,7 +317,7 @@
   object-fit: cover;
   width: 20px;
   height: 20px;
-  color: #90908c;
+  color: #667084;
   flex-shrink: 0;
 }
 .dropdownIconcolor_softPink {

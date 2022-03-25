@@ -229,6 +229,28 @@ function PlasmicHomepage__RenderFunc(props) {
                         "__wab_instance",
                         sty.select__nuyuQ
                       )}
+                      placeholder={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__xxXWt
+                          )}
+                        >
+                          {"Selected works"}
+                        </div>
+                      }
+                      selectedContent={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text___0DdbT
+                          )}
+                        >
+                          {"Selected works"}
+                        </div>
+                      }
                     />
                   ),
 
@@ -523,16 +545,16 @@ function PlasmicHomepage__RenderFunc(props) {
               </p.Stack>
 
               <div
+                data-plasmic-name={"image"}
+                data-plasmic-override={overrides.image}
+                className={classNames(projectcss.all, sty.image)}
+              />
+
+              <div
                 data-plasmic-name={"imageSide"}
                 data-plasmic-override={overrides.imageSide}
                 className={classNames(projectcss.all, sty.imageSide)}
-              >
-                <div
-                  data-plasmic-name={"image"}
-                  data-plasmic-override={overrides.image}
-                  className={classNames(projectcss.all, sty.image)}
-                />
-              </div>
+              />
             </div>
 
             <div
@@ -2435,8 +2457,8 @@ const PlasmicDescendants = {
     "button8",
     "buttonBase6",
     "text6",
-    "imageSide",
     "image",
+    "imageSide",
     "frame147",
     "frame148",
     "frame154",
@@ -2647,8 +2669,8 @@ const PlasmicDescendants = {
     "button8",
     "buttonBase6",
     "text6",
-    "imageSide",
     "image",
+    "imageSide",
     "frame147",
     "frame148",
     "frame154",
@@ -2798,8 +2820,8 @@ const PlasmicDescendants = {
     "button8",
     "buttonBase6",
     "text6",
-    "imageSide",
-    "image"
+    "image",
+    "imageSide"
   ],
 
   textSide: [
@@ -2862,8 +2884,8 @@ const PlasmicDescendants = {
   button8: ["button8", "buttonBase6", "text6"],
   buttonBase6: ["buttonBase6", "text6"],
   text6: ["text6"],
-  imageSide: ["imageSide", "image"],
   image: ["image"],
+  imageSide: ["imageSide"],
   frame147: ["frame147", "frame148", "frame154", "frame153"],
   frame148: ["frame148"],
   frame154: ["frame154"],
@@ -3892,8 +3914,8 @@ export const PlasmicHomepage = Object.assign(
     button8: makeNodeComponent("button8"),
     buttonBase6: makeNodeComponent("buttonBase6"),
     text6: makeNodeComponent("text6"),
-    imageSide: makeNodeComponent("imageSide"),
     image: makeNodeComponent("image"),
+    imageSide: makeNodeComponent("imageSide"),
     frame147: makeNodeComponent("frame147"),
     frame148: makeNodeComponent("frame148"),
     frame154: makeNodeComponent("frame154"),

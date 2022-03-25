@@ -28,13 +28,18 @@
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .header {
-    width: 100%;
-    justify-content: center;
+    width: 414px;
+    height: 80px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
     align-items: center;
-    min-width: 0;
+    justify-content: center;
+    flex-column-gap: 0px;
+    flex-shrink: 0;
   }
 }
-.container4 {
+.container5 {
   width: 1280px;
   height: auto;
   display: flex;
@@ -46,11 +51,20 @@
   padding-right: 32px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .container4 {
+  .container5 {
     width: 414px;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    flex-row-gap: 0px;
   }
 }
-.link___14Xz {
+.text___8NxOu {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -61,35 +75,43 @@
   position: relative;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .link___14Xz {
+  .text___8NxOu {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    line-height: 24px;
+    color: rgba(102, 111, 132, 1);
+    position: relative;
     display: none;
   }
 }
-.navigation {
+.navigation2 {
   flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  align-self: auto;
 }
-.navigation > :global(.__wab_flex-container) {
+.navigation2 > :global(.__wab_flex-container) {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  margin-left: calc(0px - 32px);
-  width: calc(100% + 32px);
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
 }
-.navigation > :global(.__wab_flex-container) > *,
-.navigation > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.navigation > :global(.__wab_flex-container) > picture > img,
-.navigation
+.navigation2 > :global(.__wab_flex-container) > *,
+.navigation2 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.navigation2 > :global(.__wab_flex-container) > picture > img,
+.navigation2
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
   > img {
-  margin-left: 32px;
+  margin-left: 16px;
 }
-.button5 {
+.about {
   opacity: 0.36;
   width: auto;
   height: auto;
@@ -99,31 +121,83 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.buttonBase6 {
+@media (min-width: 0px) and (max-width: 768px) {
+  .about {
+    opacity: 0.36;
+    width: auto;
+    height: auto;
+    position: relative;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-row-gap: 0px;
+    display: none;
+  }
+}
+.buttonBase10 {
   flex-direction: row;
-  width: auto;
+  width: 100%;
   height: auto;
   display: flex;
   position: relative;
+  min-width: 0;
+  padding: 8px 16px;
 }
-.buttonBase6 > :global(.__wab_flex-container) {
+.buttonBase10 > :global(.__wab_flex-container) {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  min-width: 0;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
-.buttonBase6 > :global(.__wab_flex-container) > *,
-.buttonBase6 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.buttonBase6 > :global(.__wab_flex-container) > picture > img,
-.buttonBase6
+.buttonBase10 > :global(.__wab_flex-container) > *,
+.buttonBase10 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonBase10 > :global(.__wab_flex-container) > picture > img,
+.buttonBase10
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
   > img {
   margin-left: 8px;
 }
-.text24 {
+@media (min-width: 0px) and (max-width: 768px) {
+  .buttonBase10 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    min-width: 0;
+    padding: 8px 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .buttonBase10 > :global(.__wab_flex-container) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    margin-left: calc(0px - 8px);
+    width: calc(100% + 8px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .buttonBase10 > :global(.__wab_flex-container) > *,
+  .buttonBase10 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+  .buttonBase10 > :global(.__wab_flex-container) > picture > img,
+  .buttonBase10
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > picture
+    > img {
+    margin-left: 8px;
+    margin-top: 0px;
+  }
+}
+.text29 {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -133,8 +207,7 @@
   color: rgba(102, 112, 132, 1);
   position: relative;
 }
-.dropdownHeaderNavigationTrigger {
-  opacity: 0.36;
+.resume {
   width: auto;
   height: auto;
   display: flex;
@@ -142,10 +215,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding: 8px 16px;
 }
-.button6 {
+.button9 {
   width: auto;
   height: auto;
   display: flex;
@@ -154,41 +226,43 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.buttonBase7 {
+.buttonBase11 {
   flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
 }
-.buttonBase7 > :global(.__wab_flex-container) {
+.buttonBase11 > :global(.__wab_flex-container) {
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
-.buttonBase7 > :global(.__wab_flex-container) > *,
-.buttonBase7 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.buttonBase7 > :global(.__wab_flex-container) > picture > img,
-.buttonBase7
+.buttonBase11 > :global(.__wab_flex-container) > *,
+.buttonBase11 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonBase11 > :global(.__wab_flex-container) > picture > img,
+.buttonBase11
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
   > img {
   margin-left: 8px;
 }
-.text25 {
+.text30 {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   letter-spacing: 0em;
   line-height: 24px;
-  color: rgba(102, 112, 132, 1);
+  color: #667084;
   position: relative;
+  align-self: center;
+  text-align: center;
 }
-.svg__xdEh5 {
+.svg__x0Ayg {
   position: relative;
   object-fit: cover;
   max-width: 100%;
@@ -199,72 +273,7 @@
   overflow: hidden;
   flex-shrink: 0;
 }
-.dropdownHeaderNavigationTrigger2 {
-  width: auto;
-  height: auto;
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-.button7 {
-  width: auto;
-  height: auto;
-  display: flex;
-  position: relative;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.buttonBase8 {
-  flex-direction: row;
-  width: auto;
-  height: auto;
-  display: flex;
-  position: relative;
-}
-.buttonBase8 > :global(.__wab_flex-container) {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  margin-left: calc(0px - 8px);
-  width: calc(100% + 8px);
-}
-.buttonBase8 > :global(.__wab_flex-container) > *,
-.buttonBase8 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.buttonBase8 > :global(.__wab_flex-container) > picture > img,
-.buttonBase8
-  > :global(.__wab_flex-container)
-  > :global(.__wab_slot)
-  > picture
-  > img {
-  margin-left: 8px;
-}
-.text26 {
-  display: block;
-  font-size: 16px;
-  font-family: "Inter", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0em;
-  line-height: 24px;
-  color: rgba(102, 112, 132, 1);
-  position: relative;
-}
-.svg__gozpv {
-  position: relative;
-  object-fit: cover;
-  max-width: 100%;
-  color: #667085;
-  width: 20px;
-  height: 20px;
-  display: block;
-  overflow: hidden;
-  flex-shrink: 0;
-}
-.button8 {
+.contact {
   opacity: 0.36;
   width: auto;
   height: auto;
@@ -274,31 +283,32 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.buttonBase9 {
+.buttonBase12 {
   flex-direction: row;
   width: auto;
   height: auto;
   display: flex;
   position: relative;
+  padding: 8px 16px;
 }
-.buttonBase9 > :global(.__wab_flex-container) {
+.buttonBase12 > :global(.__wab_flex-container) {
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-left: calc(0px - 8px);
   width: calc(100% + 8px);
 }
-.buttonBase9 > :global(.__wab_flex-container) > *,
-.buttonBase9 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
-.buttonBase9 > :global(.__wab_flex-container) > picture > img,
-.buttonBase9
+.buttonBase12 > :global(.__wab_flex-container) > *,
+.buttonBase12 > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.buttonBase12 > :global(.__wab_flex-container) > picture > img,
+.buttonBase12
   > :global(.__wab_flex-container)
   > :global(.__wab_slot)
   > picture
   > img {
   margin-left: 8px;
 }
-.text27 {
+.text31 {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -307,6 +317,26 @@
   line-height: 24px;
   color: rgba(102, 112, 132, 1);
   position: relative;
+}
+.select__ybDwv:global(.__wab_instance) {
+  position: relative;
+  width: 100%;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.text__oTif {
+  color: #667084;
+}
+.text__kJuU5 {
+  color: #667084;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.option__cbCl7:global(.__wab_instance) {
+  position: relative;
+  display: none;
 }
 .blogPosts {
   background: rgba(255, 255, 255, 1);

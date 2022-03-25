@@ -19,6 +19,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
 import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: _tU3UFp3Zwbn8d/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
@@ -34,7 +35,7 @@ import Group9Icon from "./icons/PlasmicIcon__Group9"; // plasmic-import: RDagWvZ
 
 export const PlasmicBillie__VariantProps = new Array();
 
-export const PlasmicBillie__ArgProps = new Array();
+export const PlasmicBillie__ArgProps = new Array("children");
 
 function PlasmicBillie__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -75,120 +76,78 @@ function PlasmicBillie__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
+          <nav
             data-plasmic-name={"header"}
             data-plasmic-override={overrides.header}
             className={classNames(projectcss.all, sty.header)}
           >
             <div
-              data-plasmic-name={"container4"}
-              data-plasmic-override={overrides.container4}
-              className={classNames(projectcss.all, sty.container4)}
+              data-plasmic-name={"container5"}
+              data-plasmic-override={overrides.container5}
+              className={classNames(projectcss.all, sty.container5)}
             >
               {(
                 hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
               ) ? (
-                <p.PlasmicLink
+                <div
                   className={classNames(
                     projectcss.all,
-                    projectcss.a,
                     projectcss.__wab_text,
-                    sty.link___14Xz
+                    sty.text___8NxOu
                   )}
-                  component={Link}
-                  href={"/"}
-                  platform={"nextjs"}
                 >
-                  {"Demassu"}
-                </p.PlasmicLink>
+                  {hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? "Demassu"
+                    : "Demassu"}
+                </div>
               ) : null}
 
               <p.Stack
                 as={"div"}
-                data-plasmic-name={"navigation"}
-                data-plasmic-override={overrides.navigation}
+                data-plasmic-name={"navigation2"}
+                data-plasmic-override={overrides.navigation2}
                 hasGap={true}
-                className={classNames(projectcss.all, sty.navigation)}
+                className={classNames(projectcss.all, sty.navigation2)}
               >
-                <div
-                  data-plasmic-name={"button5"}
-                  data-plasmic-override={overrides.button5}
-                  className={classNames(projectcss.all, sty.button5)}
-                >
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"buttonBase6"}
-                    data-plasmic-override={overrides.buttonBase6}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.buttonBase6)}
-                  >
-                    <div
-                      data-plasmic-name={"text24"}
-                      data-plasmic-override={overrides.text24}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text24
-                      )}
-                    >
-                      {"About"}
-                    </div>
-                  </p.Stack>
-                </div>
-
-                <div
-                  data-plasmic-name={"dropdownHeaderNavigationTrigger"}
-                  data-plasmic-override={
-                    overrides.dropdownHeaderNavigationTrigger
-                  }
-                  className={classNames(
-                    projectcss.all,
-                    sty.dropdownHeaderNavigationTrigger
-                  )}
-                >
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
                   <div
-                    data-plasmic-name={"button6"}
-                    data-plasmic-override={overrides.button6}
-                    className={classNames(projectcss.all, sty.button6)}
+                    data-plasmic-name={"about"}
+                    data-plasmic-override={overrides.about}
+                    className={classNames(projectcss.all, sty.about)}
                   >
                     <p.Stack
                       as={"div"}
-                      data-plasmic-name={"buttonBase7"}
-                      data-plasmic-override={overrides.buttonBase7}
+                      data-plasmic-name={"buttonBase10"}
+                      data-plasmic-override={overrides.buttonBase10}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.buttonBase7)}
+                      className={classNames(projectcss.all, sty.buttonBase10)}
                     >
                       <div
-                        data-plasmic-name={"text25"}
-                        data-plasmic-override={overrides.text25}
+                        data-plasmic-name={"text29"}
+                        data-plasmic-override={overrides.text29}
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text25
+                          sty.text29
                         )}
                       >
-                        {"Selected works"}
+                        {"About"}
                       </div>
-
-                      {false ? (
-                        <ChevronDownIcon
-                          className={classNames(projectcss.all, sty.svg__xdEh5)}
-                          role={"img"}
-                        />
-                      ) : null}
                     </p.Stack>
                   </div>
-                </div>
+                ) : null}
 
                 <p.PlasmicLink
-                  data-plasmic-name={"dropdownHeaderNavigationTrigger2"}
-                  data-plasmic-override={
-                    overrides.dropdownHeaderNavigationTrigger2
-                  }
+                  data-plasmic-name={"resume"}
+                  data-plasmic-override={overrides.resume}
                   className={classNames(
                     projectcss.all,
                     projectcss.a,
-                    sty.dropdownHeaderNavigationTrigger2
+                    sty.resume
                   )}
                   component={Link}
                   href={
@@ -197,24 +156,24 @@ function PlasmicBillie__RenderFunc(props) {
                   platform={"nextjs"}
                 >
                   <div
-                    data-plasmic-name={"button7"}
-                    data-plasmic-override={overrides.button7}
-                    className={classNames(projectcss.all, sty.button7)}
+                    data-plasmic-name={"button9"}
+                    data-plasmic-override={overrides.button9}
+                    className={classNames(projectcss.all, sty.button9)}
                   >
                     <p.Stack
                       as={"div"}
-                      data-plasmic-name={"buttonBase8"}
-                      data-plasmic-override={overrides.buttonBase8}
+                      data-plasmic-name={"buttonBase11"}
+                      data-plasmic-override={overrides.buttonBase11}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.buttonBase8)}
+                      className={classNames(projectcss.all, sty.buttonBase11)}
                     >
                       <div
-                        data-plasmic-name={"text26"}
-                        data-plasmic-override={overrides.text26}
+                        data-plasmic-name={"text30"}
+                        data-plasmic-override={overrides.text30}
                         className={classNames(
                           projectcss.all,
                           projectcss.__wab_text,
-                          sty.text26
+                          sty.text30
                         )}
                       >
                         {"Resume"}
@@ -222,7 +181,7 @@ function PlasmicBillie__RenderFunc(props) {
 
                       {false ? (
                         <ChevronDownIcon
-                          className={classNames(projectcss.all, sty.svg__gozpv)}
+                          className={classNames(projectcss.all, sty.svg__x0Ayg)}
                           role={"img"}
                         />
                       ) : null}
@@ -231,33 +190,68 @@ function PlasmicBillie__RenderFunc(props) {
                 </p.PlasmicLink>
 
                 <div
-                  data-plasmic-name={"button8"}
-                  data-plasmic-override={overrides.button8}
-                  className={classNames(projectcss.all, sty.button8)}
+                  data-plasmic-name={"contact"}
+                  data-plasmic-override={overrides.contact}
+                  className={classNames(projectcss.all, sty.contact)}
                 >
                   <p.Stack
                     as={"div"}
-                    data-plasmic-name={"buttonBase9"}
-                    data-plasmic-override={overrides.buttonBase9}
+                    data-plasmic-name={"buttonBase12"}
+                    data-plasmic-override={overrides.buttonBase12}
                     hasGap={true}
-                    className={classNames(projectcss.all, sty.buttonBase9)}
+                    className={classNames(projectcss.all, sty.buttonBase12)}
                   >
                     <div
-                      data-plasmic-name={"text27"}
-                      data-plasmic-override={overrides.text27}
+                      data-plasmic-name={"text31"}
+                      data-plasmic-override={overrides.text31}
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text27
+                        sty.text31
                       )}
                     >
                       {"Contact"}
                     </div>
                   </p.Stack>
                 </div>
+
+                {p.renderPlasmicSlot({
+                  defaultContents: (
+                    <Select
+                      className={classNames(
+                        "__wab_instance",
+                        sty.select__ybDwv
+                      )}
+                      placeholder={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__kJuU5
+                          )}
+                        >
+                          {"Selected works"}
+                        </div>
+                      }
+                      selectedContent={
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__oTif
+                          )}
+                        >
+                          {"Selected works"}
+                        </div>
+                      }
+                    />
+                  ),
+
+                  value: args.children
+                })}
               </p.Stack>
             </div>
-          </div>
+          </nav>
 
           <div
             data-plasmic-name={"blogPosts"}
@@ -1400,12 +1394,14 @@ function PlasmicBillie__RenderFunc(props) {
                           }
                         </React.Fragment>
                         <p.PlasmicLink
+                          data-plasmic-name={"link"}
+                          data-plasmic-override={overrides.link}
                           className={classNames(
                             projectcss.all,
                             projectcss.a,
                             projectcss.__wab_text,
                             projectcss.plasmic_default__inline,
-                            sty.link__n7Sy
+                            sty.link
                           )}
                           component={Link}
                           href={
@@ -2585,22 +2581,18 @@ const PlasmicDescendants = {
   root: [
     "root",
     "header",
-    "container4",
-    "navigation",
-    "button5",
-    "buttonBase6",
-    "text24",
-    "dropdownHeaderNavigationTrigger",
-    "button6",
-    "buttonBase7",
-    "text25",
-    "dropdownHeaderNavigationTrigger2",
-    "button7",
-    "buttonBase8",
-    "text26",
-    "button8",
-    "buttonBase9",
-    "text27",
+    "container5",
+    "navigation2",
+    "about",
+    "buttonBase10",
+    "text29",
+    "resume",
+    "button9",
+    "buttonBase11",
+    "text30",
+    "contact",
+    "buttonBase12",
+    "text31",
     "blogPosts",
     "img",
     "frame178",
@@ -2685,6 +2677,7 @@ const PlasmicDescendants = {
     "quote",
     "text9",
     "paragraph11",
+    "link",
     "richTextImg6",
     "image6",
     "text10",
@@ -2775,87 +2768,59 @@ const PlasmicDescendants = {
 
   header: [
     "header",
-    "container4",
-    "navigation",
-    "button5",
-    "buttonBase6",
-    "text24",
-    "dropdownHeaderNavigationTrigger",
-    "button6",
-    "buttonBase7",
-    "text25",
-    "dropdownHeaderNavigationTrigger2",
-    "button7",
-    "buttonBase8",
-    "text26",
-    "button8",
-    "buttonBase9",
-    "text27"
+    "container5",
+    "navigation2",
+    "about",
+    "buttonBase10",
+    "text29",
+    "resume",
+    "button9",
+    "buttonBase11",
+    "text30",
+    "contact",
+    "buttonBase12",
+    "text31"
   ],
 
-  container4: [
-    "container4",
-    "navigation",
-    "button5",
-    "buttonBase6",
-    "text24",
-    "dropdownHeaderNavigationTrigger",
-    "button6",
-    "buttonBase7",
-    "text25",
-    "dropdownHeaderNavigationTrigger2",
-    "button7",
-    "buttonBase8",
-    "text26",
-    "button8",
-    "buttonBase9",
-    "text27"
+  container5: [
+    "container5",
+    "navigation2",
+    "about",
+    "buttonBase10",
+    "text29",
+    "resume",
+    "button9",
+    "buttonBase11",
+    "text30",
+    "contact",
+    "buttonBase12",
+    "text31"
   ],
 
-  navigation: [
-    "navigation",
-    "button5",
-    "buttonBase6",
-    "text24",
-    "dropdownHeaderNavigationTrigger",
-    "button6",
-    "buttonBase7",
-    "text25",
-    "dropdownHeaderNavigationTrigger2",
-    "button7",
-    "buttonBase8",
-    "text26",
-    "button8",
-    "buttonBase9",
-    "text27"
+  navigation2: [
+    "navigation2",
+    "about",
+    "buttonBase10",
+    "text29",
+    "resume",
+    "button9",
+    "buttonBase11",
+    "text30",
+    "contact",
+    "buttonBase12",
+    "text31"
   ],
 
-  button5: ["button5", "buttonBase6", "text24"],
-  buttonBase6: ["buttonBase6", "text24"],
-  text24: ["text24"],
-  dropdownHeaderNavigationTrigger: [
-    "dropdownHeaderNavigationTrigger",
-    "button6",
-    "buttonBase7",
-    "text25"
-  ],
-
-  button6: ["button6", "buttonBase7", "text25"],
-  buttonBase7: ["buttonBase7", "text25"],
-  text25: ["text25"],
-  dropdownHeaderNavigationTrigger2: [
-    "dropdownHeaderNavigationTrigger2",
-    "button7",
-    "buttonBase8",
-    "text26"
-  ],
-
-  button7: ["button7", "buttonBase8", "text26"],
-  buttonBase8: ["buttonBase8", "text26"],
-  text26: ["text26"],
-  button8: ["button8", "buttonBase9", "text27"],
-  buttonBase9: ["buttonBase9", "text27"],
-  text27: ["text27"],
+  about: ["about", "buttonBase10", "text29"],
+  buttonBase10: ["buttonBase10", "text29"],
+  text29: ["text29"],
+  resume: ["resume", "button9", "buttonBase11", "text30"],
+  button9: ["button9", "buttonBase11", "text30"],
+  buttonBase11: ["buttonBase11", "text30"],
+  text30: ["text30"],
+  contact: ["contact", "buttonBase12", "text31"],
+  buttonBase12: ["buttonBase12", "text31"],
+  text31: ["text31"],
   blogPosts: [
     "blogPosts",
     "img",
@@ -2941,6 +2906,7 @@ const PlasmicDescendants = {
     "quote",
     "text9",
     "paragraph11",
+    "link",
     "richTextImg6",
     "image6",
     "text10",
@@ -3175,6 +3141,7 @@ const PlasmicDescendants = {
     "quote",
     "text9",
     "paragraph11",
+    "link",
     "richTextImg6",
     "image6",
     "text10",
@@ -3393,6 +3360,7 @@ const PlasmicDescendants = {
     "quote",
     "text9",
     "paragraph11",
+    "link",
     "richTextImg6",
     "image6",
     "text10",
@@ -3529,6 +3497,7 @@ const PlasmicDescendants = {
     "quote",
     "text9",
     "paragraph11",
+    "link",
     "richTextImg6",
     "image6",
     "text10",
@@ -3664,6 +3633,7 @@ const PlasmicDescendants = {
     "quote",
     "text9",
     "paragraph11",
+    "link",
     "richTextImg6",
     "image6",
     "text10",
@@ -3796,7 +3766,8 @@ const PlasmicDescendants = {
   quoteWrap: ["quoteWrap", "quote", "text9"],
   quote: ["quote"],
   text9: ["text9"],
-  paragraph11: ["paragraph11"],
+  paragraph11: ["paragraph11", "link"],
+  link: ["link"],
   richTextImg6: ["richTextImg6", "image6", "text10"],
   image6: ["image6"],
   text10: ["text10"],
@@ -3994,28 +3965,18 @@ export const PlasmicBillie = Object.assign(
   {
     // Helper components rendering sub-elements
     header: makeNodeComponent("header"),
-    container4: makeNodeComponent("container4"),
-    navigation: makeNodeComponent("navigation"),
-    button5: makeNodeComponent("button5"),
-    buttonBase6: makeNodeComponent("buttonBase6"),
-    text24: makeNodeComponent("text24"),
-    dropdownHeaderNavigationTrigger: makeNodeComponent(
-      "dropdownHeaderNavigationTrigger"
-    ),
-
-    button6: makeNodeComponent("button6"),
-    buttonBase7: makeNodeComponent("buttonBase7"),
-    text25: makeNodeComponent("text25"),
-    dropdownHeaderNavigationTrigger2: makeNodeComponent(
-      "dropdownHeaderNavigationTrigger2"
-    ),
-
-    button7: makeNodeComponent("button7"),
-    buttonBase8: makeNodeComponent("buttonBase8"),
-    text26: makeNodeComponent("text26"),
-    button8: makeNodeComponent("button8"),
-    buttonBase9: makeNodeComponent("buttonBase9"),
-    text27: makeNodeComponent("text27"),
+    container5: makeNodeComponent("container5"),
+    navigation2: makeNodeComponent("navigation2"),
+    about: makeNodeComponent("about"),
+    buttonBase10: makeNodeComponent("buttonBase10"),
+    text29: makeNodeComponent("text29"),
+    resume: makeNodeComponent("resume"),
+    button9: makeNodeComponent("button9"),
+    buttonBase11: makeNodeComponent("buttonBase11"),
+    text30: makeNodeComponent("text30"),
+    contact: makeNodeComponent("contact"),
+    buttonBase12: makeNodeComponent("buttonBase12"),
+    text31: makeNodeComponent("text31"),
     blogPosts: makeNodeComponent("blogPosts"),
     img: makeNodeComponent("img"),
     frame178: makeNodeComponent("frame178"),
@@ -4100,6 +4061,7 @@ export const PlasmicBillie = Object.assign(
     quote: makeNodeComponent("quote"),
     text9: makeNodeComponent("text9"),
     paragraph11: makeNodeComponent("paragraph11"),
+    link: makeNodeComponent("link"),
     richTextImg6: makeNodeComponent("richTextImg6"),
     image6: makeNodeComponent("image6"),
     text10: makeNodeComponent("text10"),

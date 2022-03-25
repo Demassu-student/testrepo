@@ -2,7 +2,7 @@
   flex-direction: row;
   display: flex;
   position: relative;
-  background: #6941c6;
+  background: #7e56d8;
   cursor: pointer;
   transition-property: background;
   transition-duration: 0.1s;
@@ -101,7 +101,7 @@
   padding-right: 16px;
 }
 .root:hover {
-  background: #282826;
+  background: #6941c6;
 }
 .rootcolor_green:hover {
   background: #3cb179;

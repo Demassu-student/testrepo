@@ -624,7 +624,7 @@
 }
 .buttonBase5 {
   flex-direction: row;
-  background: rgba(126, 86, 216, 1);
+  background: #7e56d8;
   box-shadow: inset 0px 0px 0px 1px rgba(126, 86, 216, 1);
   filter: drop-shadow(0px 1px 1px rgba(15, 23, 39, 0.05));
   width: auto;

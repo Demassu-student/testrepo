@@ -18,6 +18,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Button from "../../Button"; // plasmic-import: InkiWn_hJlV/component
 import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: _tU3UFp3Zwbn8d/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
@@ -25,7 +26,7 @@ import sty from "./PlasmicUxWriting.module.css"; // plasmic-import: QvmlKls91-xs
 
 export const PlasmicUxWriting__VariantProps = new Array();
 
-export const PlasmicUxWriting__ArgProps = new Array();
+export const PlasmicUxWriting__ArgProps = new Array("children");
 
 function PlasmicUxWriting__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -60,123 +61,169 @@ function PlasmicUxWriting__RenderFunc(props) {
             sty.root
           )}
         >
-          {(
-            hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-          ) ? (
-            <div
-              data-plasmic-name={"freeBox"}
-              data-plasmic-override={overrides.freeBox}
-              className={classNames(projectcss.all, sty.freeBox)}
+          {true ? (
+            <p.Stack
+              as={"div"}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.freeBox__uhFhC)}
             >
-              <div
-                data-plasmic-name={"handsRandomStuff"}
-                data-plasmic-override={overrides.handsRandomStuff}
-                className={classNames(projectcss.all, sty.handsRandomStuff)}
-              >
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img__kveK2)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "324px"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "100%"
-                      : "100%"
-                  }
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "105px"
-                      : "auto"
-                  }
-                  loading={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "lazy"
-                      : "lazy"
-                  }
-                  src={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? {
-                          src: "/plasmic/new_ones/images/group1.svg",
-                          fullWidth: 120.929,
-                          fullHeight: 319.179,
-                          aspectRatio: 0.378125
-                        }
-                      : {
-                          src: "/plasmic/new_ones/images/group1.svg",
-                          fullWidth: 120.929,
-                          fullHeight: 319.179,
-                          aspectRatio: 0.378125
-                        }
-                  }
-                />
-              </div>
-
               {(
                 hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
               ) ? (
-                <p.PlasmicImg
-                  alt={""}
-                  className={classNames(sty.img___4JBmu)}
-                  displayHeight={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "327px"
-                      : "373px"
-                  }
-                  displayMaxHeight={"none"}
-                  displayMaxWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "none"
-                      : "none"
-                  }
-                  displayMinHeight={"0"}
-                  displayMinWidth={"0"}
-                  displayWidth={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "auto"
-                      : "64px"
-                  }
-                  loading={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "lazy"
-                      : "lazy"
-                  }
-                  src={
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? {
-                          src: "/plasmic/new_ones/images/group.svg",
-                          fullWidth: 92.46,
-                          fullHeight: 572.244,
-                          aspectRatio: 0.162304
-                        }
-                      : {
-                          src: "/plasmic/new_ones/images/group.svg",
-                          fullWidth: 92.46,
-                          fullHeight: 572.244,
-                          aspectRatio: 0.162304
-                        }
-                  }
-                />
-              ) : null}
-            </div>
-          ) : null}
+                <div className={classNames(projectcss.all, sty.freeBox__rWse)}>
+                  <div
+                    data-plasmic-name={"handsRandomStuff"}
+                    data-plasmic-override={overrides.handsRandomStuff}
+                    className={classNames(projectcss.all, sty.handsRandomStuff)}
+                  >
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img__kveK2)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "auto"
+                          : "324px"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "100%"
+                          : "100%"
+                      }
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "105px"
+                          : "auto"
+                      }
+                      loading={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "lazy"
+                          : "lazy"
+                      }
+                      src={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? {
+                              src: "/plasmic/new_ones/images/group1.svg",
+                              fullWidth: 120.929,
+                              fullHeight: 319.179,
+                              aspectRatio: 0.378125
+                            }
+                          : {
+                              src: "/plasmic/new_ones/images/group1.svg",
+                              fullWidth: 120.929,
+                              fullHeight: 319.179,
+                              aspectRatio: 0.378125
+                            }
+                      }
+                    />
+                  </div>
 
-          <div
-            data-plasmic-name={"text"}
-            data-plasmic-override={overrides.text}
-            className={classNames(
-              projectcss.all,
-              projectcss.__wab_text,
-              sty.text
-            )}
-          >
-            {"kokokekkkkkkkkkkkkkkkkkkkkkkkk"}
-          </div>
+                  {(
+                    hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? true
+                      : true
+                  ) ? (
+                    <p.PlasmicImg
+                      alt={""}
+                      className={classNames(sty.img___4JBmu)}
+                      displayHeight={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "327px"
+                          : "373px"
+                      }
+                      displayMaxHeight={"none"}
+                      displayMaxWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "none"
+                          : "none"
+                      }
+                      displayMinHeight={"0"}
+                      displayMinWidth={"0"}
+                      displayWidth={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "auto"
+                          : "64px"
+                      }
+                      loading={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "lazy"
+                          : "lazy"
+                      }
+                      src={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? {
+                              src: "/plasmic/new_ones/images/group.svg",
+                              fullWidth: 92.46,
+                              fullHeight: 572.244,
+                              aspectRatio: 0.162304
+                            }
+                          : {
+                              src: "/plasmic/new_ones/images/group.svg",
+                              fullWidth: 92.46,
+                              fullHeight: 572.244,
+                              aspectRatio: 0.162304
+                            }
+                      }
+                    />
+                  ) : null}
+                </div>
+              ) : null}
+
+              <p.Stack
+                as={"div"}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.freeBox__kLwa6)}
+              >
+                <p.Stack
+                  as={"div"}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.freeBox__jH53K)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__oTDfA
+                    )}
+                  >
+                    {hasVariant(globalVariants, "screen", "mobileOnly")
+                      ? "Woohoo, I'm working on this page"
+                      : "Woohoo, I'm working on this page"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__x57Wk
+                    )}
+                  >
+                    {
+                      "It'll be done shortly. Okay, say hello to my little microcopy!"
+                    }
+                  </div>
+                </p.Stack>
+
+                {p.renderPlasmicSlot({
+                  defaultContents: (
+                    <Button
+                      className={classNames(
+                        "__wab_instance",
+                        sty.button__y1PMd
+                      )}
+                    >
+                      {"Take me home"}
+                    </Button>
+                  ),
+
+                  value: args.children,
+                  className: classNames(sty.slotTargetChildren)
+                })}
+              </p.Stack>
+            </p.Stack>
+          ) : null}
         </div>
       </div>
     </React.Fragment>
@@ -184,10 +231,8 @@ function PlasmicUxWriting__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "handsRandomStuff", "text"],
-  freeBox: ["freeBox", "handsRandomStuff"],
-  handsRandomStuff: ["handsRandomStuff"],
-  text: ["text"]
+  root: ["root", "handsRandomStuff"],
+  handsRandomStuff: ["handsRandomStuff"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -219,9 +264,7 @@ export const PlasmicUxWriting = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
     handsRandomStuff: makeNodeComponent("handsRandomStuff"),
-    text: makeNodeComponent("text"),
     // Metadata about props expected for PlasmicUxWriting
     internalVariantProps: PlasmicUxWriting__VariantProps,
     internalArgProps: PlasmicUxWriting__ArgProps

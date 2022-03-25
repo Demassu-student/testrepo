@@ -19,6 +19,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import NavigationBar from "../../NavigationBar"; // plasmic-import: BLtbByl5tB5/component
 import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
 import Heading1CoCreateRevampHome from "../../Heading1CoCreateRevampHome"; // plasmic-import: opFq_mjndRgD1H/component
 import Heading1BillieHome from "../../Heading1BillieHome"; // plasmic-import: UFO_FR1k5hVzkR/component
@@ -26,7 +27,6 @@ import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGl
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: 4mxLKLJaWtnt2/css
-import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-import: _x1MasHkDimG3R/icon
 import DividerIcon from "./icons/PlasmicIcon__Divider"; // plasmic-import: heCtdXRKjCGsEG/icon
 import _Icon from "./icons/PlasmicIcon___"; // plasmic-import: J1STVNZpiZA5s4/icon
 import Star1Icon from "./icons/PlasmicIcon__Star1"; // plasmic-import: UAi_dYgBOXu1wf/icon
@@ -87,178 +87,43 @@ function PlasmicHomepage__RenderFunc(props) {
             sty.root
           )}
         >
-          <nav
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames(projectcss.all, sty.header)}
+          <NavigationBar
+            data-plasmic-name={"navigationBar"}
+            data-plasmic-override={overrides.navigationBar}
+            className={classNames("__wab_instance", sty.navigationBar)}
           >
-            <div
-              data-plasmic-name={"container"}
-              data-plasmic-override={overrides.container}
-              className={classNames(projectcss.all, sty.container)}
-            >
-              {(
-                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-              ) ? (
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__maN7Z
-                  )}
-                >
-                  {"Demassu"}
-                </div>
-              ) : null}
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"navigation"}
-                data-plasmic-override={overrides.navigation}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.navigation)}
-              >
-                {(
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? true
-                    : true
-                ) ? (
-                  <div
-                    data-plasmic-name={"about"}
-                    data-plasmic-override={overrides.about}
-                    className={classNames(projectcss.all, sty.about)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"buttonBase"}
-                      data-plasmic-override={overrides.buttonBase}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.buttonBase)}
-                    >
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__s5Oj
-                        )}
-                      >
-                        {"About"}
-                      </div>
-                    </p.Stack>
-                  </div>
-                ) : null}
-
-                <p.PlasmicLink
-                  data-plasmic-name={"resume"}
-                  data-plasmic-override={overrides.resume}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.resume
-                  )}
-                  component={Link}
-                  href={
-                    "https://drive.google.com/file/d/1vgvvd75g-qOlASarEFExVm5XespOuaOK/view?usp=sharing"
-                  }
-                  platform={"nextjs"}
-                >
-                  <div
-                    data-plasmic-name={"button3"}
-                    data-plasmic-override={overrides.button3}
-                    className={classNames(projectcss.all, sty.button3)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"buttonBase3"}
-                      data-plasmic-override={overrides.buttonBase3}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.buttonBase3)}
-                    >
-                      <div
-                        data-plasmic-name={"text3"}
-                        data-plasmic-override={overrides.text3}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text3
-                        )}
-                      >
-                        {"Resume"}
-                      </div>
-
-                      {false ? (
-                        <ChevronDownIcon
-                          className={classNames(projectcss.all, sty.svg__raJ5D)}
-                          role={"img"}
-                        />
-                      ) : null}
-                    </p.Stack>
-                  </div>
-                </p.PlasmicLink>
-
-                <div
-                  data-plasmic-name={"contact"}
-                  data-plasmic-override={overrides.contact}
-                  className={classNames(projectcss.all, sty.contact)}
-                >
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"buttonBase4"}
-                    data-plasmic-override={overrides.buttonBase4}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.buttonBase4)}
-                  >
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <Select
+                  className={classNames("__wab_instance", sty.select___7NgBr)}
+                  placeholder={
                     <div
-                      data-plasmic-name={"text4"}
-                      data-plasmic-override={overrides.text4}
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text4
+                        sty.text__i6Bd
                       )}
                     >
-                      {"Contact"}
+                      {"Selected works"}
                     </div>
-                  </p.Stack>
-                </div>
-
-                {p.renderPlasmicSlot({
-                  defaultContents: (
-                    <Select
+                  }
+                  selectedContent={
+                    <div
                       className={classNames(
-                        "__wab_instance",
-                        sty.select__nuyuQ
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___0Ur9H
                       )}
-                      placeholder={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__xxXWt
-                          )}
-                        >
-                          {"Selected works"}
-                        </div>
-                      }
-                      selectedContent={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text___0DdbT
-                          )}
-                        >
-                          {"Selected works"}
-                        </div>
-                      }
-                    />
-                  ),
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                />
+              ),
 
-                  value: args.children
-                })}
-              </p.Stack>
-            </div>
-          </nav>
+              value: args.children
+            })}
+          </NavigationBar>
 
           <div
             data-plasmic-name={"dropdownHeaderNavigation"}
@@ -2425,18 +2290,7 @@ function PlasmicHomepage__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header",
-    "container",
-    "navigation",
-    "about",
-    "buttonBase",
-    "resume",
-    "button3",
-    "buttonBase3",
-    "text3",
-    "contact",
-    "buttonBase4",
-    "text4",
+    "navigationBar",
     "dropdownHeaderNavigation",
     "body",
     "heroSectionContainer",
@@ -2597,57 +2451,7 @@ const PlasmicDescendants = {
     "frame79"
   ],
 
-  header: [
-    "header",
-    "container",
-    "navigation",
-    "about",
-    "buttonBase",
-    "resume",
-    "button3",
-    "buttonBase3",
-    "text3",
-    "contact",
-    "buttonBase4",
-    "text4"
-  ],
-
-  container: [
-    "container",
-    "navigation",
-    "about",
-    "buttonBase",
-    "resume",
-    "button3",
-    "buttonBase3",
-    "text3",
-    "contact",
-    "buttonBase4",
-    "text4"
-  ],
-
-  navigation: [
-    "navigation",
-    "about",
-    "buttonBase",
-    "resume",
-    "button3",
-    "buttonBase3",
-    "text3",
-    "contact",
-    "buttonBase4",
-    "text4"
-  ],
-
-  about: ["about", "buttonBase"],
-  buttonBase: ["buttonBase"],
-  resume: ["resume", "button3", "buttonBase3", "text3"],
-  button3: ["button3", "buttonBase3", "text3"],
-  buttonBase3: ["buttonBase3", "text3"],
-  text3: ["text3"],
-  contact: ["contact", "buttonBase4", "text4"],
-  buttonBase4: ["buttonBase4", "text4"],
-  text4: ["text4"],
+  navigationBar: ["navigationBar"],
   dropdownHeaderNavigation: ["dropdownHeaderNavigation"],
   body: [
     "body",
@@ -3878,18 +3682,7 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
-    container: makeNodeComponent("container"),
-    navigation: makeNodeComponent("navigation"),
-    about: makeNodeComponent("about"),
-    buttonBase: makeNodeComponent("buttonBase"),
-    resume: makeNodeComponent("resume"),
-    button3: makeNodeComponent("button3"),
-    buttonBase3: makeNodeComponent("buttonBase3"),
-    text3: makeNodeComponent("text3"),
-    contact: makeNodeComponent("contact"),
-    buttonBase4: makeNodeComponent("buttonBase4"),
-    text4: makeNodeComponent("text4"),
+    navigationBar: makeNodeComponent("navigationBar"),
     dropdownHeaderNavigation: makeNodeComponent("dropdownHeaderNavigation"),
     body: makeNodeComponent("body"),
     heroSectionContainer: makeNodeComponent("heroSectionContainer"),

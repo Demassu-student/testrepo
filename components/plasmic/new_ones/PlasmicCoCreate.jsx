@@ -19,12 +19,12 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import NavigationBar from "../../NavigationBar"; // plasmic-import: BLtbByl5tB5/component
 import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
 import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: _tU3UFp3Zwbn8d/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
 import sty from "./PlasmicCoCreate.module.css"; // plasmic-import: JzUfKSCjMNmY2Z/css
-import ChevronDownIcon from "./icons/PlasmicIcon__ChevronDown"; // plasmic-import: _x1MasHkDimG3R/icon
 import Divider2Icon from "./icons/PlasmicIcon__Divider2"; // plasmic-import: wszRZDHrfCJaE9/icon
 import ArrowUpRight2Icon from "./icons/PlasmicIcon__ArrowUpRight2"; // plasmic-import: J3O_4eStjkD7ZV/icon
 import CopyIcon from "./icons/PlasmicIcon__Copy"; // plasmic-import: 3hWh_eWxbClQvX/icon
@@ -34,7 +34,7 @@ import Group9Icon from "./icons/PlasmicIcon__Group9"; // plasmic-import: RDagWvZ
 
 export const PlasmicCoCreate__VariantProps = new Array();
 
-export const PlasmicCoCreate__ArgProps = new Array("children");
+export const PlasmicCoCreate__ArgProps = new Array("children2");
 
 function PlasmicCoCreate__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -75,182 +75,43 @@ function PlasmicCoCreate__RenderFunc(props) {
             sty.root
           )}
         >
-          <nav
-            data-plasmic-name={"header"}
-            data-plasmic-override={overrides.header}
-            className={classNames(projectcss.all, sty.header)}
+          <NavigationBar
+            data-plasmic-name={"navigationBar"}
+            data-plasmic-override={overrides.navigationBar}
+            className={classNames("__wab_instance", sty.navigationBar)}
           >
-            <div
-              data-plasmic-name={"container5"}
-              data-plasmic-override={overrides.container5}
-              className={classNames(projectcss.all, sty.container5)}
-            >
-              {(
-                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-              ) ? (
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__xmTiV
-                  )}
-                >
-                  {hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? "Demassu"
-                    : "Demassu"}
-                </div>
-              ) : null}
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"navigation2"}
-                data-plasmic-override={overrides.navigation2}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.navigation2)}
-              >
-                {(
-                  hasVariant(globalVariants, "screen", "mobileOnly")
-                    ? true
-                    : true
-                ) ? (
-                  <div
-                    data-plasmic-name={"about"}
-                    data-plasmic-override={overrides.about}
-                    className={classNames(projectcss.all, sty.about)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"buttonBase11"}
-                      data-plasmic-override={overrides.buttonBase11}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.buttonBase11)}
-                    >
-                      <div
-                        data-plasmic-name={"text27"}
-                        data-plasmic-override={overrides.text27}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text27
-                        )}
-                      >
-                        {"About"}
-                      </div>
-                    </p.Stack>
-                  </div>
-                ) : null}
-
-                <p.PlasmicLink
-                  data-plasmic-name={"resume"}
-                  data-plasmic-override={overrides.resume}
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.a,
-                    sty.resume
-                  )}
-                  component={Link}
-                  href={
-                    "https://drive.google.com/file/d/1vgvvd75g-qOlASarEFExVm5XespOuaOK/view?usp=sharing"
-                  }
-                  platform={"nextjs"}
-                >
-                  <div
-                    data-plasmic-name={"button9"}
-                    data-plasmic-override={overrides.button9}
-                    className={classNames(projectcss.all, sty.button9)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"buttonBase12"}
-                      data-plasmic-override={overrides.buttonBase12}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.buttonBase12)}
-                    >
-                      <div
-                        data-plasmic-name={"text28"}
-                        data-plasmic-override={overrides.text28}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text28
-                        )}
-                      >
-                        {"Resume"}
-                      </div>
-
-                      {false ? (
-                        <ChevronDownIcon
-                          className={classNames(projectcss.all, sty.svg__aJnUo)}
-                          role={"img"}
-                        />
-                      ) : null}
-                    </p.Stack>
-                  </div>
-                </p.PlasmicLink>
-
-                <div
-                  data-plasmic-name={"contact"}
-                  data-plasmic-override={overrides.contact}
-                  className={classNames(projectcss.all, sty.contact)}
-                >
-                  <p.Stack
-                    as={"div"}
-                    data-plasmic-name={"buttonBase13"}
-                    data-plasmic-override={overrides.buttonBase13}
-                    hasGap={true}
-                    className={classNames(projectcss.all, sty.buttonBase13)}
-                  >
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <Select
+                  className={classNames("__wab_instance", sty.select__wy5Dx)}
+                  placeholder={
                     <div
-                      data-plasmic-name={"text29"}
-                      data-plasmic-override={overrides.text29}
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text29
+                        sty.text__tkI96
                       )}
                     >
-                      {"Contact"}
+                      {"Selected works"}
                     </div>
-                  </p.Stack>
-                </div>
-
-                {p.renderPlasmicSlot({
-                  defaultContents: (
-                    <Select
+                  }
+                  selectedContent={
+                    <div
                       className={classNames(
-                        "__wab_instance",
-                        sty.select__km1Xo
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__lqZq9
                       )}
-                      placeholder={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__nkTvo
-                          )}
-                        >
-                          {"Selected works"}
-                        </div>
-                      }
-                      selectedContent={
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__jrNk0
-                          )}
-                        >
-                          {"Selected works"}
-                        </div>
-                      }
-                    />
-                  ),
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                />
+              ),
 
-                  value: args.children
-                })}
-              </p.Stack>
-            </div>
-          </nav>
+              value: args.children2
+            })}
+          </NavigationBar>
 
           <div
             data-plasmic-name={"blogPosts"}
@@ -269,10 +130,14 @@ function PlasmicCoCreate__RenderFunc(props) {
               displayMinWidth={"0"}
               displayWidth={
                 hasVariant(globalVariants, "screen", "mobileOnly")
-                  ? "414px"
+                  ? "auto"
                   : "1440px"
               }
-              loading={"lazy"}
+              loading={
+                hasVariant(globalVariants, "screen", "mobileOnly")
+                  ? "eager"
+                  : "lazy"
+              }
               src={{
                 src: "/plasmic/new_ones/images/headerImage.svg",
                 fullWidth: 1440,
@@ -365,7 +230,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                       className={classNames(
                         projectcss.all,
                         projectcss.__wab_text,
-                        sty.text__fwXo4
+                        sty.text___0P83C
                       )}
                     >
                       {"Research"}
@@ -460,7 +325,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__vh5Rj
+                            sty.text__c8Zvp
                           )}
                         >
                           {"Role"}
@@ -490,7 +355,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__e7Yza
+                            sty.text__iWdVj
                           )}
                         >
                           {"Scope"}
@@ -533,7 +398,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__hezI2
+                            sty.text__qzjMh
                           )}
                         >
                           {"Project Objective"}
@@ -565,7 +430,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                           className={classNames(
                             projectcss.all,
                             projectcss.__wab_text,
-                            sty.text__fff3Z
+                            sty.text__t17L
                           )}
                         >
                           {"Timeline"}
@@ -643,7 +508,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                       </div>
 
                       <Divider2Icon
-                        className={classNames(projectcss.all, sty.svg__k0Drx)}
+                        className={classNames(projectcss.all, sty.svg__aeeQj)}
                         role={"img"}
                       />
                     </p.Stack>
@@ -780,7 +645,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                             className={classNames(
                               projectcss.all,
                               projectcss.ul,
-                              sty.ul__foKp7
+                              sty.ul__jHxMh
                             )}
                           >
                             <li
@@ -788,7 +653,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__vozaJ
+                                sty.li__yuuWn
                               )}
                             >
                               {"What is Jenius CoCreate about?\r"}
@@ -799,7 +664,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__tHlR0
+                                sty.li___9IuQg
                               )}
                             >
                               {"Who is possibly the user?\r"}
@@ -810,7 +675,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__ihYuq
+                                sty.li__kwN3Q
                               )}
                             >
                               {"Who is the Competitor?\r"}
@@ -821,7 +686,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__kzrGy
+                                sty.li__ixg6J
                               )}
                             >
                               {"What are Pain Points the user experienced?"}
@@ -919,7 +784,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__u8XUl
+                              sty.h5__f8S7C
                             )}
                           >
                             {"Target User\r"}
@@ -934,7 +799,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5___3Svwn
+                              sty.h5__aWtZt
                             )}
                           >
                             {"User story\r"}
@@ -990,7 +855,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                             projectcss.all,
                             projectcss.h5,
                             projectcss.__wab_text,
-                            sty.h5__fkhX
+                            sty.h5__mlkVl
                           )}
                         >
                           {"Pain Points & How Might We\r"}
@@ -1064,7 +929,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h6,
                               projectcss.__wab_text,
-                              sty.h6___7XKkk
+                              sty.h6__csg7U
                             )}
                           >
                             {"Site Map\r"}
@@ -1127,7 +992,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h6,
                               projectcss.__wab_text,
-                              sty.h6___9TiGw
+                              sty.h6__dmsxB
                             )}
                           >
                             {"Userflow\r"}
@@ -1238,7 +1103,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__sTnBr
+                              sty.h5___9F50K
                             )}
                           >
                             {"Wireframe\r"}
@@ -1313,7 +1178,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__h5VnB
+                              sty.h5__vx0Jl
                             )}
                           >
                             {"UI Guidelines\r"}
@@ -1424,7 +1289,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__mOlmO
+                              sty.h5__utUu
                             )}
                           >
                             {"Prototype\r"}
@@ -1467,7 +1332,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                         </div>
 
                         <ArrowUpRight2Icon
-                          className={classNames(projectcss.all, sty.svg__rvIW)}
+                          className={classNames(projectcss.all, sty.svg__yUDz)}
                           role={"img"}
                         />
                       </p.Stack>
@@ -1508,7 +1373,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__qKcsv
+                              sty.h5__bcNGh
                             )}
                           >
                             {"Guerilla Usability Testing\r"}
@@ -1537,7 +1402,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__f25L
+                              sty.h5__zLaVf
                             )}
                           >
                             {"Test Objective"}
@@ -1551,7 +1416,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                             className={classNames(
                               projectcss.all,
                               projectcss.ul,
-                              sty.ul___8IsxP
+                              sty.ul__sjYdg
                             )}
                           >
                             <li
@@ -1559,7 +1424,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__iWtR
+                                sty.li__nzIwh
                               )}
                             >
                               {"Comment an article,"}
@@ -1570,7 +1435,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li___0T0Rl
+                                sty.li__ppfy
                               )}
                             >
                               {"\r\nLike an article, "}
@@ -1581,7 +1446,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li___1OQy7
+                                sty.li__hmLFq
                               )}
                             >
                               {"\r\nCreate a thread, "}
@@ -1592,7 +1457,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__cMeKs
+                                sty.li__l1ULi
                               )}
                             >
                               {"Write an article, \r"}
@@ -1603,7 +1468,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__cuFd
+                                sty.li__bMQus
                               )}
                             >
                               {"Read an article, \r"}
@@ -1614,7 +1479,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__acn9V
+                                sty.li__frU1
                               )}
                             >
                               {"Scroll post through home, \r"}
@@ -1625,7 +1490,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__hLoLo
+                                sty.li__yn0Qx
                               )}
                             >
                               {"Bookmark an article, \r"}
@@ -1636,7 +1501,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__iAp1
+                                sty.li__jTpbl
                               )}
                             >
                               {"Log-in via social account,\r"}
@@ -1647,7 +1512,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__g34Sg
+                                sty.li__jQvHq
                               )}
                             >
                               {"Join event or webinar"}
@@ -1677,7 +1542,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__pLu3I
+                              sty.h5__fevig
                             )}
                           >
                             {"KPI(s)"}
@@ -1687,7 +1552,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                             className={classNames(
                               projectcss.all,
                               projectcss.ul,
-                              sty.ul__z6UgO
+                              sty.ul__vmfRp
                             )}
                           >
                             <li
@@ -1695,7 +1560,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__djIki
+                                sty.li__fe94P
                               )}
                             >
                               {"Time on task"}
@@ -1706,7 +1571,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__wyqJm
+                                sty.li__onrP6
                               )}
                             >
                               {"User Error rates"}
@@ -1717,7 +1582,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__a1Xd1
+                                sty.li__nuZRt
                               )}
                             >
                               {"Drop-off rates"}
@@ -1743,7 +1608,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__ovItz
+                              sty.h5___2PD6
                             )}
                           >
                             {"Test Form Scenario"}
@@ -1806,7 +1671,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__y2FTd
+                              sty.h5__v2NLj
                             )}
                           >
                             {"Interview Content\r"}
@@ -1816,7 +1681,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                             className={classNames(
                               projectcss.all,
                               projectcss.ul,
-                              sty.ul__qKMt5
+                              sty.ul__baqBv
                             )}
                           >
                             <li
@@ -1824,7 +1689,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__i8Ff5
+                                sty.li__lixtM
                               )}
                             >
                               {"Pre-test (Introduction)\r"}
@@ -1835,7 +1700,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li___0R4UJ
+                                sty.li__t3Xna
                               )}
                             >
                               {"Screening (User Interview)\r"}
@@ -1846,7 +1711,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li___2OkaG
+                                sty.li__ahv6L
                               )}
                             >
                               {"Usability Testing"}
@@ -1857,7 +1722,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__vHqRt
+                                sty.li__fRaEx
                               )}
                             >
                               {"Post-Test Questions"}
@@ -1917,7 +1782,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__ytdjm
+                              sty.h5__zVeAl
                             )}
                           >
                             {"User Persona"}
@@ -2007,7 +1872,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                             className={classNames(
                               projectcss.all,
                               projectcss.ul,
-                              sty.ul__sgKon
+                              sty.ul__m6BFw
                             )}
                           >
                             <li
@@ -2015,7 +1880,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__lNSr
+                                sty.li__eTiS
                               )}
                             >
                               {"Login Page - Social Log-in\r"}
@@ -2026,7 +1891,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                 projectcss.all,
                                 projectcss.li,
                                 projectcss.__wab_text,
-                                sty.li__tD15M
+                                sty.li__gtGFu
                               )}
                             >
                               {"Forum Page - Writing Page"}
@@ -2120,7 +1985,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                         </div>
 
                         <ArrowUpRight2Icon
-                          className={classNames(projectcss.all, sty.svg__z0JTp)}
+                          className={classNames(projectcss.all, sty.svg__d93Ex)}
                           role={"img"}
                         />
                       </p.Stack>
@@ -2162,7 +2027,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__nlEmX
+                              sty.h5__s0FB
                             )}
                           >
                             <React.Fragment>
@@ -2181,7 +2046,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                                     projectcss.all,
                                     projectcss.li,
                                     projectcss.__wab_text,
-                                    sty.li__s5BH
+                                    sty.li__hWBuM
                                   )}
                                 >
                                   {"Login Page - Social Login"}
@@ -2211,9 +2076,11 @@ function PlasmicCoCreate__RenderFunc(props) {
                         data-plasmic-override={overrides.frame179}
                         className={classNames(projectcss.all, sty.frame179)}
                       >
-                        <div
+                        <p.Stack
+                          as={"div"}
                           data-plasmic-name={"image14"}
                           data-plasmic-override={overrides.image14}
+                          hasGap={true}
                           className={classNames(projectcss.all, sty.image14)}
                         />
 
@@ -2260,7 +2127,7 @@ function PlasmicCoCreate__RenderFunc(props) {
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__kgx
+                              sty.h5__aMF
                             )}
                           >
                             {"2. Forum Page - Writing Page"}
@@ -2364,217 +2231,239 @@ function PlasmicCoCreate__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.section22)}
                     >
                       <Divider2Icon
-                        className={classNames(projectcss.all, sty.svg__jgf2L)}
+                        className={classNames(projectcss.all, sty.svg__cLofJ)}
                         role={"img"}
                       />
 
-                      <p.Stack
-                        as={"div"}
-                        data-plasmic-name={"authorAndSocialLinks"}
-                        data-plasmic-override={overrides.authorAndSocialLinks}
-                        hasGap={true}
-                        className={classNames(
-                          projectcss.all,
-                          sty.authorAndSocialLinks
-                        )}
-                      >
+                      {(
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? true
+                          : true
+                      ) ? (
                         <p.Stack
                           as={"div"}
-                          data-plasmic-name={"avatarLabelGroup"}
-                          data-plasmic-override={overrides.avatarLabelGroup}
+                          data-plasmic-name={"authorAndSocialLinks"}
+                          data-plasmic-override={overrides.authorAndSocialLinks}
                           hasGap={true}
                           className={classNames(
                             projectcss.all,
-                            sty.avatarLabelGroup
+                            sty.authorAndSocialLinks
                           )}
                         >
-                          {false ? (
-                            <div
-                              data-plasmic-name={"avatar"}
-                              data-plasmic-override={overrides.avatar}
-                              className={classNames(projectcss.all, sty.avatar)}
-                            />
-                          ) : null}
-
-                          <div
-                            data-plasmic-name={"textAndSupportingText"}
-                            data-plasmic-override={
-                              overrides.textAndSupportingText
-                            }
-                            className={classNames(
-                              projectcss.all,
-                              sty.textAndSupportingText
-                            )}
-                          >
-                            <div
-                              data-plasmic-name={"text21"}
-                              data-plasmic-override={overrides.text21}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text21
-                              )}
-                            >
-                              {"Demas Bermani Surya"}
-                            </div>
-
-                            <div
-                              data-plasmic-name={"supportingText6"}
-                              data-plasmic-override={overrides.supportingText6}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.supportingText6
-                              )}
-                            >
-                              {"Aspiring UI/UX Designer"}
-                            </div>
-                          </div>
-                        </p.Stack>
-
-                        {false ? (
                           <p.Stack
                             as={"div"}
-                            data-plasmic-name={"socialLinks"}
-                            data-plasmic-override={overrides.socialLinks}
+                            data-plasmic-name={"avatarLabelGroup"}
+                            data-plasmic-override={overrides.avatarLabelGroup}
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
-                              sty.socialLinks
+                              sty.avatarLabelGroup
                             )}
                           >
-                            <div
-                              data-plasmic-name={"button"}
-                              data-plasmic-override={overrides.button}
-                              className={classNames(projectcss.all, sty.button)}
-                            >
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"buttonBase3"}
-                                data-plasmic-override={overrides.buttonBase3}
-                                hasGap={true}
+                            {(
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? true
+                                : true
+                            ) ? (
+                              <div
+                                data-plasmic-name={"avatar"}
+                                data-plasmic-override={overrides.avatar}
                                 className={classNames(
                                   projectcss.all,
-                                  sty.buttonBase3
+                                  sty.avatar
+                                )}
+                              />
+                            ) : null}
+
+                            <div
+                              data-plasmic-name={"textAndSupportingText"}
+                              data-plasmic-override={
+                                overrides.textAndSupportingText
+                              }
+                              className={classNames(
+                                projectcss.all,
+                                sty.textAndSupportingText
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"text21"}
+                                data-plasmic-override={overrides.text21}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text21
                                 )}
                               >
-                                <CopyIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg___9TmsE
-                                  )}
-                                  role={"img"}
-                                />
+                                {"Demas Bermani Surya"}
+                              </div>
 
-                                <div
-                                  data-plasmic-name={"text22"}
-                                  data-plasmic-override={overrides.text22}
+                              <div
+                                data-plasmic-name={"supportingText6"}
+                                data-plasmic-override={
+                                  overrides.supportingText6
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.supportingText6
+                                )}
+                              >
+                                {"Aspiring UI/UX Designer"}
+                              </div>
+                            </div>
+                          </p.Stack>
+
+                          {(
+                            hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? true
+                              : true
+                          ) ? (
+                            <p.Stack
+                              as={"div"}
+                              data-plasmic-name={"socialLinks"}
+                              data-plasmic-override={overrides.socialLinks}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.socialLinks
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"button"}
+                                data-plasmic-override={overrides.button}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.button
+                                )}
+                              >
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"buttonBase3"}
+                                  data-plasmic-override={overrides.buttonBase3}
+                                  hasGap={true}
                                   className={classNames(
                                     projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.text22
+                                    sty.buttonBase3
                                   )}
                                 >
-                                  {"Copy link"}
-                                </div>
-                              </p.Stack>
-                            </div>
-
-                            <div
-                              data-plasmic-name={"button2"}
-                              data-plasmic-override={overrides.button2}
-                              className={classNames(
-                                projectcss.all,
-                                sty.button2
-                              )}
-                            >
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"buttonBase4"}
-                                data-plasmic-override={overrides.buttonBase4}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.buttonBase4
-                                )}
-                              >
-                                <SocialIconIcon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__vmMzn
-                                  )}
-                                  role={"img"}
-                                />
-                              </p.Stack>
-                            </div>
-
-                            <div
-                              data-plasmic-name={"button3"}
-                              data-plasmic-override={overrides.button3}
-                              className={classNames(
-                                projectcss.all,
-                                sty.button3
-                              )}
-                            >
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"buttonBase5"}
-                                data-plasmic-override={overrides.buttonBase5}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.buttonBase5
-                                )}
-                              >
-                                <SocialIcon2Icon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__yZexW
-                                  )}
-                                  role={"img"}
-                                />
-                              </p.Stack>
-                            </div>
-
-                            <div
-                              data-plasmic-name={"button4"}
-                              data-plasmic-override={overrides.button4}
-                              className={classNames(
-                                projectcss.all,
-                                sty.button4
-                              )}
-                            >
-                              <p.Stack
-                                as={"div"}
-                                data-plasmic-name={"buttonBase6"}
-                                data-plasmic-override={overrides.buttonBase6}
-                                hasGap={true}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.buttonBase6
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"socialIcon"}
-                                  data-plasmic-override={overrides.socialIcon}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.socialIcon
-                                  )}
-                                >
-                                  <Group9Icon
+                                  <CopyIcon
                                     className={classNames(
                                       projectcss.all,
-                                      sty.svg__zIwr6
+                                      sty.svg__fSNfD
                                     )}
                                     role={"img"}
                                   />
-                                </div>
-                              </p.Stack>
-                            </div>
-                          </p.Stack>
-                        ) : null}
-                      </p.Stack>
+
+                                  <div
+                                    data-plasmic-name={"text22"}
+                                    data-plasmic-override={overrides.text22}
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text22
+                                    )}
+                                  >
+                                    {"Copy link"}
+                                  </div>
+                                </p.Stack>
+                              </div>
+
+                              <div
+                                data-plasmic-name={"button2"}
+                                data-plasmic-override={overrides.button2}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.button2
+                                )}
+                              >
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"buttonBase4"}
+                                  data-plasmic-override={overrides.buttonBase4}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.buttonBase4
+                                  )}
+                                >
+                                  <SocialIconIcon
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.svg__bvp36
+                                    )}
+                                    role={"img"}
+                                  />
+                                </p.Stack>
+                              </div>
+
+                              <div
+                                data-plasmic-name={"button3"}
+                                data-plasmic-override={overrides.button3}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.button3
+                                )}
+                              >
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"buttonBase5"}
+                                  data-plasmic-override={overrides.buttonBase5}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.buttonBase5
+                                  )}
+                                >
+                                  <SocialIcon2Icon
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.svg__zwYa4
+                                    )}
+                                    role={"img"}
+                                  />
+                                </p.Stack>
+                              </div>
+
+                              <div
+                                data-plasmic-name={"button4"}
+                                data-plasmic-override={overrides.button4}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.button4
+                                )}
+                              >
+                                <p.Stack
+                                  as={"div"}
+                                  data-plasmic-name={"buttonBase6"}
+                                  data-plasmic-override={overrides.buttonBase6}
+                                  hasGap={true}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.buttonBase6
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"socialIcon"}
+                                    data-plasmic-override={overrides.socialIcon}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.socialIcon
+                                    )}
+                                  >
+                                    <Group9Icon
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.svg__oPjjK
+                                      )}
+                                      role={"img"}
+                                    />
+                                  </div>
+                                </p.Stack>
+                              </div>
+                            </p.Stack>
+                          ) : null}
+                        </p.Stack>
+                      ) : null}
                     </p.Stack>
                   </p.Stack>
                 </p.Stack>
@@ -2590,19 +2479,7 @@ function PlasmicCoCreate__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "header",
-    "container5",
-    "navigation2",
-    "about",
-    "buttonBase11",
-    "text27",
-    "resume",
-    "button9",
-    "buttonBase12",
-    "text28",
-    "contact",
-    "buttonBase13",
-    "text29",
+    "navigationBar",
     "blogPosts",
     "img",
     "frame178",
@@ -2771,61 +2648,7 @@ const PlasmicDescendants = {
     "socialIcon"
   ],
 
-  header: [
-    "header",
-    "container5",
-    "navigation2",
-    "about",
-    "buttonBase11",
-    "text27",
-    "resume",
-    "button9",
-    "buttonBase12",
-    "text28",
-    "contact",
-    "buttonBase13",
-    "text29"
-  ],
-
-  container5: [
-    "container5",
-    "navigation2",
-    "about",
-    "buttonBase11",
-    "text27",
-    "resume",
-    "button9",
-    "buttonBase12",
-    "text28",
-    "contact",
-    "buttonBase13",
-    "text29"
-  ],
-
-  navigation2: [
-    "navigation2",
-    "about",
-    "buttonBase11",
-    "text27",
-    "resume",
-    "button9",
-    "buttonBase12",
-    "text28",
-    "contact",
-    "buttonBase13",
-    "text29"
-  ],
-
-  about: ["about", "buttonBase11", "text27"],
-  buttonBase11: ["buttonBase11", "text27"],
-  text27: ["text27"],
-  resume: ["resume", "button9", "buttonBase12", "text28"],
-  button9: ["button9", "buttonBase12", "text28"],
-  buttonBase12: ["buttonBase12", "text28"],
-  text28: ["text28"],
-  contact: ["contact", "buttonBase13", "text29"],
-  buttonBase13: ["buttonBase13", "text29"],
-  text29: ["text29"],
+  navigationBar: ["navigationBar"],
   blogPosts: [
     "blogPosts",
     "img",
@@ -3925,19 +3748,7 @@ export const PlasmicCoCreate = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    header: makeNodeComponent("header"),
-    container5: makeNodeComponent("container5"),
-    navigation2: makeNodeComponent("navigation2"),
-    about: makeNodeComponent("about"),
-    buttonBase11: makeNodeComponent("buttonBase11"),
-    text27: makeNodeComponent("text27"),
-    resume: makeNodeComponent("resume"),
-    button9: makeNodeComponent("button9"),
-    buttonBase12: makeNodeComponent("buttonBase12"),
-    text28: makeNodeComponent("text28"),
-    contact: makeNodeComponent("contact"),
-    buttonBase13: makeNodeComponent("buttonBase13"),
-    text29: makeNodeComponent("text29"),
+    navigationBar: makeNodeComponent("navigationBar"),
     blogPosts: makeNodeComponent("blogPosts"),
     img: makeNodeComponent("img"),
     frame178: makeNodeComponent("frame178"),

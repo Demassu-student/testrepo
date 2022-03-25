@@ -2757,6 +2757,23 @@
     flex-shrink: 0;
   }
 }
+.svg__sw2By {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  color: #f5f2fc;
+  width: 376px;
+  height: 716px;
+  display: block;
+  top: -29.11%;
+  left: 53.68%;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg__sw2By {
+    left: 62.08%;
+    top: -44.33%;
+  }
+}
 .frame166 {
   flex-direction: column;
   width: 448px;
@@ -2976,9 +2993,9 @@
   color: #efefef;
   width: 669px;
   height: 512px;
-  display: block;
   top: 0%;
   left: 53.68%;
+  display: none;
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .svg__cae4I {
@@ -3007,10 +3024,10 @@
 .group {
   width: 347px;
   height: 124px;
-  display: block;
   position: absolute;
   top: 0px;
   left: 1006px;
+  display: none;
 }
 .frame156 {
   width: 380px;
@@ -3204,29 +3221,6 @@
     top: 312px;
   }
 }
-.img__aRwF {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  width: 575px;
-  height: 512px;
-  display: block !important;
-  top: 0%;
-  left: 62.84%;
-  overflow: hidden;
-}
-.img__aRwF > picture > img {
-  object-fit: cover;
-}
-.img__aRwF > .__wab_img-spacer > img {
-  object-fit: cover;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .img__aRwF {
-    left: 5.56%;
-    top: 40.7%;
-  }
-}
 .svg__zWoO3 {
   position: absolute;
   object-fit: cover;
@@ -3237,23 +3231,6 @@
   display: block;
   top: -29.11%;
   left: 79.79%;
-}
-.svg__sw2By {
-  position: absolute;
-  object-fit: cover;
-  max-width: 100%;
-  color: #f5f2fc;
-  width: 376px;
-  height: 716px;
-  display: block;
-  top: -29.11%;
-  left: 53.68%;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .svg__sw2By {
-    left: 62.08%;
-    top: -44.33%;
-  }
 }
 .svg__rrr4J {
   position: absolute;
@@ -3313,6 +3290,29 @@
   .img__eqP5P {
     left: 349px;
     top: 76px;
+  }
+}
+.img__aRwF {
+  position: absolute;
+  object-fit: cover;
+  max-width: 100%;
+  width: 575px;
+  height: 512px;
+  display: block !important;
+  top: 0%;
+  left: 62.84%;
+  overflow: hidden;
+}
+.img__aRwF > picture > img {
+  object-fit: cover;
+}
+.img__aRwF > .__wab_img-spacer > img {
+  object-fit: cover;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .img__aRwF {
+    left: 5.56%;
+    top: 40.7%;
   }
 }
 .svg__ewhAa {
@@ -3400,17 +3400,6 @@
 .img__xzcF > .__wab_img-spacer > img {
   object-fit: cover;
 }
-.maskGroup {
-  width: 377px;
-  height: 378px;
-  display: block;
-  position: absolute;
-  top: -74px;
-  left: 0px;
-  -webkit-mask-image: var(--image-MUr-BROrGri);
-  -webkit-mask-size: 377px 377.086px;
-  -webkit-mask-repeat: no-repeat;
-}
 .svg__io78A {
   position: absolute;
   object-fit: cover;
@@ -3419,8 +3408,9 @@
   width: 380px;
   height: 248px;
   display: block;
-  top: 19.62%;
-  left: 0%;
+  top: 0px;
+  left: 0px;
+  mix-blend-mode: multiply;
 }
 .svg___7Jyxk {
   position: absolute;
@@ -3451,10 +3441,10 @@
   transform: translate(0.33799999999999386px, 0.19199999999999307px);
   width: 47px;
   height: 48px;
-  display: block;
   position: absolute;
   top: 100px;
   left: 167px;
+  display: none;
 }
 .svg___01Eg8 {
   position: absolute;

@@ -188,6 +188,45 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "button"
+        },
+        {
+          "id": "4dfVIiGXb7",
+          "name": "UiuxDesign",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/new_ones/PlasmicUiuxDesign.jsx",
+          "importSpec": {
+            "modulePath": "../pages/uiux-design.jsx"
+          },
+          "cssFilePath": "plasmic/new_ones/PlasmicUiuxDesign.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "Yea3wiMBit",
+          "name": "Gd",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/new_ones/PlasmicGd.jsx",
+          "importSpec": {
+            "modulePath": "../pages/gd.jsx"
+          },
+          "cssFilePath": "plasmic/new_ones/PlasmicGd.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "NgNO4sKi6f",
+          "name": "_404",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/new_ones/Plasmic_404.jsx",
+          "importSpec": {
+            "modulePath": "../pages/404.jsx"
+          },
+          "cssFilePath": "plasmic/new_ones/Plasmic_404.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [

@@ -76,44 +76,6 @@ function PlasmicBillie__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavigationBar
-            data-plasmic-name={"navigationBar"}
-            data-plasmic-override={overrides.navigationBar}
-            className={classNames("__wab_instance", sty.navigationBar)}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: (
-                <Select
-                  className={classNames("__wab_instance", sty.select__wHu81)}
-                  placeholder={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__pOdIb
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                  selectedContent={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__aTO1
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                />
-              ),
-
-              value: args.children2
-            })}
-          </NavigationBar>
-
           <div
             data-plasmic-name={"blogPosts"}
             data-plasmic-override={overrides.blogPosts}
@@ -2432,6 +2394,44 @@ function PlasmicBillie__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </div>
+
+          <NavigationBar
+            data-plasmic-name={"navigationBar"}
+            data-plasmic-override={overrides.navigationBar}
+            className={classNames("__wab_instance", sty.navigationBar)}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <Select
+                  className={classNames("__wab_instance", sty.select__wHu81)}
+                  placeholder={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__pOdIb
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                  selectedContent={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__aTO1
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                />
+              ),
+
+              value: args.children2
+            })}
+          </NavigationBar>
         </div>
       </div>
     </React.Fragment>
@@ -2441,7 +2441,6 @@ function PlasmicBillie__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navigationBar",
     "blogPosts",
     "img",
     "frame178",
@@ -2612,10 +2611,10 @@ const PlasmicDescendants = {
     "buttonBase4",
     "button4",
     "buttonBase5",
-    "socialIcon"
+    "socialIcon",
+    "navigationBar"
   ],
 
-  navigationBar: ["navigationBar"],
   blogPosts: [
     "blogPosts",
     "img",
@@ -3727,7 +3726,8 @@ const PlasmicDescendants = {
   buttonBase4: ["buttonBase4"],
   button4: ["button4", "buttonBase5", "socialIcon"],
   buttonBase5: ["buttonBase5", "socialIcon"],
-  socialIcon: ["socialIcon"]
+  socialIcon: ["socialIcon"],
+  navigationBar: ["navigationBar"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -3759,7 +3759,6 @@ export const PlasmicBillie = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navigationBar: makeNodeComponent("navigationBar"),
     blogPosts: makeNodeComponent("blogPosts"),
     img: makeNodeComponent("img"),
     frame178: makeNodeComponent("frame178"),
@@ -3931,6 +3930,7 @@ export const PlasmicBillie = Object.assign(
     button4: makeNodeComponent("button4"),
     buttonBase5: makeNodeComponent("buttonBase5"),
     socialIcon: makeNodeComponent("socialIcon"),
+    navigationBar: makeNodeComponent("navigationBar"),
     // Metadata about props expected for PlasmicBillie
     internalVariantProps: PlasmicBillie__VariantProps,
     internalArgProps: PlasmicBillie__ArgProps

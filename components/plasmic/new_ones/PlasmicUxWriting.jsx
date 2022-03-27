@@ -64,44 +64,6 @@ function PlasmicUxWriting__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavigationBar
-            data-plasmic-name={"navigationBar"}
-            data-plasmic-override={overrides.navigationBar}
-            className={classNames("__wab_instance", sty.navigationBar)}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: (
-                <Select
-                  className={classNames("__wab_instance", sty.select__x8FjE)}
-                  placeholder={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__udIIl
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                  selectedContent={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__gtF7I
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                />
-              ),
-
-              value: args.children3
-            })}
-          </NavigationBar>
-
           <div
             data-plasmic-name={"figmaPaste"}
             data-plasmic-override={overrides.figmaPaste}
@@ -121,17 +83,66 @@ function PlasmicUxWriting__RenderFunc(props) {
                 hasGap={true}
                 className={classNames(projectcss.all, sty.frame189)}
               >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__h9Lqd
-                  )}
-                >
-                  {
-                    "We’re not our users, We help them doing 0 to 1 within product"
-                  }
-                </div>
+                {true ? (
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"freeBox"}
+                    data-plasmic-override={overrides.freeBox}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.freeBox)}
+                  >
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"badgeNotification"}
+                      data-plasmic-override={overrides.badgeNotification}
+                      hasGap={true}
+                      className={classNames(
+                        projectcss.all,
+                        sty.badgeNotification
+                      )}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"frame222"}
+                        data-plasmic-override={overrides.frame222}
+                        hasGap={true}
+                        className={classNames(projectcss.all, sty.frame222)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__iKyGh
+                          )}
+                        >
+                          {"UX Writing"}
+                        </div>
+                      </p.Stack>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__extcg
+                        )}
+                      >
+                        {"2 Microcopy exercise"}
+                      </div>
+                    </p.Stack>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__h9Lqd
+                      )}
+                    >
+                      {
+                        "We’re not our users, We help them doing 0 to 1 within product"
+                      }
+                    </div>
+                  </p.Stack>
+                ) : null}
 
                 <p.Stack
                   as={"div"}
@@ -166,7 +177,7 @@ function PlasmicUxWriting__RenderFunc(props) {
                     href={
                       hasVariant(globalVariants, "screen", "mobileOnly")
                         ? "#selection_work"
-                        : "#selection_work"
+                        : "#see-exercise"
                     }
                     platform={"nextjs"}
                     title={
@@ -222,24 +233,29 @@ function PlasmicUxWriting__RenderFunc(props) {
                     href={
                       hasVariant(globalVariants, "screen", "mobileOnly")
                         ? "/ux-writing-blog-exercise-2"
-                        : undefined
+                        : "/ux-writing-blog-exercise-2"
                     }
                     platform={"nextjs"}
                     target={
                       hasVariant(globalVariants, "screen", "mobileOnly")
                         ? "_blank"
-                        : undefined
+                        : "_blank"
                     }
                   >
-                    <div
+                    <p.PlasmicLink
                       className={classNames(
                         projectcss.all,
+                        projectcss.a,
                         projectcss.__wab_text,
-                        sty.text__vJouT
+                        sty.link__vJouT
                       )}
+                      component={Link}
+                      href={"/ux-writing-blog-exercise-2"}
+                      platform={"nextjs"}
+                      target={"_blank"}
                     >
                       {"Occam’s Razor"}
-                    </div>
+                    </p.PlasmicLink>
 
                     <div
                       className={classNames(
@@ -415,26 +431,31 @@ function PlasmicUxWriting__RenderFunc(props) {
                     href={
                       hasVariant(globalVariants, "screen", "mobileOnly")
                         ? "/ux-writing-blog-exercise-1"
-                        : undefined
+                        : "/ux-writing-blog-exercise-1"
                     }
                     platform={"nextjs"}
                     target={
                       hasVariant(globalVariants, "screen", "mobileOnly")
                         ? "_blank"
-                        : undefined
+                        : "_blank"
                     }
                   >
-                    <div
+                    <p.PlasmicLink
                       data-plasmic-name={"userStory"}
                       data-plasmic-override={overrides.userStory}
                       className={classNames(
                         projectcss.all,
+                        projectcss.a,
                         projectcss.__wab_text,
                         sty.userStory
                       )}
+                      component={Link}
+                      href={"/ux-writing-blog-exercise-1"}
+                      platform={"nextjs"}
+                      target={"_blank"}
                     >
                       {"User story "}
-                    </div>
+                    </p.PlasmicLink>
 
                     <div
                       className={classNames(
@@ -570,6 +591,7 @@ function PlasmicUxWriting__RenderFunc(props) {
                 data-plasmic-override={overrides.frame212}
                 hasGap={true}
                 className={classNames(projectcss.all, sty.frame212)}
+                id={"see-exercise"}
               >
                 <div
                   className={classNames(
@@ -607,13 +629,13 @@ function PlasmicUxWriting__RenderFunc(props) {
                       href={
                         hasVariant(globalVariants, "screen", "mobileOnly")
                           ? "/ux-writing-blog-exercise-1"
-                          : undefined
+                          : "/ux-writing-blog-exercise-1"
                       }
                       platform={"nextjs"}
                       target={
                         hasVariant(globalVariants, "screen", "mobileOnly")
                           ? "_blank"
-                          : undefined
+                          : "_blank"
                       }
                     >
                       <div
@@ -737,17 +759,22 @@ function PlasmicUxWriting__RenderFunc(props) {
                           hasGap={true}
                           className={classNames(projectcss.all, sty.frame218)}
                         >
-                          <div
+                          <p.PlasmicLink
                             className={classNames(
                               projectcss.all,
+                              projectcss.a,
                               projectcss.__wab_text,
-                              sty.text___5Qx3T
+                              sty.link___5Qx3T
                             )}
+                            component={Link}
+                            href={"/ux-writing-blog-exercise-1"}
+                            platform={"nextjs"}
+                            target={"_blank"}
                           >
                             {hasVariant(globalVariants, "screen", "mobileOnly")
                               ? "Membuat User Story dan Microcopy"
                               : "Membuat User Story dan Microcopy"}
-                          </div>
+                          </p.PlasmicLink>
 
                           <p.Stack
                             as={"div"}
@@ -957,13 +984,13 @@ function PlasmicUxWriting__RenderFunc(props) {
                       href={
                         hasVariant(globalVariants, "screen", "mobileOnly")
                           ? "/ux-writing-blog-exercise-2"
-                          : undefined
+                          : "/ux-writing-blog-exercise-2"
                       }
                       platform={"nextjs"}
                       target={
                         hasVariant(globalVariants, "screen", "mobileOnly")
                           ? "_blank"
-                          : undefined
+                          : "_blank"
                       }
                     >
                       <div
@@ -1085,15 +1112,20 @@ function PlasmicUxWriting__RenderFunc(props) {
                           hasGap={true}
                           className={classNames(projectcss.all, sty.frame219)}
                         >
-                          <div
+                          <p.PlasmicLink
                             className={classNames(
                               projectcss.all,
+                              projectcss.a,
                               projectcss.__wab_text,
-                              sty.text__hLhZ
+                              sty.link__hLhZ
                             )}
+                            component={Link}
+                            href={"/ux-writing-blog-exercise-2"}
+                            platform={"nextjs"}
+                            target={"_blank"}
                           >
                             {"Menyederhanakan copy"}
-                          </div>
+                          </p.PlasmicLink>
 
                           <p.Stack
                             as={"div"}
@@ -1287,6 +1319,44 @@ function PlasmicUxWriting__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </div>
+
+          <NavigationBar
+            data-plasmic-name={"navigationBar"}
+            data-plasmic-override={overrides.navigationBar}
+            className={classNames("__wab_instance", sty.navigationBar)}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <Select
+                  className={classNames("__wab_instance", sty.select__x8FjE)}
+                  placeholder={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__udIIl
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                  selectedContent={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__gtF7I
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                />
+              ),
+
+              value: args.children3
+            })}
+          </NavigationBar>
         </div>
       </div>
     </React.Fragment>
@@ -1296,10 +1366,12 @@ function PlasmicUxWriting__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navigationBar",
     "figmaPaste",
     "heroSection",
     "frame189",
+    "freeBox",
+    "badgeNotification",
+    "frame222",
     "frame187",
     "buttonBase5",
     "text11",
@@ -1367,14 +1439,17 @@ const PlasmicDescendants = {
     "text9",
     "badge8",
     "badgeBase8",
-    "text10"
+    "text10",
+    "navigationBar"
   ],
 
-  navigationBar: ["navigationBar"],
   figmaPaste: [
     "figmaPaste",
     "heroSection",
     "frame189",
+    "freeBox",
+    "badgeNotification",
+    "frame222",
     "frame187",
     "buttonBase5",
     "text11",
@@ -1448,6 +1523,9 @@ const PlasmicDescendants = {
   heroSection: [
     "heroSection",
     "frame189",
+    "freeBox",
+    "badgeNotification",
+    "frame222",
     "frame187",
     "buttonBase5",
     "text11",
@@ -1470,7 +1548,19 @@ const PlasmicDescendants = {
     "frame4"
   ],
 
-  frame189: ["frame189", "frame187", "buttonBase5", "text11"],
+  frame189: [
+    "frame189",
+    "freeBox",
+    "badgeNotification",
+    "frame222",
+    "frame187",
+    "buttonBase5",
+    "text11"
+  ],
+
+  freeBox: ["freeBox", "badgeNotification", "frame222"],
+  badgeNotification: ["badgeNotification", "frame222"],
+  frame222: ["frame222"],
   frame187: ["frame187", "buttonBase5", "text11"],
   buttonBase5: ["buttonBase5", "text11"],
   text11: ["text11"],
@@ -1859,7 +1949,8 @@ const PlasmicDescendants = {
   text9: ["text9"],
   badge8: ["badge8", "badgeBase8", "text10"],
   badgeBase8: ["badgeBase8", "text10"],
-  text10: ["text10"]
+  text10: ["text10"],
+  navigationBar: ["navigationBar"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1891,10 +1982,12 @@ export const PlasmicUxWriting = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navigationBar: makeNodeComponent("navigationBar"),
     figmaPaste: makeNodeComponent("figmaPaste"),
     heroSection: makeNodeComponent("heroSection"),
     frame189: makeNodeComponent("frame189"),
+    freeBox: makeNodeComponent("freeBox"),
+    badgeNotification: makeNodeComponent("badgeNotification"),
+    frame222: makeNodeComponent("frame222"),
     frame187: makeNodeComponent("frame187"),
     buttonBase5: makeNodeComponent("buttonBase5"),
     text11: makeNodeComponent("text11"),
@@ -1963,6 +2056,7 @@ export const PlasmicUxWriting = Object.assign(
     badge8: makeNodeComponent("badge8"),
     badgeBase8: makeNodeComponent("badgeBase8"),
     text10: makeNodeComponent("text10"),
+    navigationBar: makeNodeComponent("navigationBar"),
     // Metadata about props expected for PlasmicUxWriting
     internalVariantProps: PlasmicUxWriting__VariantProps,
     internalArgProps: PlasmicUxWriting__ArgProps

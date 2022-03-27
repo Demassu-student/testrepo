@@ -1045,6 +1045,11 @@
           "id": "whfhfmYilI",
           "name": "Frame 211",
           "filePath": "../public/plasmic/portfolio_bener/images/frame211.svg"
+        },
+        {
+          "id": "36icOCYJw",
+          "name": "Background text.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/backgroundTextpng.png"
         }
       ],
       "indirect": false,

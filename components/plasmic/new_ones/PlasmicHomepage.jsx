@@ -19,10 +19,10 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import NavigationBar from "../../NavigationBar"; // plasmic-import: BLtbByl5tB5/component
-import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
 import Heading1CoCreateRevampHome from "../../Heading1CoCreateRevampHome"; // plasmic-import: opFq_mjndRgD1H/component
 import Heading1BillieHome from "../../Heading1BillieHome"; // plasmic-import: UFO_FR1k5hVzkR/component
+import NavigationBar from "../../NavigationBar"; // plasmic-import: BLtbByl5tB5/component
+import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
 import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: _tU3UFp3Zwbn8d/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
@@ -87,44 +87,6 @@ function PlasmicHomepage__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavigationBar
-            data-plasmic-name={"navigationBar"}
-            data-plasmic-override={overrides.navigationBar}
-            className={classNames("__wab_instance", sty.navigationBar)}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: (
-                <Select
-                  className={classNames("__wab_instance", sty.select___7NgBr)}
-                  placeholder={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__i6Bd
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                  selectedContent={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___0Ur9H
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                />
-              ),
-
-              value: args.children
-            })}
-          </NavigationBar>
-
           <div
             data-plasmic-name={"dropdownHeaderNavigation"}
             data-plasmic-override={overrides.dropdownHeaderNavigation}
@@ -2297,6 +2259,44 @@ function PlasmicHomepage__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </footer>
+
+          <NavigationBar
+            data-plasmic-name={"navigationBar"}
+            data-plasmic-override={overrides.navigationBar}
+            className={classNames("__wab_instance", sty.navigationBar)}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <Select
+                  className={classNames("__wab_instance", sty.select___7NgBr)}
+                  placeholder={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__i6Bd
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                  selectedContent={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___0Ur9H
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                />
+              ),
+
+              value: args.children
+            })}
+          </NavigationBar>
         </p.Stack>
       </div>
     </React.Fragment>
@@ -2306,7 +2306,6 @@ function PlasmicHomepage__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navigationBar",
     "dropdownHeaderNavigation",
     "body",
     "heroSectionContainer",
@@ -2464,10 +2463,10 @@ const PlasmicDescendants = {
     "yearMade2",
     "frame85",
     "frame86",
-    "frame79"
+    "frame79",
+    "navigationBar"
   ],
 
-  navigationBar: ["navigationBar"],
   dropdownHeaderNavigation: ["dropdownHeaderNavigation"],
   body: [
     "body",
@@ -3666,7 +3665,8 @@ const PlasmicDescendants = {
   yearMade2: ["yearMade2"],
   frame85: ["frame85", "frame86", "frame79"],
   frame86: ["frame86", "frame79"],
-  frame79: ["frame79"]
+  frame79: ["frame79"],
+  navigationBar: ["navigationBar"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -3698,7 +3698,6 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navigationBar: makeNodeComponent("navigationBar"),
     dropdownHeaderNavigation: makeNodeComponent("dropdownHeaderNavigation"),
     body: makeNodeComponent("body"),
     heroSectionContainer: makeNodeComponent("heroSectionContainer"),
@@ -3861,6 +3860,7 @@ export const PlasmicHomepage = Object.assign(
     frame85: makeNodeComponent("frame85"),
     frame86: makeNodeComponent("frame86"),
     frame79: makeNodeComponent("frame79"),
+    navigationBar: makeNodeComponent("navigationBar"),
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
     internalArgProps: PlasmicHomepage__ArgProps

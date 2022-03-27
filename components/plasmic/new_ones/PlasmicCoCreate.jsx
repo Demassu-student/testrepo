@@ -75,44 +75,6 @@ function PlasmicCoCreate__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavigationBar
-            data-plasmic-name={"navigationBar"}
-            data-plasmic-override={overrides.navigationBar}
-            className={classNames("__wab_instance", sty.navigationBar)}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: (
-                <Select
-                  className={classNames("__wab_instance", sty.select__wy5Dx)}
-                  placeholder={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__tkI96
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                  selectedContent={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__lqZq9
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                />
-              ),
-
-              value: args.children2
-            })}
-          </NavigationBar>
-
           <div
             data-plasmic-name={"blogPosts"}
             data-plasmic-override={overrides.blogPosts}
@@ -2470,6 +2432,44 @@ function PlasmicCoCreate__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </div>
+
+          <NavigationBar
+            data-plasmic-name={"navigationBar"}
+            data-plasmic-override={overrides.navigationBar}
+            className={classNames("__wab_instance", sty.navigationBar)}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <Select
+                  className={classNames("__wab_instance", sty.select__wy5Dx)}
+                  placeholder={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__tkI96
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                  selectedContent={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__lqZq9
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                />
+              ),
+
+              value: args.children2
+            })}
+          </NavigationBar>
         </div>
       </div>
     </React.Fragment>
@@ -2479,7 +2479,6 @@ function PlasmicCoCreate__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navigationBar",
     "blogPosts",
     "img",
     "frame178",
@@ -2645,10 +2644,10 @@ const PlasmicDescendants = {
     "buttonBase5",
     "button4",
     "buttonBase6",
-    "socialIcon"
+    "socialIcon",
+    "navigationBar"
   ],
 
-  navigationBar: ["navigationBar"],
   blogPosts: [
     "blogPosts",
     "img",
@@ -3716,7 +3715,8 @@ const PlasmicDescendants = {
   buttonBase5: ["buttonBase5"],
   button4: ["button4", "buttonBase6", "socialIcon"],
   buttonBase6: ["buttonBase6", "socialIcon"],
-  socialIcon: ["socialIcon"]
+  socialIcon: ["socialIcon"],
+  navigationBar: ["navigationBar"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -3748,7 +3748,6 @@ export const PlasmicCoCreate = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navigationBar: makeNodeComponent("navigationBar"),
     blogPosts: makeNodeComponent("blogPosts"),
     img: makeNodeComponent("img"),
     frame178: makeNodeComponent("frame178"),
@@ -3915,6 +3914,7 @@ export const PlasmicCoCreate = Object.assign(
     button4: makeNodeComponent("button4"),
     buttonBase6: makeNodeComponent("buttonBase6"),
     socialIcon: makeNodeComponent("socialIcon"),
+    navigationBar: makeNodeComponent("navigationBar"),
     // Metadata about props expected for PlasmicCoCreate
     internalVariantProps: PlasmicCoCreate__VariantProps,
     internalArgProps: PlasmicCoCreate__ArgProps

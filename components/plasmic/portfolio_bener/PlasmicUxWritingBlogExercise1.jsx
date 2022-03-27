@@ -68,44 +68,6 @@ function PlasmicUxWritingBlogExercise1__RenderFunc(props) {
             sty.root
           )}
         >
-          <NavigationBar
-            data-plasmic-name={"navigationBar"}
-            data-plasmic-override={overrides.navigationBar}
-            className={classNames("__wab_instance", sty.navigationBar)}
-          >
-            {p.renderPlasmicSlot({
-              defaultContents: (
-                <Select
-                  className={classNames("__wab_instance", sty.select___0Qd5I)}
-                  placeholder={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text__r6WW
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                  selectedContent={
-                    <div
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.text___4QqBm
-                      )}
-                    >
-                      {"Selected works"}
-                    </div>
-                  }
-                />
-              ),
-
-              value: args.children3
-            })}
-          </NavigationBar>
-
           <p.Stack
             as={"div"}
             data-plasmic-name={"blogBody"}
@@ -1108,6 +1070,44 @@ function PlasmicUxWritingBlogExercise1__RenderFunc(props) {
               </p.Stack>
             </p.Stack>
           </p.Stack>
+
+          <NavigationBar
+            data-plasmic-name={"navigationBar"}
+            data-plasmic-override={overrides.navigationBar}
+            className={classNames("__wab_instance", sty.navigationBar)}
+          >
+            {p.renderPlasmicSlot({
+              defaultContents: (
+                <Select
+                  className={classNames("__wab_instance", sty.select___0Qd5I)}
+                  placeholder={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__r6WW
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                  selectedContent={
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text___4QqBm
+                      )}
+                    >
+                      {"Selected works"}
+                    </div>
+                  }
+                />
+              ),
+
+              value: args.children3
+            })}
+          </NavigationBar>
         </div>
       </div>
     </React.Fragment>
@@ -1117,7 +1117,6 @@ function PlasmicUxWritingBlogExercise1__RenderFunc(props) {
 const PlasmicDescendants = {
   root: [
     "root",
-    "navigationBar",
     "blogBody",
     "img",
     "container",
@@ -1188,10 +1187,10 @@ const PlasmicDescendants = {
     "buttonBase3",
     "button4",
     "buttonBase4",
-    "socialIcon"
+    "socialIcon",
+    "navigationBar"
   ],
 
-  navigationBar: ["navigationBar"],
   blogBody: [
     "blogBody",
     "img",
@@ -1669,7 +1668,8 @@ const PlasmicDescendants = {
   buttonBase3: ["buttonBase3"],
   button4: ["button4", "buttonBase4", "socialIcon"],
   buttonBase4: ["buttonBase4", "socialIcon"],
-  socialIcon: ["socialIcon"]
+  socialIcon: ["socialIcon"],
+  navigationBar: ["navigationBar"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -1701,7 +1701,6 @@ export const PlasmicUxWritingBlogExercise1 = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    navigationBar: makeNodeComponent("navigationBar"),
     blogBody: makeNodeComponent("blogBody"),
     img: makeNodeComponent("img"),
     container: makeNodeComponent("container"),
@@ -1773,6 +1772,7 @@ export const PlasmicUxWritingBlogExercise1 = Object.assign(
     button4: makeNodeComponent("button4"),
     buttonBase4: makeNodeComponent("buttonBase4"),
     socialIcon: makeNodeComponent("socialIcon"),
+    navigationBar: makeNodeComponent("navigationBar"),
     // Metadata about props expected for PlasmicUxWritingBlogExercise1
     internalVariantProps: PlasmicUxWritingBlogExercise1__VariantProps,
     internalArgProps: PlasmicUxWritingBlogExercise1__ArgProps

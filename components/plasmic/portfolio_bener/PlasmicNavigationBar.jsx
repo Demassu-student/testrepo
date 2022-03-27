@@ -62,15 +62,21 @@ function PlasmicNavigationBar__RenderFunc(props) {
         className={classNames(projectcss.all, sty.container)}
       >
         {(hasVariant(globalVariants, "screen", "mobileOnly") ? true : true) ? (
-          <div
+          <p.PlasmicLink
+            data-plasmic-name={"link"}
+            data-plasmic-override={overrides.link}
             className={classNames(
               projectcss.all,
+              projectcss.a,
               projectcss.__wab_text,
-              sty.text__bOfAw
+              sty.link
             )}
+            component={Link}
+            href={"/"}
+            platform={"nextjs"}
           >
             {"Demassu"}
-          </div>
+          </p.PlasmicLink>
         ) : null}
 
         <p.Stack
@@ -96,10 +102,12 @@ function PlasmicNavigationBar__RenderFunc(props) {
                 className={classNames(projectcss.all, sty.buttonBase)}
               >
                 <div
+                  data-plasmic-name={"text"}
+                  data-plasmic-override={overrides.text}
                   className={classNames(
                     projectcss.all,
                     projectcss.__wab_text,
-                    sty.text__xzoYj
+                    sty.text
                   )}
                 >
                   {"About"}
@@ -222,9 +230,11 @@ const PlasmicDescendants = {
     "root",
     "freeBox",
     "container",
+    "link",
     "navigation",
     "about",
     "buttonBase",
+    "text",
     "resume",
     "button3",
     "buttonBase3",
@@ -238,9 +248,11 @@ const PlasmicDescendants = {
   freeBox: ["freeBox"],
   container: [
     "container",
+    "link",
     "navigation",
     "about",
     "buttonBase",
+    "text",
     "resume",
     "button3",
     "buttonBase3",
@@ -251,10 +263,12 @@ const PlasmicDescendants = {
     "text4"
   ],
 
+  link: ["link"],
   navigation: [
     "navigation",
     "about",
     "buttonBase",
+    "text",
     "resume",
     "button3",
     "buttonBase3",
@@ -265,8 +279,9 @@ const PlasmicDescendants = {
     "text4"
   ],
 
-  about: ["about", "buttonBase"],
-  buttonBase: ["buttonBase"],
+  about: ["about", "buttonBase", "text"],
+  buttonBase: ["buttonBase", "text"],
+  text: ["text"],
   resume: ["resume", "button3", "buttonBase3", "text3", "svg"],
   button3: ["button3", "buttonBase3", "text3", "svg"],
   buttonBase3: ["buttonBase3", "text3", "svg"],
@@ -308,9 +323,11 @@ export const PlasmicNavigationBar = Object.assign(
     // Helper components rendering sub-elements
     freeBox: makeNodeComponent("freeBox"),
     container: makeNodeComponent("container"),
+    link: makeNodeComponent("link"),
     navigation: makeNodeComponent("navigation"),
     about: makeNodeComponent("about"),
     buttonBase: makeNodeComponent("buttonBase"),
+    text: makeNodeComponent("text"),
     resume: makeNodeComponent("resume"),
     button3: makeNodeComponent("button3"),
     buttonBase3: makeNodeComponent("buttonBase3"),

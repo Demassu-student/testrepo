@@ -32,9 +32,8 @@ import _Icon from "./icons/PlasmicIcon___"; // plasmic-import: J1STVNZpiZA5s4/ic
 import Star1Icon from "./icons/PlasmicIcon__Star1"; // plasmic-import: UAi_dYgBOXu1wf/icon
 import ArrowUpRightIcon from "./icons/PlasmicIcon__ArrowUpRight"; // plasmic-import: xa6I7_9Y9zpgmB/icon
 import TooltipIcon from "./icons/PlasmicIcon__Tooltip"; // plasmic-import: jbJru8BSTWZZmG/icon
-import Vector3Icon from "./icons/PlasmicIcon__Vector3"; // plasmic-import: DzRqtLZ6Q7Kj2k/icon
-import VectorIcon from "./icons/PlasmicIcon__Vector"; // plasmic-import: ecY95-bP1psfKj/icon
 import Vector2Icon from "./icons/PlasmicIcon__Vector2"; // plasmic-import: wGgCdFDhiemSh_/icon
+import VectorIcon from "./icons/PlasmicIcon__Vector"; // plasmic-import: ecY95-bP1psfKj/icon
 import Vector5Icon from "./icons/PlasmicIcon__Vector5"; // plasmic-import: KV2q7ertUKDyy_/icon
 import Vector6Icon from "./icons/PlasmicIcon__Vector6"; // plasmic-import: iA5hbIqA1-tq78/icon
 import Vector7Icon from "./icons/PlasmicIcon__Vector7"; // plasmic-import: RmUfRPRc8RPNdh/icon
@@ -45,6 +44,7 @@ import Group6Icon from "./icons/PlasmicIcon__Group6"; // plasmic-import: U0AgDpo
 import Group7Icon from "./icons/PlasmicIcon__Group7"; // plasmic-import: xhHvnsgP-T2LJo/icon
 import Group8Icon from "./icons/PlasmicIcon__Group8"; // plasmic-import: 8mHA-e8AhB_es9/icon
 import Vector1Icon from "./icons/PlasmicIcon__Vector1"; // plasmic-import: Pm2lRnnla8434h/icon
+import Vector3Icon from "./icons/PlasmicIcon__Vector3"; // plasmic-import: DzRqtLZ6Q7Kj2k/icon
 import Ellipse7Icon from "./icons/PlasmicIcon__Ellipse7"; // plasmic-import: M9XeJTcnRiYR1i/icon
 import Ellipse8Icon from "./icons/PlasmicIcon__Ellipse8"; // plasmic-import: 1inOoA4ZUXmpZq/icon
 
@@ -413,12 +413,6 @@ function PlasmicHomepage__RenderFunc(props) {
                 data-plasmic-name={"image"}
                 data-plasmic-override={overrides.image}
                 className={classNames(projectcss.all, sty.image)}
-              />
-
-              <div
-                data-plasmic-name={"imageSide"}
-                data-plasmic-override={overrides.imageSide}
-                className={classNames(projectcss.all, sty.imageSide)}
               />
             </div>
 
@@ -1677,12 +1671,10 @@ function PlasmicHomepage__RenderFunc(props) {
               data-plasmic-override={overrides.connect}
               className={classNames(projectcss.all, sty.connect)}
             >
-              {true ? (
-                <Vector3Icon
-                  className={classNames(projectcss.all, sty.svg__sw2By)}
-                  role={"img"}
-                />
-              ) : null}
+              <Vector2Icon
+                className={classNames(projectcss.all, sty.svg___39GG)}
+                role={"img"}
+              />
 
               <p.Stack
                 as={"div"}
@@ -2020,8 +2012,10 @@ function PlasmicHomepage__RenderFunc(props) {
                   className={classNames(projectcss.all, sty.frame155)}
                 >
                   <p.PlasmicImg
+                    data-plasmic-name={"eyeMultiply"}
+                    data-plasmic-override={overrides.eyeMultiply}
                     alt={""}
-                    className={classNames(sty.img__xzcF)}
+                    className={classNames(sty.eyeMultiply)}
                     displayHeight={"248px"}
                     displayMaxHeight={"none"}
                     displayMaxWidth={"100%"}
@@ -2039,7 +2033,9 @@ function PlasmicHomepage__RenderFunc(props) {
 
                   {true ? (
                     <Vector5Icon
-                      className={classNames(projectcss.all, sty.svg__io78A)}
+                      data-plasmic-name={"eye"}
+                      data-plasmic-override={overrides.eye}
+                      className={classNames(projectcss.all, sty.eye)}
                       role={"img"}
                     />
                   ) : null}
@@ -2332,7 +2328,6 @@ const PlasmicDescendants = {
     "buttonBase6",
     "text6",
     "image",
-    "imageSide",
     "frame147",
     "frame148",
     "frame154",
@@ -2450,6 +2445,8 @@ const PlasmicDescendants = {
     "maskGroup2",
     "group3",
     "frame155",
+    "eyeMultiply",
+    "eye",
     "group2",
     "frame157",
     "frame168",
@@ -2493,7 +2490,6 @@ const PlasmicDescendants = {
     "buttonBase6",
     "text6",
     "image",
-    "imageSide",
     "frame147",
     "frame148",
     "frame154",
@@ -2611,6 +2607,8 @@ const PlasmicDescendants = {
     "maskGroup2",
     "group3",
     "frame155",
+    "eyeMultiply",
+    "eye",
     "group2",
     "frame157",
     "frame168",
@@ -2642,8 +2640,7 @@ const PlasmicDescendants = {
     "button8",
     "buttonBase6",
     "text6",
-    "image",
-    "imageSide"
+    "image"
   ],
 
   textSide: [
@@ -2707,7 +2704,6 @@ const PlasmicDescendants = {
   buttonBase6: ["buttonBase6", "text6"],
   text6: ["text6"],
   image: ["image"],
-  imageSide: ["imageSide"],
   frame147: ["frame147", "frame148", "frame154", "frame153"],
   frame148: ["frame148"],
   frame154: ["frame154"],
@@ -3597,6 +3593,8 @@ const PlasmicDescendants = {
     "maskGroup2",
     "group3",
     "frame155",
+    "eyeMultiply",
+    "eye",
     "group2"
   ],
 
@@ -3609,7 +3607,9 @@ const PlasmicDescendants = {
   frame156: ["frame156", "maskGroup2", "group3"],
   maskGroup2: ["maskGroup2"],
   group3: ["group3"],
-  frame155: ["frame155", "group2"],
+  frame155: ["frame155", "eyeMultiply", "eye", "group2"],
+  eyeMultiply: ["eyeMultiply"],
+  eye: ["eye"],
   group2: ["group2"],
   frame157: [
     "frame157",
@@ -3724,7 +3724,6 @@ export const PlasmicHomepage = Object.assign(
     buttonBase6: makeNodeComponent("buttonBase6"),
     text6: makeNodeComponent("text6"),
     image: makeNodeComponent("image"),
-    imageSide: makeNodeComponent("imageSide"),
     frame147: makeNodeComponent("frame147"),
     frame148: makeNodeComponent("frame148"),
     frame154: makeNodeComponent("frame154"),
@@ -3842,6 +3841,8 @@ export const PlasmicHomepage = Object.assign(
     maskGroup2: makeNodeComponent("maskGroup2"),
     group3: makeNodeComponent("group3"),
     frame155: makeNodeComponent("frame155"),
+    eyeMultiply: makeNodeComponent("eyeMultiply"),
+    eye: makeNodeComponent("eye"),
     group2: makeNodeComponent("group2"),
     frame157: makeNodeComponent("frame157"),
     frame168: makeNodeComponent("frame168"),

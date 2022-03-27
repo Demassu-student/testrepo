@@ -10,6 +10,7 @@
 // Component: QvmlKls91-xsuV
 import * as React from "react";
 import Head from "next/head";
+import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
   hasVariant,
@@ -18,17 +19,17 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
-import Button from "../../Button"; // plasmic-import: InkiWn_hJlV/component
 import NavigationBar from "../../NavigationBar"; // plasmic-import: BLtbByl5tB5/component
 import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
 import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: _tU3UFp3Zwbn8d/globalVariant
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
 import sty from "./PlasmicUxWriting.module.css"; // plasmic-import: QvmlKls91-xsuV/css
+import ArrowsIcon from "../portfolio_bener/icons/PlasmicIcon__Arrows"; // plasmic-import: iVN2yyZTRq/icon
 
 export const PlasmicUxWriting__VariantProps = new Array();
 
-export const PlasmicUxWriting__ArgProps = new Array("children", "children3");
+export const PlasmicUxWriting__ArgProps = new Array("children3");
 
 function PlasmicUxWriting__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -63,171 +64,6 @@ function PlasmicUxWriting__RenderFunc(props) {
             sty.root
           )}
         >
-          {true ? (
-            <p.Stack
-              as={"div"}
-              hasGap={true}
-              className={classNames(projectcss.all, sty.freeBox__uhFhC)}
-            >
-              {(
-                hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
-              ) ? (
-                <div className={classNames(projectcss.all, sty.freeBox__rWse)}>
-                  <div
-                    data-plasmic-name={"handsRandomStuff"}
-                    data-plasmic-override={overrides.handsRandomStuff}
-                    className={classNames(projectcss.all, sty.handsRandomStuff)}
-                  >
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img__kveK2)}
-                      displayHeight={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "auto"
-                          : "324px"
-                      }
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "100%"
-                          : "100%"
-                      }
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "105px"
-                          : "auto"
-                      }
-                      loading={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "lazy"
-                          : "lazy"
-                      }
-                      src={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? {
-                              src: "/plasmic/new_ones/images/group1.svg",
-                              fullWidth: 120.929,
-                              fullHeight: 319.179,
-                              aspectRatio: 0.378125
-                            }
-                          : {
-                              src: "/plasmic/new_ones/images/group1.svg",
-                              fullWidth: 120.929,
-                              fullHeight: 319.179,
-                              aspectRatio: 0.378125
-                            }
-                      }
-                    />
-                  </div>
-
-                  {(
-                    hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? true
-                      : true
-                  ) ? (
-                    <p.PlasmicImg
-                      alt={""}
-                      className={classNames(sty.img___4JBmu)}
-                      displayHeight={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "327px"
-                          : "373px"
-                      }
-                      displayMaxHeight={"none"}
-                      displayMaxWidth={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "none"
-                          : "none"
-                      }
-                      displayMinHeight={"0"}
-                      displayMinWidth={"0"}
-                      displayWidth={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "auto"
-                          : "64px"
-                      }
-                      loading={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "lazy"
-                          : "lazy"
-                      }
-                      src={
-                        hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? {
-                              src: "/plasmic/new_ones/images/group.svg",
-                              fullWidth: 92.46,
-                              fullHeight: 572.244,
-                              aspectRatio: 0.162304
-                            }
-                          : {
-                              src: "/plasmic/new_ones/images/group.svg",
-                              fullWidth: 92.46,
-                              fullHeight: 572.244,
-                              aspectRatio: 0.162304
-                            }
-                      }
-                    />
-                  ) : null}
-                </div>
-              ) : null}
-
-              <p.Stack
-                as={"div"}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.freeBox__kLwa6)}
-              >
-                <p.Stack
-                  as={"div"}
-                  hasGap={true}
-                  className={classNames(projectcss.all, sty.freeBox__jH53K)}
-                >
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__oTDfA
-                    )}
-                  >
-                    {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "Woohoo, I'm working on this page"
-                      : "Woohoo, I'm working on this page"}
-                  </div>
-
-                  <div
-                    className={classNames(
-                      projectcss.all,
-                      projectcss.__wab_text,
-                      sty.text__x57Wk
-                    )}
-                  >
-                    {
-                      "It'll be done shortly. Okay, say hello to my little microcopy!"
-                    }
-                  </div>
-                </p.Stack>
-
-                {p.renderPlasmicSlot({
-                  defaultContents: (
-                    <Button
-                      className={classNames(
-                        "__wab_instance",
-                        sty.button__y1PMd
-                      )}
-                      link={"/"}
-                    >
-                      {"Take me home"}
-                    </Button>
-                  ),
-
-                  value: args.children,
-                  className: classNames(sty.slotTargetChildren)
-                })}
-              </p.Stack>
-            </p.Stack>
-          ) : null}
-
           <NavigationBar
             data-plasmic-name={"navigationBar"}
             data-plasmic-override={overrides.navigationBar}
@@ -265,6 +101,1192 @@ function PlasmicUxWriting__RenderFunc(props) {
               value: args.children3
             })}
           </NavigationBar>
+
+          <div
+            data-plasmic-name={"figmaPaste"}
+            data-plasmic-override={overrides.figmaPaste}
+            className={classNames(projectcss.all, sty.figmaPaste)}
+          >
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"heroSection"}
+              data-plasmic-override={overrides.heroSection}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.heroSection)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"frame189"}
+                data-plasmic-override={overrides.frame189}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.frame189)}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__h9Lqd
+                  )}
+                >
+                  {
+                    "We’re not our users, We help them doing 0 to 1 within product"
+                  }
+                </div>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"frame187"}
+                  data-plasmic-override={overrides.frame187}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.frame187)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__rJde
+                    )}
+                  >
+                    {
+                      "As a Multidisciplinary designer, I need to create intuitive digital experiences using words, so it can help users achieve their goals within the product easily"
+                    }
+                  </div>
+
+                  <p.Stack
+                    as={p.PlasmicLink}
+                    data-plasmic-name={"buttonBase5"}
+                    data-plasmic-override={overrides.buttonBase5}
+                    hasGap={true}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.buttonBase5
+                    )}
+                    component={Link}
+                    href={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "#selection_work"
+                        : "#selection_work"
+                    }
+                    platform={"nextjs"}
+                    title={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? ""
+                        : ""
+                    }
+                  >
+                    <div
+                      data-plasmic-name={"text11"}
+                      data-plasmic-override={overrides.text11}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text11
+                      )}
+                    >
+                      {hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "Case Study"
+                        : "See exercise"}
+                    </div>
+                  </p.Stack>
+                </p.Stack>
+              </p.Stack>
+
+              <div
+                data-plasmic-name={"frame200"}
+                data-plasmic-override={overrides.frame200}
+                className={classNames(projectcss.all, sty.frame200)}
+              >
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"frame198"}
+                  data-plasmic-override={overrides.frame198}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.frame198)}
+                >
+                  <div
+                    data-plasmic-name={"frame2"}
+                    data-plasmic-override={overrides.frame2}
+                    className={classNames(projectcss.all, sty.frame2)}
+                  />
+
+                  <p.PlasmicLink
+                    data-plasmic-name={"userStoryExercise2"}
+                    data-plasmic-override={overrides.userStoryExercise2}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.userStoryExercise2
+                    )}
+                    component={Link}
+                    href={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "/ux-writing-blog-exercise-2"
+                        : undefined
+                    }
+                    platform={"nextjs"}
+                    target={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "_blank"
+                        : undefined
+                    }
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__vJouT
+                      )}
+                    >
+                      {"Occam’s Razor"}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__gWcGi
+                      )}
+                    >
+                      {"Exercise"}
+                    </div>
+
+                    <ArrowsIcon
+                      className={classNames(projectcss.all, sty.svg__rHo0)}
+                      role={"img"}
+                    />
+
+                    <div
+                      data-plasmic-name={"figmaPaste3"}
+                      data-plasmic-override={overrides.figmaPaste3}
+                      className={classNames(projectcss.all, sty.figmaPaste3)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__fXkri)}
+                        displayHeight={"320px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"320px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse31.svg",
+                          fullWidth: 320,
+                          fullHeight: 320,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__ad0ZU)}
+                        displayHeight={"296px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"296px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse30.svg",
+                          fullWidth: 296,
+                          fullHeight: 296,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__g2D1S)}
+                        displayHeight={"272px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"272px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse29.svg",
+                          fullWidth: 272,
+                          fullHeight: 272,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__k5B3A)}
+                        displayHeight={"248px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"248px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse28.svg",
+                          fullWidth: 248,
+                          fullHeight: 248,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__adcBy)}
+                        displayHeight={"224px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"224px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse27.svg",
+                          fullWidth: 224,
+                          fullHeight: 224,
+                          aspectRatio: 1
+                        }}
+                      />
+                    </div>
+                  </p.PlasmicLink>
+
+                  <div
+                    data-plasmic-name={"frame191"}
+                    data-plasmic-override={overrides.frame191}
+                    className={classNames(projectcss.all, sty.frame191)}
+                  />
+
+                  <div
+                    data-plasmic-name={"frame192"}
+                    data-plasmic-override={overrides.frame192}
+                    className={classNames(projectcss.all, sty.frame192)}
+                  />
+                </p.Stack>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"frame199"}
+                  data-plasmic-override={overrides.frame199}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.frame199)}
+                >
+                  <div
+                    data-plasmic-name={"frame194"}
+                    data-plasmic-override={overrides.frame194}
+                    className={classNames(projectcss.all, sty.frame194)}
+                  />
+
+                  <div
+                    data-plasmic-name={"frame193"}
+                    data-plasmic-override={overrides.frame193}
+                    className={classNames(projectcss.all, sty.frame193)}
+                  />
+
+                  <div
+                    data-plasmic-name={"frame195"}
+                    data-plasmic-override={overrides.frame195}
+                    className={classNames(projectcss.all, sty.frame195)}
+                  />
+                </p.Stack>
+
+                <div
+                  data-plasmic-name={"frame197"}
+                  data-plasmic-override={overrides.frame197}
+                  className={classNames(projectcss.all, sty.frame197)}
+                >
+                  <div
+                    data-plasmic-name={"frame190"}
+                    data-plasmic-override={overrides.frame190}
+                    className={classNames(projectcss.all, sty.frame190)}
+                  />
+
+                  <p.PlasmicLink
+                    data-plasmic-name={"userStoryExercise1"}
+                    data-plasmic-override={overrides.userStoryExercise1}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      sty.userStoryExercise1
+                    )}
+                    component={Link}
+                    href={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "/ux-writing-blog-exercise-1"
+                        : undefined
+                    }
+                    platform={"nextjs"}
+                    target={
+                      hasVariant(globalVariants, "screen", "mobileOnly")
+                        ? "_blank"
+                        : undefined
+                    }
+                  >
+                    <div
+                      data-plasmic-name={"userStory"}
+                      data-plasmic-override={overrides.userStory}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.userStory
+                      )}
+                    >
+                      {"User story "}
+                    </div>
+
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.text__f5Tq5
+                      )}
+                    >
+                      {"Exercise"}
+                    </div>
+
+                    <ArrowsIcon
+                      className={classNames(projectcss.all, sty.svg__swT6)}
+                      role={"img"}
+                    />
+
+                    <div
+                      data-plasmic-name={"figmaPaste2"}
+                      data-plasmic-override={overrides.figmaPaste2}
+                      className={classNames(projectcss.all, sty.figmaPaste2)}
+                    >
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__v8MmO)}
+                        displayHeight={"320px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"320px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse26.svg",
+                          fullWidth: 320,
+                          fullHeight: 320,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__dzwKr)}
+                        displayHeight={"296px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"296px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse25.svg",
+                          fullWidth: 296,
+                          fullHeight: 296,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__deTnj)}
+                        displayHeight={"272px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"272px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse24.svg",
+                          fullWidth: 272,
+                          fullHeight: 272,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__b1Doa)}
+                        displayHeight={"248px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"248px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse23.svg",
+                          fullWidth: 248,
+                          fullHeight: 248,
+                          aspectRatio: 1
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__dsPr3)}
+                        displayHeight={"224px"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"224px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/ellipse22.svg",
+                          fullWidth: 224,
+                          fullHeight: 224,
+                          aspectRatio: 1
+                        }}
+                      />
+                    </div>
+                  </p.PlasmicLink>
+
+                  <div
+                    data-plasmic-name={"frame4"}
+                    data-plasmic-override={overrides.frame4}
+                    className={classNames(projectcss.all, sty.frame4)}
+                  />
+                </div>
+              </div>
+            </p.Stack>
+
+            <p.Stack
+              as={"div"}
+              data-plasmic-name={"blogPosts"}
+              data-plasmic-override={overrides.blogPosts}
+              hasGap={true}
+              className={classNames(projectcss.all, sty.blogPosts)}
+            >
+              <p.Stack
+                as={"div"}
+                data-plasmic-name={"frame212"}
+                data-plasmic-override={overrides.frame212}
+                hasGap={true}
+                className={classNames(projectcss.all, sty.frame212)}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__twBs
+                  )}
+                >
+                  {"Exercise"}
+                </div>
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"frame211"}
+                  data-plasmic-override={overrides.frame211}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.frame211)}
+                >
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"frame183"}
+                    data-plasmic-override={overrides.frame183}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.frame183)}
+                  >
+                    <p.PlasmicLink
+                      data-plasmic-name={"frame5"}
+                      data-plasmic-override={overrides.frame5}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.frame5
+                      )}
+                      component={Link}
+                      href={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "/ux-writing-blog-exercise-1"
+                          : undefined
+                      }
+                      platform={"nextjs"}
+                      target={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "_blank"
+                          : undefined
+                      }
+                    >
+                      <div
+                        data-plasmic-name={"userStory2"}
+                        data-plasmic-override={overrides.userStory2}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.userStory2
+                        )}
+                      >
+                        {"User story "}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__sfoz
+                        )}
+                      >
+                        {"Exercise"}
+                      </div>
+
+                      <ArrowsIcon
+                        className={classNames(projectcss.all, sty.svg__aqRGf)}
+                        role={"img"}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__uZoq0)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"512px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image39.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__woCM)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"467px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image39.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__vPoP7)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"424px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image39.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__y5W9)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"396px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image39.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.PlasmicLink>
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"frame213"}
+                      data-plasmic-override={overrides.frame213}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.frame213)}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"frame201"}
+                        data-plasmic-override={overrides.frame201}
+                        hasGap={true}
+                        className={classNames(projectcss.all, sty.frame201)}
+                      >
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"frame218"}
+                          data-plasmic-override={overrides.frame218}
+                          hasGap={true}
+                          className={classNames(projectcss.all, sty.frame218)}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___5Qx3T
+                            )}
+                          >
+                            {hasVariant(globalVariants, "screen", "mobileOnly")
+                              ? "Membuat User Story dan Microcopy"
+                              : "Membuat User Story dan Microcopy"}
+                          </div>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame217"}
+                            data-plasmic-override={overrides.frame217}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame217)}
+                          >
+                            <p.Stack
+                              as={"div"}
+                              data-plasmic-name={"frame216"}
+                              data-plasmic-override={overrides.frame216}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame216
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__kQrIa
+                                )}
+                              >
+                                {"Design"}
+                              </div>
+                            </p.Stack>
+
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__b843O
+                              )}
+                            >
+                              {"2 min read"}
+                            </div>
+                          </p.Stack>
+                        </p.Stack>
+
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"frame112"}
+                          data-plasmic-override={overrides.frame112}
+                          hasGap={true}
+                          className={classNames(projectcss.all, sty.frame112)}
+                        >
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame111"}
+                            data-plasmic-override={overrides.frame111}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame111)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__bbjZb
+                              )}
+                            >
+                              {
+                                "Aplikasi: tiket.com\r\nPersona: Business owner, 33, traveller, tinggal di Bali\r\nNeed/goal: Ingin mendapat inspirasi destinasi wisata di 2022\r\nEpic: Rekomendasikan tempat wisata keren di 2022\r\nKomponen UI: In-app banner\r\nBahasa: Indonesia\r\nBatas karakter maksimum: 45 (judul) - 20 (tombol)"
+                              }
+                            </div>
+                          </p.Stack>
+                        </p.Stack>
+                      </p.Stack>
+
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"categories"}
+                        data-plasmic-override={overrides.categories}
+                        hasGap={true}
+                        className={classNames(projectcss.all, sty.categories)}
+                      >
+                        <div
+                          data-plasmic-name={"badge"}
+                          data-plasmic-override={overrides.badge}
+                          className={classNames(projectcss.all, sty.badge)}
+                        >
+                          <div
+                            data-plasmic-name={"badgeBase"}
+                            data-plasmic-override={overrides.badgeBase}
+                            className={classNames(
+                              projectcss.all,
+                              sty.badgeBase
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"text3"}
+                              data-plasmic-override={overrides.text3}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text3
+                              )}
+                            >
+                              {"UX Writing"}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"badge2"}
+                          data-plasmic-override={overrides.badge2}
+                          className={classNames(projectcss.all, sty.badge2)}
+                        >
+                          <div
+                            data-plasmic-name={"badgeBase2"}
+                            data-plasmic-override={overrides.badgeBase2}
+                            className={classNames(
+                              projectcss.all,
+                              sty.badgeBase2
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"text4"}
+                              data-plasmic-override={overrides.text4}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text4
+                              )}
+                            >
+                              {"User Story"}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"badge3"}
+                          data-plasmic-override={overrides.badge3}
+                          className={classNames(projectcss.all, sty.badge3)}
+                        >
+                          <div
+                            data-plasmic-name={"badgeBase3"}
+                            data-plasmic-override={overrides.badgeBase3}
+                            className={classNames(
+                              projectcss.all,
+                              sty.badgeBase3
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"text5"}
+                              data-plasmic-override={overrides.text5}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text5
+                              )}
+                            >
+                              {"In-app banner"}
+                            </div>
+                          </div>
+                        </div>
+
+                        {false ? (
+                          <div
+                            data-plasmic-name={"badge4"}
+                            data-plasmic-override={overrides.badge4}
+                            className={classNames(projectcss.all, sty.badge4)}
+                          >
+                            <div
+                              data-plasmic-name={"badgeBase4"}
+                              data-plasmic-override={overrides.badgeBase4}
+                              className={classNames(
+                                projectcss.all,
+                                sty.badgeBase4
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"text6"}
+                                data-plasmic-override={overrides.text6}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text6
+                                )}
+                              >
+                                {"Presentation"}
+                              </div>
+                            </div>
+                          </div>
+                        ) : null}
+                      </p.Stack>
+                    </p.Stack>
+                  </p.Stack>
+
+                  <p.Stack
+                    as={"div"}
+                    data-plasmic-name={"frame184"}
+                    data-plasmic-override={overrides.frame184}
+                    hasGap={true}
+                    className={classNames(projectcss.all, sty.frame184)}
+                  >
+                    <p.PlasmicLink
+                      data-plasmic-name={"frame6"}
+                      data-plasmic-override={overrides.frame6}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.a,
+                        sty.frame6
+                      )}
+                      component={Link}
+                      href={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "/ux-writing-blog-exercise-2"
+                          : undefined
+                      }
+                      platform={"nextjs"}
+                      target={
+                        hasVariant(globalVariants, "screen", "mobileOnly")
+                          ? "_blank"
+                          : undefined
+                      }
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text__k9Jtp
+                        )}
+                      >
+                        {"Occam’s Razor"}
+                      </div>
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.text___6DsA
+                        )}
+                      >
+                        {"Exercise"}
+                      </div>
+
+                      <ArrowsIcon
+                        className={classNames(projectcss.all, sty.svg___54Go)}
+                        role={"img"}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__dKKxu)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"512px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image40.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__zko6H)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"467px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image40.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__ikPfC)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"424px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image40.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <p.PlasmicImg
+                        alt={""}
+                        className={classNames(sty.img__fDqlO)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"396px"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/portfolio_bener/images/image40.png",
+                          fullWidth: 641,
+                          fullHeight: 641,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </p.PlasmicLink>
+
+                    <p.Stack
+                      as={"div"}
+                      data-plasmic-name={"frame214"}
+                      data-plasmic-override={overrides.frame214}
+                      hasGap={true}
+                      className={classNames(projectcss.all, sty.frame214)}
+                    >
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"frame202"}
+                        data-plasmic-override={overrides.frame202}
+                        hasGap={true}
+                        className={classNames(projectcss.all, sty.frame202)}
+                      >
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"frame219"}
+                          data-plasmic-override={overrides.frame219}
+                          hasGap={true}
+                          className={classNames(projectcss.all, sty.frame219)}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__hLhZ
+                            )}
+                          >
+                            {"Menyederhanakan copy"}
+                          </div>
+
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame220"}
+                            data-plasmic-override={overrides.frame220}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame220)}
+                          >
+                            <p.Stack
+                              as={"div"}
+                              data-plasmic-name={"frame221"}
+                              data-plasmic-override={overrides.frame221}
+                              hasGap={true}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame221
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___1FH9S
+                                )}
+                              >
+                                {"Design"}
+                              </div>
+                            </p.Stack>
+
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__n2Gfg
+                              )}
+                            >
+                              {"2 min read"}
+                            </div>
+                          </p.Stack>
+                        </p.Stack>
+
+                        <p.Stack
+                          as={"div"}
+                          data-plasmic-name={"frame113"}
+                          data-plasmic-override={overrides.frame113}
+                          hasGap={true}
+                          className={classNames(projectcss.all, sty.frame113)}
+                        >
+                          <p.Stack
+                            as={"div"}
+                            data-plasmic-name={"frame114"}
+                            data-plasmic-override={overrides.frame114}
+                            hasGap={true}
+                            className={classNames(projectcss.all, sty.frame114)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__mSyJg
+                              )}
+                            >
+                              {
+                                "Aplikasi: Spotify atau Tokopedia\r\nReference: Required\nSource: Required\r\nKomponen UI: Error message\r\nBahasa: Indonesia\r\nBatas karakter maksimum: Jumlah karakter copy proposalmu tidak harus sama dengan jumlah karakter copy aslinya."
+                              }
+                            </div>
+                          </p.Stack>
+                        </p.Stack>
+                      </p.Stack>
+
+                      <p.Stack
+                        as={"div"}
+                        data-plasmic-name={"categories2"}
+                        data-plasmic-override={overrides.categories2}
+                        hasGap={true}
+                        className={classNames(projectcss.all, sty.categories2)}
+                      >
+                        <div
+                          data-plasmic-name={"badge5"}
+                          data-plasmic-override={overrides.badge5}
+                          className={classNames(projectcss.all, sty.badge5)}
+                        >
+                          <div
+                            data-plasmic-name={"badgeBase5"}
+                            data-plasmic-override={overrides.badgeBase5}
+                            className={classNames(
+                              projectcss.all,
+                              sty.badgeBase5
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"text7"}
+                              data-plasmic-override={overrides.text7}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text7
+                              )}
+                            >
+                              {"UX Writing"}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"badge6"}
+                          data-plasmic-override={overrides.badge6}
+                          className={classNames(projectcss.all, sty.badge6)}
+                        >
+                          <div
+                            data-plasmic-name={"badgeBase6"}
+                            data-plasmic-override={overrides.badgeBase6}
+                            className={classNames(
+                              projectcss.all,
+                              sty.badgeBase6
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"text8"}
+                              data-plasmic-override={overrides.text8}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text8
+                              )}
+                            >
+                              {"Occam’s razor"}
+                            </div>
+                          </div>
+                        </div>
+
+                        <div
+                          data-plasmic-name={"badge7"}
+                          data-plasmic-override={overrides.badge7}
+                          className={classNames(projectcss.all, sty.badge7)}
+                        >
+                          <div
+                            data-plasmic-name={"badgeBase7"}
+                            data-plasmic-override={overrides.badgeBase7}
+                            className={classNames(
+                              projectcss.all,
+                              sty.badgeBase7
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"text9"}
+                              data-plasmic-override={overrides.text9}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text9
+                              )}
+                            >
+                              {"Error message"}
+                            </div>
+                          </div>
+                        </div>
+
+                        {false ? (
+                          <div
+                            data-plasmic-name={"badge8"}
+                            data-plasmic-override={overrides.badge8}
+                            className={classNames(projectcss.all, sty.badge8)}
+                          >
+                            <div
+                              data-plasmic-name={"badgeBase8"}
+                              data-plasmic-override={overrides.badgeBase8}
+                              className={classNames(
+                                projectcss.all,
+                                sty.badgeBase8
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"text10"}
+                                data-plasmic-override={overrides.text10}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text10
+                                )}
+                              >
+                                {"Presentation"}
+                              </div>
+                            </div>
+                          </div>
+                        ) : null}
+                      </p.Stack>
+                    </p.Stack>
+                  </p.Stack>
+                </p.Stack>
+              </p.Stack>
+            </p.Stack>
+          </div>
         </div>
       </div>
     </React.Fragment>
@@ -272,9 +1294,572 @@ function PlasmicUxWriting__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "handsRandomStuff", "navigationBar"],
-  handsRandomStuff: ["handsRandomStuff"],
-  navigationBar: ["navigationBar"]
+  root: [
+    "root",
+    "navigationBar",
+    "figmaPaste",
+    "heroSection",
+    "frame189",
+    "frame187",
+    "buttonBase5",
+    "text11",
+    "frame200",
+    "frame198",
+    "frame2",
+    "userStoryExercise2",
+    "figmaPaste3",
+    "frame191",
+    "frame192",
+    "frame199",
+    "frame194",
+    "frame193",
+    "frame195",
+    "frame197",
+    "frame190",
+    "userStoryExercise1",
+    "userStory",
+    "figmaPaste2",
+    "frame4",
+    "blogPosts",
+    "frame212",
+    "frame211",
+    "frame183",
+    "frame5",
+    "userStory2",
+    "frame213",
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111",
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6",
+    "frame184",
+    "frame6",
+    "frame214",
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114",
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  navigationBar: ["navigationBar"],
+  figmaPaste: [
+    "figmaPaste",
+    "heroSection",
+    "frame189",
+    "frame187",
+    "buttonBase5",
+    "text11",
+    "frame200",
+    "frame198",
+    "frame2",
+    "userStoryExercise2",
+    "figmaPaste3",
+    "frame191",
+    "frame192",
+    "frame199",
+    "frame194",
+    "frame193",
+    "frame195",
+    "frame197",
+    "frame190",
+    "userStoryExercise1",
+    "userStory",
+    "figmaPaste2",
+    "frame4",
+    "blogPosts",
+    "frame212",
+    "frame211",
+    "frame183",
+    "frame5",
+    "userStory2",
+    "frame213",
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111",
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6",
+    "frame184",
+    "frame6",
+    "frame214",
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114",
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  heroSection: [
+    "heroSection",
+    "frame189",
+    "frame187",
+    "buttonBase5",
+    "text11",
+    "frame200",
+    "frame198",
+    "frame2",
+    "userStoryExercise2",
+    "figmaPaste3",
+    "frame191",
+    "frame192",
+    "frame199",
+    "frame194",
+    "frame193",
+    "frame195",
+    "frame197",
+    "frame190",
+    "userStoryExercise1",
+    "userStory",
+    "figmaPaste2",
+    "frame4"
+  ],
+
+  frame189: ["frame189", "frame187", "buttonBase5", "text11"],
+  frame187: ["frame187", "buttonBase5", "text11"],
+  buttonBase5: ["buttonBase5", "text11"],
+  text11: ["text11"],
+  frame200: [
+    "frame200",
+    "frame198",
+    "frame2",
+    "userStoryExercise2",
+    "figmaPaste3",
+    "frame191",
+    "frame192",
+    "frame199",
+    "frame194",
+    "frame193",
+    "frame195",
+    "frame197",
+    "frame190",
+    "userStoryExercise1",
+    "userStory",
+    "figmaPaste2",
+    "frame4"
+  ],
+
+  frame198: [
+    "frame198",
+    "frame2",
+    "userStoryExercise2",
+    "figmaPaste3",
+    "frame191",
+    "frame192"
+  ],
+
+  frame2: ["frame2"],
+  userStoryExercise2: ["userStoryExercise2", "figmaPaste3"],
+  figmaPaste3: ["figmaPaste3"],
+  frame191: ["frame191"],
+  frame192: ["frame192"],
+  frame199: ["frame199", "frame194", "frame193", "frame195"],
+  frame194: ["frame194"],
+  frame193: ["frame193"],
+  frame195: ["frame195"],
+  frame197: [
+    "frame197",
+    "frame190",
+    "userStoryExercise1",
+    "userStory",
+    "figmaPaste2",
+    "frame4"
+  ],
+
+  frame190: ["frame190"],
+  userStoryExercise1: ["userStoryExercise1", "userStory", "figmaPaste2"],
+  userStory: ["userStory"],
+  figmaPaste2: ["figmaPaste2"],
+  frame4: ["frame4"],
+  blogPosts: [
+    "blogPosts",
+    "frame212",
+    "frame211",
+    "frame183",
+    "frame5",
+    "userStory2",
+    "frame213",
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111",
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6",
+    "frame184",
+    "frame6",
+    "frame214",
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114",
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  frame212: [
+    "frame212",
+    "frame211",
+    "frame183",
+    "frame5",
+    "userStory2",
+    "frame213",
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111",
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6",
+    "frame184",
+    "frame6",
+    "frame214",
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114",
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  frame211: [
+    "frame211",
+    "frame183",
+    "frame5",
+    "userStory2",
+    "frame213",
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111",
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6",
+    "frame184",
+    "frame6",
+    "frame214",
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114",
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  frame183: [
+    "frame183",
+    "frame5",
+    "userStory2",
+    "frame213",
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111",
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6"
+  ],
+
+  frame5: ["frame5", "userStory2"],
+  userStory2: ["userStory2"],
+  frame213: [
+    "frame213",
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111",
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6"
+  ],
+
+  frame201: [
+    "frame201",
+    "frame218",
+    "frame217",
+    "frame216",
+    "frame112",
+    "frame111"
+  ],
+
+  frame218: ["frame218", "frame217", "frame216"],
+  frame217: ["frame217", "frame216"],
+  frame216: ["frame216"],
+  frame112: ["frame112", "frame111"],
+  frame111: ["frame111"],
+  categories: [
+    "categories",
+    "badge",
+    "badgeBase",
+    "text3",
+    "badge2",
+    "badgeBase2",
+    "text4",
+    "badge3",
+    "badgeBase3",
+    "text5",
+    "badge4",
+    "badgeBase4",
+    "text6"
+  ],
+
+  badge: ["badge", "badgeBase", "text3"],
+  badgeBase: ["badgeBase", "text3"],
+  text3: ["text3"],
+  badge2: ["badge2", "badgeBase2", "text4"],
+  badgeBase2: ["badgeBase2", "text4"],
+  text4: ["text4"],
+  badge3: ["badge3", "badgeBase3", "text5"],
+  badgeBase3: ["badgeBase3", "text5"],
+  text5: ["text5"],
+  badge4: ["badge4", "badgeBase4", "text6"],
+  badgeBase4: ["badgeBase4", "text6"],
+  text6: ["text6"],
+  frame184: [
+    "frame184",
+    "frame6",
+    "frame214",
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114",
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  frame6: ["frame6"],
+  frame214: [
+    "frame214",
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114",
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  frame202: [
+    "frame202",
+    "frame219",
+    "frame220",
+    "frame221",
+    "frame113",
+    "frame114"
+  ],
+
+  frame219: ["frame219", "frame220", "frame221"],
+  frame220: ["frame220", "frame221"],
+  frame221: ["frame221"],
+  frame113: ["frame113", "frame114"],
+  frame114: ["frame114"],
+  categories2: [
+    "categories2",
+    "badge5",
+    "badgeBase5",
+    "text7",
+    "badge6",
+    "badgeBase6",
+    "text8",
+    "badge7",
+    "badgeBase7",
+    "text9",
+    "badge8",
+    "badgeBase8",
+    "text10"
+  ],
+
+  badge5: ["badge5", "badgeBase5", "text7"],
+  badgeBase5: ["badgeBase5", "text7"],
+  text7: ["text7"],
+  badge6: ["badge6", "badgeBase6", "text8"],
+  badgeBase6: ["badgeBase6", "text8"],
+  text8: ["text8"],
+  badge7: ["badge7", "badgeBase7", "text9"],
+  badgeBase7: ["badgeBase7", "text9"],
+  text9: ["text9"],
+  badge8: ["badge8", "badgeBase8", "text10"],
+  badgeBase8: ["badgeBase8", "text10"],
+  text10: ["text10"]
 };
 
 function makeNodeComponent(nodeName) {
@@ -306,8 +1891,78 @@ export const PlasmicUxWriting = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    handsRandomStuff: makeNodeComponent("handsRandomStuff"),
     navigationBar: makeNodeComponent("navigationBar"),
+    figmaPaste: makeNodeComponent("figmaPaste"),
+    heroSection: makeNodeComponent("heroSection"),
+    frame189: makeNodeComponent("frame189"),
+    frame187: makeNodeComponent("frame187"),
+    buttonBase5: makeNodeComponent("buttonBase5"),
+    text11: makeNodeComponent("text11"),
+    frame200: makeNodeComponent("frame200"),
+    frame198: makeNodeComponent("frame198"),
+    frame2: makeNodeComponent("frame2"),
+    userStoryExercise2: makeNodeComponent("userStoryExercise2"),
+    figmaPaste3: makeNodeComponent("figmaPaste3"),
+    frame191: makeNodeComponent("frame191"),
+    frame192: makeNodeComponent("frame192"),
+    frame199: makeNodeComponent("frame199"),
+    frame194: makeNodeComponent("frame194"),
+    frame193: makeNodeComponent("frame193"),
+    frame195: makeNodeComponent("frame195"),
+    frame197: makeNodeComponent("frame197"),
+    frame190: makeNodeComponent("frame190"),
+    userStoryExercise1: makeNodeComponent("userStoryExercise1"),
+    userStory: makeNodeComponent("userStory"),
+    figmaPaste2: makeNodeComponent("figmaPaste2"),
+    frame4: makeNodeComponent("frame4"),
+    blogPosts: makeNodeComponent("blogPosts"),
+    frame212: makeNodeComponent("frame212"),
+    frame211: makeNodeComponent("frame211"),
+    frame183: makeNodeComponent("frame183"),
+    frame5: makeNodeComponent("frame5"),
+    userStory2: makeNodeComponent("userStory2"),
+    frame213: makeNodeComponent("frame213"),
+    frame201: makeNodeComponent("frame201"),
+    frame218: makeNodeComponent("frame218"),
+    frame217: makeNodeComponent("frame217"),
+    frame216: makeNodeComponent("frame216"),
+    frame112: makeNodeComponent("frame112"),
+    frame111: makeNodeComponent("frame111"),
+    categories: makeNodeComponent("categories"),
+    badge: makeNodeComponent("badge"),
+    badgeBase: makeNodeComponent("badgeBase"),
+    text3: makeNodeComponent("text3"),
+    badge2: makeNodeComponent("badge2"),
+    badgeBase2: makeNodeComponent("badgeBase2"),
+    text4: makeNodeComponent("text4"),
+    badge3: makeNodeComponent("badge3"),
+    badgeBase3: makeNodeComponent("badgeBase3"),
+    text5: makeNodeComponent("text5"),
+    badge4: makeNodeComponent("badge4"),
+    badgeBase4: makeNodeComponent("badgeBase4"),
+    text6: makeNodeComponent("text6"),
+    frame184: makeNodeComponent("frame184"),
+    frame6: makeNodeComponent("frame6"),
+    frame214: makeNodeComponent("frame214"),
+    frame202: makeNodeComponent("frame202"),
+    frame219: makeNodeComponent("frame219"),
+    frame220: makeNodeComponent("frame220"),
+    frame221: makeNodeComponent("frame221"),
+    frame113: makeNodeComponent("frame113"),
+    frame114: makeNodeComponent("frame114"),
+    categories2: makeNodeComponent("categories2"),
+    badge5: makeNodeComponent("badge5"),
+    badgeBase5: makeNodeComponent("badgeBase5"),
+    text7: makeNodeComponent("text7"),
+    badge6: makeNodeComponent("badge6"),
+    badgeBase6: makeNodeComponent("badgeBase6"),
+    text8: makeNodeComponent("text8"),
+    badge7: makeNodeComponent("badge7"),
+    badgeBase7: makeNodeComponent("badgeBase7"),
+    text9: makeNodeComponent("text9"),
+    badge8: makeNodeComponent("badge8"),
+    badgeBase8: makeNodeComponent("badgeBase8"),
+    text10: makeNodeComponent("text10"),
     // Metadata about props expected for PlasmicUxWriting
     internalVariantProps: PlasmicUxWriting__VariantProps,
     internalArgProps: PlasmicUxWriting__ArgProps

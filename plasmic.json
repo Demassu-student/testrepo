@@ -240,6 +240,32 @@
           "cssFilePath": "plasmic/portfolio_bener/PlasmicNavigationBar.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "y2szeKrkA2",
+          "name": "UxWritingBlogExercise1",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/portfolio_bener/PlasmicUxWritingBlogExercise1.jsx",
+          "importSpec": {
+            "modulePath": "../pages/ux-writing-blog-exercise-1.jsx"
+          },
+          "cssFilePath": "plasmic/portfolio_bener/PlasmicUxWritingBlogExercise1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "GCTBXpXYeaF",
+          "name": "UxWritingBlogExercise2",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/portfolio_bener/PlasmicUxWritingBlogExercise2.jsx",
+          "importSpec": {
+            "modulePath": "../pages/ux-writing-blog-exercise-2.jsx"
+          },
+          "cssFilePath": "plasmic/portfolio_bener/PlasmicUxWritingBlogExercise2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -432,6 +458,16 @@
           "id": "bbY45N8hXda0bx",
           "name": "Icon4Icon",
           "moduleFilePath": "plasmic/new_ones/icons/PlasmicIcon__Icon4.jsx"
+        },
+        {
+          "id": "iVN2yyZTRq",
+          "name": "ArrowsIcon",
+          "moduleFilePath": "plasmic/portfolio_bener/icons/PlasmicIcon__Arrows.jsx"
+        },
+        {
+          "id": "SWL0pkS6OZ",
+          "name": "VectorSsvgIcon",
+          "moduleFilePath": "plasmic/portfolio_bener/icons/PlasmicIcon__VectorSsvg.jsx"
         }
       ],
       "images": [
@@ -744,6 +780,271 @@
           "id": "uNuBiZh6wtC2oJ",
           "name": "Hands Random Stuff",
           "filePath": "../public/plasmic/new_ones/images/handsRandomStuff.png"
+        },
+        {
+          "id": "NjVuJTquo5",
+          "name": "Frame 202",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame202.svg"
+        },
+        {
+          "id": "yXMZyNr_nI",
+          "name": "Frame 203",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame203.svg"
+        },
+        {
+          "id": "V9fbP-vj3oT",
+          "name": "Frame 196",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame196.svg"
+        },
+        {
+          "id": "_Ig7z1-ekQA",
+          "name": "Frame 197",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame197.svg"
+        },
+        {
+          "id": "RrPmNJ7Mbb",
+          "name": "Frame 204",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame204.svg"
+        },
+        {
+          "id": "mT1weYBJpyU",
+          "name": "Frame 205",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame205.svg"
+        },
+        {
+          "id": "aNeL16-4QVx",
+          "name": "Frame 198",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame198.svg"
+        },
+        {
+          "id": "RQjLQde0bu_",
+          "name": "Frame 199",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame199.svg"
+        },
+        {
+          "id": "5No0EQ6n3b",
+          "name": "Frame 200",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame200.svg"
+        },
+        {
+          "id": "rvFR61bCBa",
+          "name": "Ellipse 16",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse16.svg"
+        },
+        {
+          "id": "jkwoS6UzDx",
+          "name": "Ellipse 15",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse15.svg"
+        },
+        {
+          "id": "HviOgOJm-r",
+          "name": "Ellipse 14",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse14.svg"
+        },
+        {
+          "id": "jp3eLR9RiK",
+          "name": "Ellipse 13",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse13.svg"
+        },
+        {
+          "id": "AZrNZTGpEB",
+          "name": "Ellipse 12",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse12.svg"
+        },
+        {
+          "id": "BbyKfNN-Lb",
+          "name": "Ellipse 17",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse17.svg"
+        },
+        {
+          "id": "-YtbSVsRXz",
+          "name": "Ellipse 18",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse18.svg"
+        },
+        {
+          "id": "1RWLv80yXM",
+          "name": "Ellipse 19",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse19.svg"
+        },
+        {
+          "id": "lL1tmLUfu6",
+          "name": "Ellipse 20",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse20.svg"
+        },
+        {
+          "id": "J8q7blXgzL",
+          "name": "Ellipse 21",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse21.svg"
+        },
+        {
+          "id": "hbwL8QnLpp",
+          "name": "Ellipse 22",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse22.svg"
+        },
+        {
+          "id": "1j18P59S2Y",
+          "name": "Ellipse 23",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse23.svg"
+        },
+        {
+          "id": "AuOqsU0TCT",
+          "name": "Ellipse 24",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse24.svg"
+        },
+        {
+          "id": "F64ktpaP3k",
+          "name": "Ellipse 25",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse25.svg"
+        },
+        {
+          "id": "uYyJaQz5gz",
+          "name": "Ellipse 26",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse26.svg"
+        },
+        {
+          "id": "gGSZw5EiEF",
+          "name": "Frame 201",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame201.svg"
+        },
+        {
+          "id": "ny3IRJYRxx",
+          "name": "Ellipse 27",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse27.svg"
+        },
+        {
+          "id": "a-DI4s1Xt2",
+          "name": "Ellipse 28",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse28.svg"
+        },
+        {
+          "id": "Ib89yD29xo",
+          "name": "Ellipse 29",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse29.svg"
+        },
+        {
+          "id": "3WNxyBaTbd",
+          "name": "Ellipse 30",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse30.svg"
+        },
+        {
+          "id": "krrsmD-oy2",
+          "name": "Ellipse 31",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse31.svg"
+        },
+        {
+          "id": "QmKSpu8ej0",
+          "name": "Ellipse 32",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse32.svg"
+        },
+        {
+          "id": "zOC8JCR5aK",
+          "name": "Ellipse 33",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse33.svg"
+        },
+        {
+          "id": "txd-s0sHbA",
+          "name": "Ellipse 34",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse34.svg"
+        },
+        {
+          "id": "c0xGUzC1mP",
+          "name": "Ellipse 35",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse35.svg"
+        },
+        {
+          "id": "VQv302GvtZ",
+          "name": "Ellipse 36",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse36.svg"
+        },
+        {
+          "id": "70PU0vxrf",
+          "name": "image 37",
+          "filePath": "../public/plasmic/portfolio_bener/images/image37.png"
+        },
+        {
+          "id": "8SEIPtJFq5",
+          "name": "Ellipse 37",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse37.svg"
+        },
+        {
+          "id": "YgGZwvrM-b",
+          "name": "Ellipse 38",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse38.svg"
+        },
+        {
+          "id": "iGBFNWUlnt",
+          "name": "Ellipse 39",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse39.svg"
+        },
+        {
+          "id": "Pl4syWi_AU",
+          "name": "Ellipse 40",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse40.svg"
+        },
+        {
+          "id": "qn0Q4j621d",
+          "name": "Ellipse 41",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse41.svg"
+        },
+        {
+          "id": "7U4_xYzTkP",
+          "name": "Ellipse 42",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse42.svg"
+        },
+        {
+          "id": "e-T9oyG5-M",
+          "name": "Ellipse 43",
+          "filePath": "../public/plasmic/portfolio_bener/images/ellipse43.svg"
+        },
+        {
+          "id": "LfLQ_plUp4",
+          "name": "image 38",
+          "filePath": "../public/plasmic/portfolio_bener/images/image38.svg"
+        },
+        {
+          "id": "Eqca47n39",
+          "name": "image 39",
+          "filePath": "../public/plasmic/portfolio_bener/images/image39.png"
+        },
+        {
+          "id": "3K5JxMd68",
+          "name": "image 40",
+          "filePath": "../public/plasmic/portfolio_bener/images/image40.png"
+        },
+        {
+          "id": "W0hlI_YKy-",
+          "name": "image 41",
+          "filePath": "../public/plasmic/portfolio_bener/images/image41.svg"
+        },
+        {
+          "id": "CII2gSSuq",
+          "name": "Image 42",
+          "filePath": "../public/plasmic/portfolio_bener/images/image42.png"
+        },
+        {
+          "id": "hhEhJmdWQW",
+          "name": "Image 43",
+          "filePath": "../public/plasmic/portfolio_bener/images/image43.png"
+        },
+        {
+          "id": "UrqJKIwhuo",
+          "name": "Avatar 2",
+          "filePath": "../public/plasmic/portfolio_bener/images/avatar2.jpeg"
+        },
+        {
+          "id": "5kDvqaoMKf",
+          "name": "Frame 210",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame210.svg"
+        },
+        {
+          "id": "WT6f4fFi-",
+          "name": "Image 44",
+          "filePath": "../public/plasmic/portfolio_bener/images/image44.jpeg"
+        },
+        {
+          "id": "whfhfmYilI",
+          "name": "Frame 211",
+          "filePath": "../public/plasmic/portfolio_bener/images/frame211.svg"
         }
       ],
       "indirect": false,

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 641 787">
+  <circle opacity=".36" cx="320.5" cy="320.5" r="320.5" fill="url(#ZW4dlwT-k5a)"/>
+  <circle opacity=".36" cx="336.5" cy="382.5" r="296.5" fill="url(#ZW4dlwT-k5b)"/>
+  <circle opacity=".36" cx="336.5" cy="452.5" r="272.5" fill="url(#ZW4dlwT-k5c)"/>
+  <circle opacity=".36" cx="360.5" cy="510.5" r="248.5" fill="url(#ZW4dlwT-k5d)"/>
+  <ellipse opacity=".36" cx="374.5" cy="563" rx="224.5" ry="224" fill="url(#ZW4dlwT-k5e)"/>
+  <defs>
+    <linearGradient id="ZW4dlwT-k5a" x1="320.5" y1="0" x2="19.03" y2="295.461" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEBFB"/>
+      <stop offset=".974" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="ZW4dlwT-k5b" x1="336.5" y1="86" x2="57.605" y2="359.336" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEBFB"/>
+      <stop offset=".974" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="ZW4dlwT-k5c" x1="336.5" y1="180" x2="80.18" y2="431.211" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEBFB"/>
+      <stop offset=".974" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="ZW4dlwT-k5d" x1="360.5" y1="262" x2="126.755" y2="491.086" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEBFB"/>
+      <stop offset=".974" stop-color="#6941C6"/>
+    </linearGradient>
+    <linearGradient id="ZW4dlwT-k5e" x1="374.5" y1="339" x2="163.791" y2="545.97" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFEBFB"/>
+      <stop offset=".974" stop-color="#6941C6"/>
+    </linearGradient>
+  </defs>
+</svg>

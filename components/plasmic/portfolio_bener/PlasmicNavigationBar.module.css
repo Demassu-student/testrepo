@@ -5,8 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #ffffff;
+  background: #ffffffbf;
   position: relative;
+  backdrop-filter: blur(10px);
 }
 @media (min-width: 0px) and (max-width: 768px) {
   .root {
@@ -18,7 +19,7 @@
   position: fixed;
   width: 100%;
   height: 1px;
-  background: #e0e0e0;
+  background: #e0e0e033;
   left: 0;
   top: auto;
   z-index: 1;
@@ -46,7 +47,7 @@
     width: 414px;
   }
 }
-.text__bOfAw {
+.link {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;
@@ -57,7 +58,7 @@
   position: relative;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .text__bOfAw {
+  .link {
     display: none;
   }
 }
@@ -128,7 +129,7 @@
   > img {
   margin-left: 8px;
 }
-.text__xzoYj {
+.text {
   display: block;
   font-size: 16px;
   font-family: "Inter", sans-serif;

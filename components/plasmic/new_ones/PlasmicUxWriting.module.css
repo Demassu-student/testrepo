@@ -119,7 +119,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  padding: 8px;
+  padding: 0px;
 }
 .freeBox > :global(.__wab_flex-container) {
   flex-direction: column;

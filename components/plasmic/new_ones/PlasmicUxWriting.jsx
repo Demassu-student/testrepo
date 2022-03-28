@@ -19,6 +19,7 @@ import {
   deriveRenderOpts,
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
+import Heading36PxUxWritingPage from "../../Heading36PxUxWritingPage"; // plasmic-import: -2x0Pg0Nfo/component
 import NavigationBar from "../../NavigationBar"; // plasmic-import: BLtbByl5tB5/component
 import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
 import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGlobalVariant__Screen"; // plasmic-import: _tU3UFp3Zwbn8d/globalVariant
@@ -29,7 +30,11 @@ import ArrowsIcon from "../portfolio_bener/icons/PlasmicIcon__Arrows"; // plasmi
 
 export const PlasmicUxWriting__VariantProps = new Array();
 
-export const PlasmicUxWriting__ArgProps = new Array("children3");
+export const PlasmicUxWriting__ArgProps = new Array(
+  "children3",
+  "children",
+  "children2"
+);
 
 function PlasmicUxWriting__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -243,11 +248,13 @@ function PlasmicUxWriting__RenderFunc(props) {
                     }
                   >
                     <p.PlasmicLink
+                      data-plasmic-name={"link"}
+                      data-plasmic-override={overrides.link}
                       className={classNames(
                         projectcss.all,
                         projectcss.a,
                         projectcss.__wab_text,
-                        sty.link__vJouT
+                        sty.link
                       )}
                       component={Link}
                       href={"/ux-writing-blog-exercise-2"}
@@ -759,22 +766,19 @@ function PlasmicUxWriting__RenderFunc(props) {
                           hasGap={true}
                           className={classNames(projectcss.all, sty.frame218)}
                         >
-                          <p.PlasmicLink
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.a,
-                              projectcss.__wab_text,
-                              sty.link___5Qx3T
-                            )}
-                            component={Link}
-                            href={"/ux-writing-blog-exercise-1"}
-                            platform={"nextjs"}
-                            target={"_blank"}
-                          >
-                            {hasVariant(globalVariants, "screen", "mobileOnly")
-                              ? "Membuat User Story dan Microcopy"
-                              : "Membuat User Story dan Microcopy"}
-                          </p.PlasmicLink>
+                          {p.renderPlasmicSlot({
+                            defaultContents: (
+                              <Heading36PxUxWritingPage
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.heading36PxUxWritingPage__bbS38
+                                )}
+                                headingChoice2={"variant1"}
+                              />
+                            ),
+
+                            value: args.children
+                          })}
 
                           <p.Stack
                             as={"div"}
@@ -800,7 +804,7 @@ function PlasmicUxWriting__RenderFunc(props) {
                                   sty.text__kQrIa
                                 )}
                               >
-                                {"Design"}
+                                {"UX Writing"}
                               </div>
                             </p.Stack>
 
@@ -1112,20 +1116,20 @@ function PlasmicUxWriting__RenderFunc(props) {
                           hasGap={true}
                           className={classNames(projectcss.all, sty.frame219)}
                         >
-                          <p.PlasmicLink
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.a,
-                              projectcss.__wab_text,
-                              sty.link__hLhZ
-                            )}
-                            component={Link}
-                            href={"/ux-writing-blog-exercise-2"}
-                            platform={"nextjs"}
-                            target={"_blank"}
-                          >
-                            {"Menyederhanakan copy"}
-                          </p.PlasmicLink>
+                          {p.renderPlasmicSlot({
+                            defaultContents: (
+                              <Heading36PxUxWritingPage
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.heading36PxUxWritingPage__yNrsI
+                                )}
+                                headingChoice2={"variant2"}
+                              />
+                            ),
+
+                            value: args.children2,
+                            className: classNames(sty.slotTargetChildren2)
+                          })}
 
                           <p.Stack
                             as={"div"}
@@ -1151,7 +1155,7 @@ function PlasmicUxWriting__RenderFunc(props) {
                                   sty.text___1FH9S
                                 )}
                               >
-                                {"Design"}
+                                {"UX Writing"}
                               </div>
                             </p.Stack>
 
@@ -1379,6 +1383,7 @@ const PlasmicDescendants = {
     "frame198",
     "frame2",
     "userStoryExercise2",
+    "link",
     "figmaPaste3",
     "frame191",
     "frame192",
@@ -1457,6 +1462,7 @@ const PlasmicDescendants = {
     "frame198",
     "frame2",
     "userStoryExercise2",
+    "link",
     "figmaPaste3",
     "frame191",
     "frame192",
@@ -1533,6 +1539,7 @@ const PlasmicDescendants = {
     "frame198",
     "frame2",
     "userStoryExercise2",
+    "link",
     "figmaPaste3",
     "frame191",
     "frame192",
@@ -1569,6 +1576,7 @@ const PlasmicDescendants = {
     "frame198",
     "frame2",
     "userStoryExercise2",
+    "link",
     "figmaPaste3",
     "frame191",
     "frame192",
@@ -1588,13 +1596,15 @@ const PlasmicDescendants = {
     "frame198",
     "frame2",
     "userStoryExercise2",
+    "link",
     "figmaPaste3",
     "frame191",
     "frame192"
   ],
 
   frame2: ["frame2"],
-  userStoryExercise2: ["userStoryExercise2", "figmaPaste3"],
+  userStoryExercise2: ["userStoryExercise2", "link", "figmaPaste3"],
+  link: ["link"],
   figmaPaste3: ["figmaPaste3"],
   frame191: ["frame191"],
   frame192: ["frame192"],
@@ -1995,6 +2005,7 @@ export const PlasmicUxWriting = Object.assign(
     frame198: makeNodeComponent("frame198"),
     frame2: makeNodeComponent("frame2"),
     userStoryExercise2: makeNodeComponent("userStoryExercise2"),
+    link: makeNodeComponent("link"),
     figmaPaste3: makeNodeComponent("figmaPaste3"),
     frame191: makeNodeComponent("frame191"),
     frame192: makeNodeComponent("frame192"),

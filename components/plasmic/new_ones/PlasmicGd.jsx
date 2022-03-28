@@ -193,8 +193,8 @@ function PlasmicGd__RenderFunc(props) {
                     )}
                   >
                     {hasVariant(globalVariants, "screen", "mobileOnly")
-                      ? "Woohoo, I'm working on this page"
-                      : "Woohoo, I'm working on this page"}
+                      ? "Woohoo, I'm still developing this page"
+                      : "Woohoo, I'm still developing this page"}
                   </div>
 
                   <div

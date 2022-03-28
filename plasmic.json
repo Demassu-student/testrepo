@@ -266,6 +266,19 @@
           "cssFilePath": "plasmic/portfolio_bener/PlasmicUxWritingBlogExercise2.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "-2x0Pg0Nfo",
+          "name": "Heading36PxUxWritingPage",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/portfolio_bener/PlasmicHeading36PxUxWritingPage.jsx",
+          "importSpec": {
+            "modulePath": "Heading36PxUxWritingPage.jsx"
+          },
+          "cssFilePath": "plasmic/portfolio_bener/PlasmicHeading36PxUxWritingPage.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

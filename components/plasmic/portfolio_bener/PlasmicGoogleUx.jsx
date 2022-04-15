@@ -28,7 +28,6 @@ import TooltipIcon from "../new_ones/icons/PlasmicIcon__Tooltip"; // plasmic-imp
 import ChecksvgIcon from "../new_ones/icons/PlasmicIcon__Checksvg"; // plasmic-import: C3f3FgCnH9VKtI/icon
 import Icon4Icon from "../new_ones/icons/PlasmicIcon__Icon4"; // plasmic-import: bbY45N8hXda0bx/icon
 import Divider2Icon from "../new_ones/icons/PlasmicIcon__Divider2"; // plasmic-import: wszRZDHrfCJaE9/icon
-import ArrowUpRight2Icon from "../new_ones/icons/PlasmicIcon__ArrowUpRight2"; // plasmic-import: J3O_4eStjkD7ZV/icon
 import CopyIcon from "../new_ones/icons/PlasmicIcon__Copy"; // plasmic-import: 3hWh_eWxbClQvX/icon
 import SocialIconIcon from "../new_ones/icons/PlasmicIcon__SocialIcon"; // plasmic-import: 4p046xg_E92q0B/icon
 import SocialIcon2Icon from "../new_ones/icons/PlasmicIcon__SocialIcon2"; // plasmic-import: cVIq4NUX5C4QL_/icon
@@ -2284,29 +2283,6 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 sty.column__b1A9V
                               )}
                             >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text___2GaVo
-                                )}
-                              >
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <h6
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h6,
-                                      projectcss.__wab_text,
-                                      sty.h6___31LOz
-                                    )}
-                                  >
-                                    {"Before usability study"}
-                                  </h6>
-                                  <React.Fragment>{""}</React.Fragment>
-                                </React.Fragment>
-                              </div>
-
                               <p.PlasmicImg
                                 alt={""}
                                 className={classNames(sty.img__tn0NH)}
@@ -2318,9 +2294,9 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 displayWidth={"auto"}
                                 loading={"lazy"}
                                 src={{
-                                  src: "/plasmic/portfolio_bener/images/wireframeProductPagepng.png",
-                                  fullWidth: 428,
-                                  fullHeight: 926,
+                                  src: "/plasmic/portfolio_bener/images/sumsung1Png.png",
+                                  fullWidth: 272,
+                                  fullHeight: 561,
                                   aspectRatio: undefined
                                 }}
                               />
@@ -2334,29 +2310,6 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 sty.column___18Ssa
                               )}
                             >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__kkScl
-                                )}
-                              >
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <h6
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h6,
-                                      projectcss.__wab_text,
-                                      sty.h6__e2Grg
-                                    )}
-                                  >
-                                    {"Before usability study"}
-                                  </h6>
-                                  <React.Fragment>{""}</React.Fragment>
-                                </React.Fragment>
-                              </div>
-
                               <p.PlasmicImg
                                 alt={""}
                                 className={classNames(sty.img__vx0Rg)}
@@ -2368,9 +2321,9 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 displayWidth={"auto"}
                                 loading={"lazy"}
                                 src={{
-                                  src: "/plasmic/portfolio_bener/images/wireframeProductPagepng.png",
-                                  fullWidth: 428,
-                                  fullHeight: 926,
+                                  src: "/plasmic/portfolio_bener/images/galaxyNote20Ultra2Png.png",
+                                  fullWidth: 272,
+                                  fullHeight: 561,
                                   aspectRatio: undefined
                                 }}
                               />
@@ -2384,29 +2337,6 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 sty.column__rXilh
                               )}
                             >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__obS7F
-                                )}
-                              >
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <h6
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h6,
-                                      projectcss.__wab_text,
-                                      sty.h6__qH5Dx
-                                    )}
-                                  >
-                                    {"Before usability study"}
-                                  </h6>
-                                  <React.Fragment>{""}</React.Fragment>
-                                </React.Fragment>
-                              </div>
-
                               <p.PlasmicImg
                                 alt={""}
                                 className={classNames(sty.img__bUM)}
@@ -2418,9 +2348,9 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 displayWidth={"auto"}
                                 loading={"lazy"}
                                 src={{
-                                  src: "/plasmic/portfolio_bener/images/wireframeProductPagepng.png",
-                                  fullWidth: 428,
-                                  fullHeight: 926,
+                                  src: "/plasmic/portfolio_bener/images/galaxyNote20Ultra1Png.png",
+                                  fullWidth: 273,
+                                  fullHeight: 561,
                                   aspectRatio: undefined
                                 }}
                               />
@@ -2434,29 +2364,6 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 sty.column___1Bauc
                               )}
                             >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__ofAo3
-                                )}
-                              >
-                                <React.Fragment>
-                                  <React.Fragment>{""}</React.Fragment>
-                                  <h6
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.h6,
-                                      projectcss.__wab_text,
-                                      sty.h6__ebE8S
-                                    )}
-                                  >
-                                    {"After usability study"}
-                                  </h6>
-                                  <React.Fragment>{""}</React.Fragment>
-                                </React.Fragment>
-                              </div>
-
                               <p.PlasmicImg
                                 alt={""}
                                 className={classNames(sty.img__zp73)}
@@ -2468,9 +2375,9 @@ function PlasmicGoogleUx__RenderFunc(props) {
                                 displayWidth={"auto"}
                                 loading={"lazy"}
                                 src={{
-                                  src: "/plasmic/portfolio_bener/images/_02ProductPagepng.png",
-                                  fullWidth: 428,
-                                  fullHeight: 926,
+                                  src: "/plasmic/portfolio_bener/images/galaxyNote20Ultrapng.png",
+                                  fullWidth: 273,
+                                  fullHeight: 561,
                                   aspectRatio: undefined
                                 }}
                               />
@@ -2490,255 +2397,6 @@ function PlasmicGoogleUx__RenderFunc(props) {
                           </div>
                         </p.Stack>
                       </p.Stack>
-                    </p.Stack>
-
-                    <div
-                      data-plasmic-name={"paragraph10"}
-                      data-plasmic-override={overrides.paragraph10}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.paragraph10
-                      )}
-                    >
-                      <React.Fragment>
-                        <React.Fragment>{""}</React.Fragment>
-                        <h5
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h5,
-                            projectcss.__wab_text,
-                            sty.h5__zHMn
-                          )}
-                        >
-                          {"Initial Solution"}
-                        </h5>
-                        <React.Fragment>
-                          {
-                            "Based on the task and the solution idea, I was able to draw out some additional features for the app that might be useful for users. The definite task of Billie above is the must-have feature, thus the app becomes:\n\n"
-                          }
-                        </React.Fragment>
-                        <h6
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.h6,
-                            projectcss.__wab_text,
-                            sty.h6__lbF22
-                          )}
-                        >
-                          {
-                            "The integrated Financial Management & Transaction App"
-                          }
-                        </h6>
-                        <React.Fragment>{""}</React.Fragment>
-                        <span
-                          className={
-                            "plasmic_default__all plasmic_default__span"
-                          }
-                          style={{ fontStyle: "italic" }}
-                        >
-                          {
-                            "Berfungsi sebagai dompet digital terintegrasi dengan bank dan dompet digital marketplace dengan menyediakan fitur mentransfer, mengatur (money management), mencatat pemasukan dan pengeluaran (monitor your transactions) berdasarkan akun yang telah terdaftar."
-                          }
-                        </span>
-                        <React.Fragment>
-                          {
-                            "\n\nIn this case, the user needs to think that managing spending and income is not necessarily thrilling but otherwise. Understanding their own spending behavior is the first step toward better money management, followed by deciding how to reduce expenses. Then, the next step is to put those into savings. I found that organizing and managing future spending and income can be like a balancing act. This is the kind of gamification that can be offered at the Billie app. The form of self-determination theory that applied when the user feels good and in control of the situation."
-                          }
-                        </React.Fragment>
-                      </React.Fragment>
-                    </div>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"blockquote"}
-                      data-plasmic-override={overrides.blockquote}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.blockquote)}
-                    >
-                      <div
-                        data-plasmic-name={"leftBorder"}
-                        data-plasmic-override={overrides.leftBorder}
-                        className={classNames(projectcss.all, sty.leftBorder)}
-                      />
-
-                      <p.Stack
-                        as={"div"}
-                        data-plasmic-name={"quoteWrap"}
-                        data-plasmic-override={overrides.quoteWrap}
-                        hasGap={true}
-                        className={classNames(projectcss.all, sty.quoteWrap)}
-                      >
-                        <div
-                          data-plasmic-name={"quote"}
-                          data-plasmic-override={overrides.quote}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.quote
-                          )}
-                        >
-                          {
-                            "“Deci and Ryan’s self-determination theory recognizes the feelings of competence, autonomy, and relatedness as necessary in order to be able to appreciate an action for itself.”"
-                          }
-                        </div>
-
-                        <div
-                          data-plasmic-name={"text9"}
-                          data-plasmic-override={overrides.text9}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text9
-                          )}
-                        >
-                          {"— From SQLI Digital Experience"}
-                        </div>
-                      </p.Stack>
-                    </p.Stack>
-
-                    <div
-                      data-plasmic-name={"paragraph11"}
-                      data-plasmic-override={overrides.paragraph11}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.paragraph11
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__ePKu
-                            )}
-                          >
-                            {"Logo & Tagline\r"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "In terms of choosing colors, what comes to mind when making a fintech app is I need to establish trust while also engaging users to use the app without stress and pressure. Thus, I decide to use blue #2658FF as a primary color as this color fulfills the color familiarity in the industry and is able to communicate the brand's meaning. "
-                            }
-                          </React.Fragment>
-                          <p.PlasmicLink
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.a,
-                              projectcss.__wab_text,
-                              projectcss.plasmic_default__inline,
-                              sty.link__fwEnn
-                            )}
-                            component={Link}
-                            href={
-                              "https://graf1x.com/wp-content/uploads/2014/09/color-psychology-meaning-emotion-poster.jpg"
-                            }
-                            platform={"nextjs"}
-                          >
-                            {"Source"}
-                          </p.PlasmicLink>
-                          <React.Fragment>
-                            {
-                              "\n\n\r\nAlso, I need to make the ideation branches of the logo super fast because of the limited time and the relevancy to the project. Therefore, I didn’t spend too much time during this process, I rather prioritize the design and UX stuff."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      ) : (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__bxjK7
-                            )}
-                          >
-                            {"Logo & Tagline\r"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "In terms of choosing colors, what comes to mind when making a fintech app is I need to establish trust while also engaging users to use the app without stress and pressure. Thus, I decide to use blue #2658FF as a primary color as this color fulfills the color familiarity in the industry and is able to communicate the brand's meaning. "
-                            }
-                          </React.Fragment>
-                          <p.PlasmicLink
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.a,
-                              projectcss.__wab_text,
-                              projectcss.plasmic_default__inline,
-                              sty.link__xOUzi
-                            )}
-                            component={Link}
-                            href={
-                              "https://graf1x.com/wp-content/uploads/2014/09/color-psychology-meaning-emotion-poster.jpg"
-                            }
-                            platform={"nextjs"}
-                          >
-                            {"Source"}
-                          </p.PlasmicLink>
-                          <React.Fragment>
-                            {
-                              "\n\n\r\nAlso, I need to make the ideation branches of the logo super fast because of the limited time and the relevancy to the project. Therefore, I didn’t spend too much time during this process, I rather prioritize the design and UX stuff."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      )}
-                    </div>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg6"}
-                      data-plasmic-override={overrides.richTextImg6}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg6)}
-                    >
-                      <div
-                        data-plasmic-name={"image6"}
-                        data-plasmic-override={overrides.image6}
-                        className={classNames(projectcss.all, sty.image6)}
-                      />
-
-                      <div
-                        data-plasmic-name={"text10"}
-                        data-plasmic-override={overrides.text10}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text10
-                        )}
-                      >
-                        {"Image of Ideation Branch"}
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg7"}
-                      data-plasmic-override={overrides.richTextImg7}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg7)}
-                    >
-                      <div
-                        data-plasmic-name={"image7"}
-                        data-plasmic-override={overrides.image7}
-                        className={classNames(projectcss.all, sty.image7)}
-                      />
-
-                      <div
-                        data-plasmic-name={"text11"}
-                        data-plasmic-override={overrides.text11}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text11
-                        )}
-                      >
-                        {"Image of Logo idea sketch"}
-                      </div>
                     </p.Stack>
 
                     <div
@@ -2780,11 +2438,11 @@ function PlasmicGoogleUx__RenderFunc(props) {
                               sty.h5__cc1TM
                             )}
                           >
-                            {"Final Logo & Tagline"}
+                            {"High-fidelity prototype"}
                           </h5>
                           <React.Fragment>
                             {
-                              "I had to spend one hour and a half creating a tagline. I need a tagline that is simple and interesting while also effortless to remember. Thanks to this thread, I got the insight to create the tagline that I wanted. I wanted the tagline to start with the advantage of the feature. “easily manage, hardly stress”. Although a bit silly, I really liked the tagline."
+                              "The final high fidelity prototype presented cleaner user flows for ordering cat food and checkout. It addresses user needs for search & filter options and iterates the front banner calories information to feed reminders."
                             }
                           </React.Fragment>
                         </React.Fragment>
@@ -2813,7 +2471,7 @@ function PlasmicGoogleUx__RenderFunc(props) {
                           sty.text12
                         )}
                       >
-                        {"Image of Final Logo Design"}
+                        {"Image of High-fidelity prototype"}
                       </div>
                     </p.Stack>
 
@@ -2856,7 +2514,7 @@ function PlasmicGoogleUx__RenderFunc(props) {
                               sty.h5__n3GGi
                             )}
                           >
-                            {"Sitemap"}
+                            {"Accessibility considerations"}
                           </h5>
                           <React.Fragment>
                             {
@@ -2869,255 +2527,85 @@ function PlasmicGoogleUx__RenderFunc(props) {
 
                     <p.Stack
                       as={"div"}
-                      data-plasmic-name={"richTextImg9"}
-                      data-plasmic-override={overrides.richTextImg9}
+                      data-plasmic-name={"richTextImg22"}
+                      data-plasmic-override={overrides.richTextImg22}
                       hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg9)}
+                      className={classNames(projectcss.all, sty.richTextImg22)}
                     >
                       <div
-                        data-plasmic-name={"image9"}
-                        data-plasmic-override={overrides.image9}
-                        className={classNames(projectcss.all, sty.image9)}
-                      />
-
-                      <div
-                        data-plasmic-name={"text13"}
-                        data-plasmic-override={overrides.text13}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text13
-                        )}
+                        data-plasmic-name={"image26"}
+                        data-plasmic-override={overrides.image26}
+                        className={classNames(projectcss.all, sty.image26)}
                       >
-                        {"Image of Sitemap"}
-                      </div>
-                    </p.Stack>
-
-                    <div
-                      data-plasmic-name={"paragraph14"}
-                      data-plasmic-override={overrides.paragraph14}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.paragraph14
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__nYarx
+                          )}
+                        >
+                          <div
                             className={classNames(
                               projectcss.all,
-                              projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__qq2An
+                              sty.text__skrT
                             )}
                           >
-                            {"Customer Journey"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "I built out a customer journey map with the content from the as-is scenario, this helped me to figure out what users going through during the flow."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      ) : (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__lmiNx
-                            )}
-                          >
-                            {"Customer Journey"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "I built out a customer journey map with the content from the as-is scenario, this helped me to figure out what users going through during the flow."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      )}
-                    </div>
+                            <React.Fragment>
+                              <React.Fragment>{""}</React.Fragment>
+                              <p.Stack
+                                as={"ol"}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.ol,
+                                  sty.ol__fXaBq
+                                )}
+                              >
+                                <li
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.li,
+                                    projectcss.__wab_text,
+                                    sty.li__hInkc
+                                  )}
+                                >
+                                  {
+                                    "Text with crucial\ninformation used colors\nthat pass accessibility\ncontrast WCAG minimum\n4.5:1 AA"
+                                  }
+                                </li>
 
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg10"}
-                      data-plasmic-override={overrides.richTextImg10}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg10)}
-                    >
-                      <div
-                        data-plasmic-name={"image10"}
-                        data-plasmic-override={overrides.image10}
-                        className={classNames(projectcss.all, sty.image10)}
-                      />
+                                <li
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.li,
+                                    projectcss.__wab_text,
+                                    sty.li___97Hi
+                                  )}
+                                >
+                                  {
+                                    "For legibility, there is not\na text-in-used smaller\nthan 10px"
+                                  }
+                                </li>
 
-                      <div
-                        data-plasmic-name={"text14"}
-                        data-plasmic-override={overrides.text14}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text14
-                        )}
-                      >
-                        {"Image of Customer Journey"}
-                      </div>
-                    </p.Stack>
-
-                    <div
-                      data-plasmic-name={"paragraph15"}
-                      data-plasmic-override={overrides.paragraph15}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.paragraph15
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__nrJ2K
-                            )}
-                          >
-                            {"Userflow"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "A user flow chart was the last step I took before I was able to start designing prototypes. I had to identify “a happy path” goal needing to be accomplished by the user within the app.\n\n\r\nAfter finalizing my ideas, I created a user flow following my previous ideation for the first registered user to manage their income & expense from the step of connecting wallet to organizing payment."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      ) : (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__tbvbM
-                            )}
-                          >
-                            {"Userflow"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "A user flow chart was the last step I took before I was able to start designing prototypes. I had to identify “a happy path” goal needing to be accomplished by the user within the app.\n\n\r\nAfter finalizing my ideas, I created a user flow following my previous ideation for the first registered user to manage their income & expense from the step of connecting wallet to organizing payment."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      )}
-                    </div>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg11"}
-                      data-plasmic-override={overrides.richTextImg11}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg11)}
-                    >
-                      <div
-                        data-plasmic-name={"image11"}
-                        data-plasmic-override={overrides.image11}
-                        className={classNames(projectcss.all, sty.image11)}
-                      />
-
-                      <div
-                        data-plasmic-name={"text15"}
-                        data-plasmic-override={overrides.text15}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text15
-                        )}
-                      >
-                        {"Image of Userflow"}
-                      </div>
-                    </p.Stack>
-
-                    <div
-                      data-plasmic-name={"paragraph16"}
-                      data-plasmic-override={overrides.paragraph16}
-                      className={classNames(
-                        projectcss.all,
-                        projectcss.__wab_text,
-                        sty.paragraph16
-                      )}
-                    >
-                      {hasVariant(globalVariants, "screen", "mobileOnly") ? (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__phP0B
-                            )}
-                          >
-                            {"Low-fidelity"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "I created a low–fidelity screen with pencil & paper to get a clear idea of what the screen will look like later. This phase and later on is where design pattern, reference, and mood board can be very useful."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      ) : (
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__xZQ5
-                            )}
-                          >
-                            {"Low-fidelity"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "I created a low–fidelity screen with pencil & paper to get a clear idea of what the screen will look like later. This phase and later on is where design pattern, reference, and mood board can be very useful."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      )}
-                    </div>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg12"}
-                      data-plasmic-override={overrides.richTextImg12}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg12)}
-                    >
-                      <div
-                        data-plasmic-name={"image12"}
-                        data-plasmic-override={overrides.image12}
-                        className={classNames(projectcss.all, sty.image12)}
-                      />
-
-                      <div
-                        data-plasmic-name={"text16"}
-                        data-plasmic-override={overrides.text16}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text16
-                        )}
-                      >
-                        {"Image of Low Fidelity/Sketch"}
+                                <li
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.li,
+                                    projectcss.__wab_text,
+                                    sty.li___6Rz4S
+                                  )}
+                                >
+                                  {
+                                    "Clear navigation &\ninformation system. User\ncan easily go back and\nreverse the step (in\ncheckout screen)"
+                                  }
+                                </li>
+                              </p.Stack>
+                              <React.Fragment>{""}</React.Fragment>
+                            </React.Fragment>
+                          </div>
+                        </p.Stack>
                       </div>
                     </p.Stack>
 
@@ -3137,7 +2625,7 @@ function PlasmicGoogleUx__RenderFunc(props) {
                           sty.heading8
                         )}
                       >
-                        {"Prototype"}
+                        {"Going forward"}
                       </div>
 
                       <div
@@ -3159,7 +2647,7 @@ function PlasmicGoogleUx__RenderFunc(props) {
                               sty.h5__qZpCh
                             )}
                           >
-                            {"Wireframe\r"}
+                            {"Takeways"}
                           </h5>
                           <React.Fragment>
                             {
@@ -3168,31 +2656,135 @@ function PlasmicGoogleUx__RenderFunc(props) {
                           </React.Fragment>
                         </React.Fragment>
                       </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg13"}
-                      data-plasmic-override={overrides.richTextImg13}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg13)}
-                    >
-                      <div
-                        data-plasmic-name={"image13"}
-                        data-plasmic-override={overrides.image13}
-                        className={classNames(projectcss.all, sty.image13)}
-                      />
 
                       <div
-                        data-plasmic-name={"text17"}
-                        data-plasmic-override={overrides.text17}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text17
-                        )}
+                        data-plasmic-name={"image27"}
+                        data-plasmic-override={overrides.image27}
+                        className={classNames(projectcss.all, sty.image27)}
                       >
-                        {"Image of Wireframe"}
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.column___6K5IA
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__ifsju
+                            )}
+                          >
+                            <React.Fragment>
+                              <React.Fragment>{""}</React.Fragment>
+                              <h6
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.h6,
+                                  projectcss.__wab_text,
+                                  sty.h6__tgZjd
+                                )}
+                              >
+                                {"Impact"}
+                              </h6>
+                              <React.Fragment>{""}</React.Fragment>
+                            </React.Fragment>
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__rp4U6
+                            )}
+                          >
+                            {
+                              "The app makes users feel like\nNutricats really thinks about how to meet their needs."
+                            }
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__emFtX
+                            )}
+                          >
+                            {"One quote from user feedback:"}
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__xdeyR
+                            )}
+                          >
+                            <React.Fragment>
+                              <React.Fragment>{""}</React.Fragment>
+                              <blockquote
+                                data-plasmic-name={"blockquote"}
+                                data-plasmic-override={overrides.blockquote}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.blockquote
+                                )}
+                              >
+                                {
+                                  "“The app made it so special and specific of all about cat needs, it means they develop this product to seriously solve cat owner needs... I would definitely be a user in this app, the interface looks so credible & can be trusted” etc"
+                                }
+                              </blockquote>
+                              <React.Fragment>{""}</React.Fragment>
+                            </React.Fragment>
+                          </div>
+                        </p.Stack>
+
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            sty.column__m4LD7
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__xkAr0
+                            )}
+                          >
+                            <React.Fragment>
+                              <React.Fragment>{""}</React.Fragment>
+                              <h6
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.h6,
+                                  projectcss.__wab_text,
+                                  sty.h6__fuT0
+                                )}
+                              >
+                                {"Impact"}
+                              </h6>
+                              <React.Fragment>{""}</React.Fragment>
+                            </React.Fragment>
+                          </div>
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__uNFkw
+                            )}
+                          >
+                            {
+                              "While designing the Nutricats app, I learned\nthat the assumption or ideas are only the\nbeginning of the process. The ideas can be\noverwhelmed the user, thus only prioritizing\nwhat the user needs not what the user might want. Also, present information in an easily digested manner. Usability studies and peer feedback really shaped each iteration of the app’s designs."
+                            }
+                          </div>
+                        </p.Stack>
                       </div>
                     </p.Stack>
 
@@ -3204,464 +2796,90 @@ function PlasmicGoogleUx__RenderFunc(props) {
                       className={classNames(projectcss.all, sty.section9)}
                     >
                       <div
-                        data-plasmic-name={"paragraph18"}
-                        data-plasmic-override={overrides.paragraph18}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.paragraph18
-                        )}
+                        data-plasmic-name={"image28"}
+                        data-plasmic-override={overrides.image28}
+                        className={classNames(projectcss.all, sty.image28)}
                       >
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__rsnnc
-                            )}
-                          >
-                            {"HI-FI\r"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "After developing the wireframe, I finally proceeded to design the hi-fi design. In this process, I begin with the basics, such as defining colors and fonts for items that are consistent with the brand.\r"
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"section10"}
-                      data-plasmic-override={overrides.section10}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.section10)}
-                    >
-                      <div
-                        data-plasmic-name={"paragraph19"}
-                        data-plasmic-override={overrides.paragraph19}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.paragraph19
-                        )}
-                      >
-                        <React.Fragment>
-                          <React.Fragment>
-                            {
-                              "UI Guideline\r\nI created a basic UI Guideline to design the UI of this app. This UI design guideline could help me to design in a consistent way during a high-fidelity design.\r\nSome parts that I created:\n\n\r\n"
-                            }
-                          </React.Fragment>
-                          <ul
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.ul,
-                              sty.ul__h29Ni
-                            )}
-                          >
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li__fEim
-                              )}
-                            >
-                              {"“Gilroy” is the main typeface.\n"}
-                            </li>
-
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li__sZh8H
-                              )}
-                            >
-                              {"“Circular Std” is the logotype."}
-                            </li>
-
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li___55Gc
-                              )}
-                            >
-                              {
-                                "\r\nI used Blue #2658FF as the primary brand color while Orange #FFA62B, Turquoise #00C2D1, and Dark Blue #F7BE00 are for accent colors. These colors were obtained based on the logo colors.\r"
-                              }
-                            </li>
-
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li__gU494
-                              )}
-                            >
-                              {
-                                "I used the Microsoft Fluent system icon for iconography because it has appealing rounded corners that are ‘easier on the eyes’\r"
-                              }
-                            </li>
-
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li__sc5We
-                              )}
-                            >
-                              {
-                                "I reference material UI for the design framework as closely as I can\r"
-                              }
-                            </li>
-                          </ul>
-                          <React.Fragment>{"\n"}</React.Fragment>
-                          <span
-                            className={
-                              "plasmic_default__all plasmic_default__span"
-                            }
-                            style={{ fontStyle: "italic" }}
-                          >
-                            {
-                              "Note: Due to a time issue, I could not make other design components and variables. However, several iterations might solve this issue."
-                            }
-                          </span>
-                          <React.Fragment>{""}</React.Fragment>
-                        </React.Fragment>
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg14"}
-                      data-plasmic-override={overrides.richTextImg14}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg14)}
-                    >
-                      <div
-                        data-plasmic-name={"image14"}
-                        data-plasmic-override={overrides.image14}
-                        className={classNames(projectcss.all, sty.image14)}
-                      />
-
-                      <div
-                        data-plasmic-name={"text18"}
-                        data-plasmic-override={overrides.text18}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text18
-                        )}
-                      >
-                        {"Image of UI Guideline - Color"}
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"section11"}
-                      data-plasmic-override={overrides.section11}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.section11)}
-                    >
-                      <div
-                        data-plasmic-name={"paragraph20"}
-                        data-plasmic-override={overrides.paragraph20}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.paragraph20
-                        )}
-                      >
-                        {
-                          "See the screen concept changes from Lo-fi to wireframe? the same as Hi-fi, I had to iterate some of the contents which takes some time to create. Here is the version of the Hi-Fi prototype:"
-                        }
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg15"}
-                      data-plasmic-override={overrides.richTextImg15}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg15)}
-                    >
-                      <div
-                        data-plasmic-name={"image15"}
-                        data-plasmic-override={overrides.image15}
-                        className={classNames(projectcss.all, sty.image15)}
-                      />
-
-                      <div
-                        data-plasmic-name={"text19"}
-                        data-plasmic-override={overrides.text19}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text19
-                        )}
-                      >
-                        {"Image of 3 Final Design"}
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"section12"}
-                      data-plasmic-override={overrides.section12}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.section12)}
-                    >
-                      <div
-                        data-plasmic-name={"paragraph21"}
-                        data-plasmic-override={overrides.paragraph21}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.paragraph21
-                        )}
-                      >
-                        {
-                          "I considered the UX law of common region that is “Elements tend to be perceived into groups if they are sharing an area with a clearly defined boundary”. For example, the function of the statistic text is to describe the graph but as you can see in the wireframe, the text is kind of detached from the graph. Overall, I personally liked the design because it looks as clean as I wanted. However, it still needs validation and iteration at some parts."
-                        }
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"section13"}
-                      data-plasmic-override={overrides.section13}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.section13)}
-                    >
-                      <div
-                        data-plasmic-name={"paragraph22"}
-                        data-plasmic-override={overrides.paragraph22}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.paragraph22
-                        )}
-                      >
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
-                          <h5
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.h5,
-                              projectcss.__wab_text,
-                              sty.h5__biHg8
-                            )}
-                          >
-                            {"Prototype & Mockup\r"}
-                          </h5>
-                          <React.Fragment>
-                            {
-                              "After feeling complete with the user interface design, then I continued to create some mockups to assist users to overcome their problems and provide insights for them. Take a look at the pics below.\r\nAlso, I created a simple prototype to show how the sections work. However, again due to time boundaries I get only to prototype the interaction between the screen section."
-                            }
-                          </React.Fragment>
-                        </React.Fragment>
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"richTextImg16"}
-                      data-plasmic-override={overrides.richTextImg16}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.richTextImg16)}
-                    >
-                      <div
-                        data-plasmic-name={"frame180"}
-                        data-plasmic-override={overrides.frame180}
-                        className={classNames(projectcss.all, sty.frame180)}
-                      >
-                        <div
-                          data-plasmic-name={"frame174"}
-                          data-plasmic-override={overrides.frame174}
-                          className={classNames(projectcss.all, sty.frame174)}
-                        >
-                          <div
-                            data-plasmic-name={"image16"}
-                            data-plasmic-override={overrides.image16}
-                            className={classNames(projectcss.all, sty.image16)}
-                          />
-
-                          <div
-                            data-plasmic-name={"image17"}
-                            data-plasmic-override={overrides.image17}
-                            className={classNames(projectcss.all, sty.image17)}
-                          />
-                        </div>
-
-                        <div
-                          data-plasmic-name={"frame181"}
-                          data-plasmic-override={overrides.frame181}
-                          className={classNames(projectcss.all, sty.frame181)}
-                        >
-                          <div
-                            data-plasmic-name={"image18"}
-                            data-plasmic-override={overrides.image18}
-                            className={classNames(projectcss.all, sty.image18)}
-                          />
-
-                          <div
-                            data-plasmic-name={"image19"}
-                            data-plasmic-override={overrides.image19}
-                            className={classNames(projectcss.all, sty.image19)}
-                          />
-                        </div>
-                      </div>
-
-                      <div
-                        data-plasmic-name={"text20"}
-                        data-plasmic-override={overrides.text20}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text20
-                        )}
-                      >
-                        {"Image of Mockups & Screen Walkthrough"}
-                      </div>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"frame173"}
-                      data-plasmic-override={overrides.frame173}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.frame173)}
-                    >
-                      <div
-                        data-plasmic-name={"paragraph23"}
-                        data-plasmic-override={overrides.paragraph23}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.paragraph23
-                        )}
-                      >
-                        {hasVariant(globalVariants, "screen", "mobileOnly")
-                          ? "Still curious? Take a peek at the Figma Prototype below!\r"
-                          : "Still curious? Take a peek at the Figma Prototype below!\r"}
-                      </div>
-
-                      <p.Stack
-                        as={"div"}
-                        data-plasmic-name={"buttonBase"}
-                        data-plasmic-override={overrides.buttonBase}
-                        hasGap={true}
-                        className={classNames(projectcss.all, sty.buttonBase)}
-                      >
-                        <div
-                          data-plasmic-name={"text21"}
-                          data-plasmic-override={overrides.text21}
+                        <p.Stack
+                          as={"div"}
+                          hasGap={true}
                           className={classNames(
                             projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text21
+                            sty.column__x2CQm
                           )}
                         >
-                          {"Link to Prototype"}
-                        </div>
-
-                        <ArrowUpRight2Icon
-                          className={classNames(projectcss.all, sty.svg__ijIIu)}
-                          role={"img"}
-                        />
-                      </p.Stack>
-                    </p.Stack>
-
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"section14"}
-                      data-plasmic-override={overrides.section14}
-                      hasGap={true}
-                      className={classNames(projectcss.all, sty.section14)}
-                    >
-                      <div
-                        data-plasmic-name={"paragraph24"}
-                        data-plasmic-override={overrides.paragraph24}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.paragraph24
-                        )}
-                      >
-                        <React.Fragment>
-                          <React.Fragment>{""}</React.Fragment>
                           <h5
                             className={classNames(
                               projectcss.all,
                               projectcss.h5,
                               projectcss.__wab_text,
-                              sty.h5__nIqoj
+                              sty.h5__fGxrN
                             )}
                           >
-                            {"Design Flaws"}
+                            {"Next Steps"}
                           </h5>
-                          <React.Fragment>
-                            {
-                              "There are some design flaws and pain points within the design screen that the user and I noticed. Here are the reviews and note down:\r\n"
-                            }
-                          </React.Fragment>
-                          <ul
+
+                          <div
                             className={classNames(
                               projectcss.all,
-                              projectcss.ul,
-                              sty.ul__nDqtW
+                              projectcss.__wab_text,
+                              sty.text__ql2AB
                             )}
                           >
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li___7THqk
-                              )}
-                            >
-                              {
-                                "There is no text color and label for the graph of the monthly budget."
-                              }
-                            </li>
+                            <React.Fragment>
+                              <React.Fragment>{""}</React.Fragment>
+                              <p.Stack
+                                as={"ol"}
+                                hasGap={true}
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.ol,
+                                  sty.ol__uFXrF
+                                )}
+                              >
+                                <li
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.li,
+                                    projectcss.__wab_text,
+                                    sty.li__syUq2
+                                  )}
+                                >
+                                  {
+                                    "Iterate the need to\nimprove the interaction\nand add more clickable\nscreen paths, especially\non the product screen,\nsearch screen & receipt\nscreen because these\nscreens are most likely to\nget a lot of visitors."
+                                  }
+                                </li>
 
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li__lkShT
-                              )}
-                            >
-                              {
-                                "\r\nHow does the user know when they exceed the monthly budget? the design fails to assist that\r"
-                              }
-                            </li>
+                                <li
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.li,
+                                    projectcss.__wab_text,
+                                    sty.li___9SoO
+                                  )}
+                                >
+                                  {
+                                    "Conduct another round of\nusability studies to\nvalidate whether the pain\npoints users experienced\nhave been effectively\naddressed."
+                                  }
+                                </li>
 
-                            <li
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.li,
-                                projectcss.__wab_text,
-                                sty.li__myWaL
-                              )}
-                            >
-                              {
-                                "The filter in the transaction is confusing, what does it contain?\r"
-                              }
-                            </li>
-                          </ul>
-                          <React.Fragment>{""}</React.Fragment>
-                        </React.Fragment>
+                                <li
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.li,
+                                    projectcss.__wab_text,
+                                    sty.li__a167Z
+                                  )}
+                                >
+                                  {
+                                    "Conduct more user\nresearch on the real users\nfrom similar apps or\ncompetitors to determine\nany new areas of need."
+                                  }
+                                </li>
+                              </p.Stack>
+                              <React.Fragment>{""}</React.Fragment>
+                            </React.Fragment>
+                          </div>
+                        </p.Stack>
                       </div>
                     </p.Stack>
 
@@ -3703,7 +2921,7 @@ function PlasmicGoogleUx__RenderFunc(props) {
                           sty.heading9
                         )}
                       >
-                        {"What’s Next?"}
+                        {"Let's Connect!"}
                       </div>
 
                       <div
@@ -3716,7 +2934,7 @@ function PlasmicGoogleUx__RenderFunc(props) {
                         )}
                       >
                         {
-                          "What’s next? the design process has to continue as the design needs validation from the user and some iteration to improve. However, to make this a straight week design challenge, I leave the design remain as it is, with no iteration."
+                          "Thank you for your time reviewing my work on the Nutricats app! If you’d like to see more or get in touch, my contact information is provided below."
                         }
                       </div>
                     </p.Stack>
@@ -4074,76 +3292,20 @@ const PlasmicDescendants = {
     "richTextImg21",
     "image25",
     "text29",
-    "paragraph10",
-    "blockquote",
-    "leftBorder",
-    "quoteWrap",
-    "quote",
-    "text9",
-    "paragraph11",
-    "richTextImg6",
-    "image6",
-    "text10",
-    "richTextImg7",
-    "image7",
-    "text11",
     "paragraph12",
     "richTextImg8",
     "image8",
     "text12",
     "paragraph13",
-    "richTextImg9",
-    "image9",
-    "text13",
-    "paragraph14",
-    "richTextImg10",
-    "image10",
-    "text14",
-    "paragraph15",
-    "richTextImg11",
-    "image11",
-    "text15",
-    "paragraph16",
-    "richTextImg12",
-    "image12",
-    "text16",
+    "richTextImg22",
+    "image26",
     "section8",
     "heading8",
     "paragraph17",
-    "richTextImg13",
-    "image13",
-    "text17",
+    "image27",
+    "blockquote",
     "section9",
-    "paragraph18",
-    "section10",
-    "paragraph19",
-    "richTextImg14",
-    "image14",
-    "text18",
-    "section11",
-    "paragraph20",
-    "richTextImg15",
-    "image15",
-    "text19",
-    "section12",
-    "paragraph21",
-    "section13",
-    "paragraph22",
-    "richTextImg16",
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19",
-    "text20",
-    "frame173",
-    "paragraph23",
-    "buttonBase",
-    "text21",
-    "section14",
-    "paragraph24",
+    "image28",
     "section15",
     "paragraph25",
     "section16",
@@ -4289,76 +3451,20 @@ const PlasmicDescendants = {
     "richTextImg21",
     "image25",
     "text29",
-    "paragraph10",
-    "blockquote",
-    "leftBorder",
-    "quoteWrap",
-    "quote",
-    "text9",
-    "paragraph11",
-    "richTextImg6",
-    "image6",
-    "text10",
-    "richTextImg7",
-    "image7",
-    "text11",
     "paragraph12",
     "richTextImg8",
     "image8",
     "text12",
     "paragraph13",
-    "richTextImg9",
-    "image9",
-    "text13",
-    "paragraph14",
-    "richTextImg10",
-    "image10",
-    "text14",
-    "paragraph15",
-    "richTextImg11",
-    "image11",
-    "text15",
-    "paragraph16",
-    "richTextImg12",
-    "image12",
-    "text16",
+    "richTextImg22",
+    "image26",
     "section8",
     "heading8",
     "paragraph17",
-    "richTextImg13",
-    "image13",
-    "text17",
+    "image27",
+    "blockquote",
     "section9",
-    "paragraph18",
-    "section10",
-    "paragraph19",
-    "richTextImg14",
-    "image14",
-    "text18",
-    "section11",
-    "paragraph20",
-    "richTextImg15",
-    "image15",
-    "text19",
-    "section12",
-    "paragraph21",
-    "section13",
-    "paragraph22",
-    "richTextImg16",
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19",
-    "text20",
-    "frame173",
-    "paragraph23",
-    "buttonBase",
-    "text21",
-    "section14",
-    "paragraph24",
+    "image28",
     "section15",
     "paragraph25",
     "section16",
@@ -4561,76 +3667,20 @@ const PlasmicDescendants = {
     "richTextImg21",
     "image25",
     "text29",
-    "paragraph10",
-    "blockquote",
-    "leftBorder",
-    "quoteWrap",
-    "quote",
-    "text9",
-    "paragraph11",
-    "richTextImg6",
-    "image6",
-    "text10",
-    "richTextImg7",
-    "image7",
-    "text11",
     "paragraph12",
     "richTextImg8",
     "image8",
     "text12",
     "paragraph13",
-    "richTextImg9",
-    "image9",
-    "text13",
-    "paragraph14",
-    "richTextImg10",
-    "image10",
-    "text14",
-    "paragraph15",
-    "richTextImg11",
-    "image11",
-    "text15",
-    "paragraph16",
-    "richTextImg12",
-    "image12",
-    "text16",
+    "richTextImg22",
+    "image26",
     "section8",
     "heading8",
     "paragraph17",
-    "richTextImg13",
-    "image13",
-    "text17",
+    "image27",
+    "blockquote",
     "section9",
-    "paragraph18",
-    "section10",
-    "paragraph19",
-    "richTextImg14",
-    "image14",
-    "text18",
-    "section11",
-    "paragraph20",
-    "richTextImg15",
-    "image15",
-    "text19",
-    "section12",
-    "paragraph21",
-    "section13",
-    "paragraph22",
-    "richTextImg16",
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19",
-    "text20",
-    "frame173",
-    "paragraph23",
-    "buttonBase",
-    "text21",
-    "section14",
-    "paragraph24",
+    "image28",
     "section15",
     "paragraph25",
     "section16",
@@ -4854,76 +3904,20 @@ const PlasmicDescendants = {
     "richTextImg21",
     "image25",
     "text29",
-    "paragraph10",
-    "blockquote",
-    "leftBorder",
-    "quoteWrap",
-    "quote",
-    "text9",
-    "paragraph11",
-    "richTextImg6",
-    "image6",
-    "text10",
-    "richTextImg7",
-    "image7",
-    "text11",
     "paragraph12",
     "richTextImg8",
     "image8",
     "text12",
     "paragraph13",
-    "richTextImg9",
-    "image9",
-    "text13",
-    "paragraph14",
-    "richTextImg10",
-    "image10",
-    "text14",
-    "paragraph15",
-    "richTextImg11",
-    "image11",
-    "text15",
-    "paragraph16",
-    "richTextImg12",
-    "image12",
-    "text16",
+    "richTextImg22",
+    "image26",
     "section8",
     "heading8",
     "paragraph17",
-    "richTextImg13",
-    "image13",
-    "text17",
+    "image27",
+    "blockquote",
     "section9",
-    "paragraph18",
-    "section10",
-    "paragraph19",
-    "richTextImg14",
-    "image14",
-    "text18",
-    "section11",
-    "paragraph20",
-    "richTextImg15",
-    "image15",
-    "text19",
-    "section12",
-    "paragraph21",
-    "section13",
-    "paragraph22",
-    "richTextImg16",
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19",
-    "text20",
-    "frame173",
-    "paragraph23",
-    "buttonBase",
-    "text21",
-    "section14",
-    "paragraph24",
+    "image28",
     "section15",
     "paragraph25",
     "section16",
@@ -5028,76 +4022,20 @@ const PlasmicDescendants = {
     "richTextImg21",
     "image25",
     "text29",
-    "paragraph10",
-    "blockquote",
-    "leftBorder",
-    "quoteWrap",
-    "quote",
-    "text9",
-    "paragraph11",
-    "richTextImg6",
-    "image6",
-    "text10",
-    "richTextImg7",
-    "image7",
-    "text11",
     "paragraph12",
     "richTextImg8",
     "image8",
     "text12",
     "paragraph13",
-    "richTextImg9",
-    "image9",
-    "text13",
-    "paragraph14",
-    "richTextImg10",
-    "image10",
-    "text14",
-    "paragraph15",
-    "richTextImg11",
-    "image11",
-    "text15",
-    "paragraph16",
-    "richTextImg12",
-    "image12",
-    "text16",
+    "richTextImg22",
+    "image26",
     "section8",
     "heading8",
     "paragraph17",
-    "richTextImg13",
-    "image13",
-    "text17",
+    "image27",
+    "blockquote",
     "section9",
-    "paragraph18",
-    "section10",
-    "paragraph19",
-    "richTextImg14",
-    "image14",
-    "text18",
-    "section11",
-    "paragraph20",
-    "richTextImg15",
-    "image15",
-    "text19",
-    "section12",
-    "paragraph21",
-    "section13",
-    "paragraph22",
-    "richTextImg16",
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19",
-    "text20",
-    "frame173",
-    "paragraph23",
-    "buttonBase",
-    "text21",
-    "section14",
-    "paragraph24",
+    "image28",
     "section15",
     "paragraph25",
     "section16",
@@ -5201,76 +4139,20 @@ const PlasmicDescendants = {
     "richTextImg21",
     "image25",
     "text29",
-    "paragraph10",
-    "blockquote",
-    "leftBorder",
-    "quoteWrap",
-    "quote",
-    "text9",
-    "paragraph11",
-    "richTextImg6",
-    "image6",
-    "text10",
-    "richTextImg7",
-    "image7",
-    "text11",
     "paragraph12",
     "richTextImg8",
     "image8",
     "text12",
     "paragraph13",
-    "richTextImg9",
-    "image9",
-    "text13",
-    "paragraph14",
-    "richTextImg10",
-    "image10",
-    "text14",
-    "paragraph15",
-    "richTextImg11",
-    "image11",
-    "text15",
-    "paragraph16",
-    "richTextImg12",
-    "image12",
-    "text16",
+    "richTextImg22",
+    "image26",
     "section8",
     "heading8",
     "paragraph17",
-    "richTextImg13",
-    "image13",
-    "text17",
+    "image27",
+    "blockquote",
     "section9",
-    "paragraph18",
-    "section10",
-    "paragraph19",
-    "richTextImg14",
-    "image14",
-    "text18",
-    "section11",
-    "paragraph20",
-    "richTextImg15",
-    "image15",
-    "text19",
-    "section12",
-    "paragraph21",
-    "section13",
-    "paragraph22",
-    "richTextImg16",
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19",
-    "text20",
-    "frame173",
-    "paragraph23",
-    "buttonBase",
-    "text21",
-    "section14",
-    "paragraph24",
+    "image28",
     "section15",
     "paragraph25",
     "section16",
@@ -5436,96 +4318,20 @@ const PlasmicDescendants = {
   richTextImg21: ["richTextImg21", "image25", "text29"],
   image25: ["image25"],
   text29: ["text29"],
-  paragraph10: ["paragraph10"],
-  blockquote: ["blockquote", "leftBorder", "quoteWrap", "quote", "text9"],
-  leftBorder: ["leftBorder"],
-  quoteWrap: ["quoteWrap", "quote", "text9"],
-  quote: ["quote"],
-  text9: ["text9"],
-  paragraph11: ["paragraph11"],
-  richTextImg6: ["richTextImg6", "image6", "text10"],
-  image6: ["image6"],
-  text10: ["text10"],
-  richTextImg7: ["richTextImg7", "image7", "text11"],
-  image7: ["image7"],
-  text11: ["text11"],
   paragraph12: ["paragraph12"],
   richTextImg8: ["richTextImg8", "image8", "text12"],
   image8: ["image8"],
   text12: ["text12"],
   paragraph13: ["paragraph13"],
-  richTextImg9: ["richTextImg9", "image9", "text13"],
-  image9: ["image9"],
-  text13: ["text13"],
-  paragraph14: ["paragraph14"],
-  richTextImg10: ["richTextImg10", "image10", "text14"],
-  image10: ["image10"],
-  text14: ["text14"],
-  paragraph15: ["paragraph15"],
-  richTextImg11: ["richTextImg11", "image11", "text15"],
-  image11: ["image11"],
-  text15: ["text15"],
-  paragraph16: ["paragraph16"],
-  richTextImg12: ["richTextImg12", "image12", "text16"],
-  image12: ["image12"],
-  text16: ["text16"],
-  section8: ["section8", "heading8", "paragraph17"],
+  richTextImg22: ["richTextImg22", "image26"],
+  image26: ["image26"],
+  section8: ["section8", "heading8", "paragraph17", "image27", "blockquote"],
   heading8: ["heading8"],
   paragraph17: ["paragraph17"],
-  richTextImg13: ["richTextImg13", "image13", "text17"],
-  image13: ["image13"],
-  text17: ["text17"],
-  section9: ["section9", "paragraph18"],
-  paragraph18: ["paragraph18"],
-  section10: ["section10", "paragraph19"],
-  paragraph19: ["paragraph19"],
-  richTextImg14: ["richTextImg14", "image14", "text18"],
-  image14: ["image14"],
-  text18: ["text18"],
-  section11: ["section11", "paragraph20"],
-  paragraph20: ["paragraph20"],
-  richTextImg15: ["richTextImg15", "image15", "text19"],
-  image15: ["image15"],
-  text19: ["text19"],
-  section12: ["section12", "paragraph21"],
-  paragraph21: ["paragraph21"],
-  section13: ["section13", "paragraph22"],
-  paragraph22: ["paragraph22"],
-  richTextImg16: [
-    "richTextImg16",
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19",
-    "text20"
-  ],
-
-  frame180: [
-    "frame180",
-    "frame174",
-    "image16",
-    "image17",
-    "frame181",
-    "image18",
-    "image19"
-  ],
-
-  frame174: ["frame174", "image16", "image17"],
-  image16: ["image16"],
-  image17: ["image17"],
-  frame181: ["frame181", "image18", "image19"],
-  image18: ["image18"],
-  image19: ["image19"],
-  text20: ["text20"],
-  frame173: ["frame173", "paragraph23", "buttonBase", "text21"],
-  paragraph23: ["paragraph23"],
-  buttonBase: ["buttonBase", "text21"],
-  text21: ["text21"],
-  section14: ["section14", "paragraph24"],
-  paragraph24: ["paragraph24"],
+  image27: ["image27", "blockquote"],
+  blockquote: ["blockquote"],
+  section9: ["section9", "image28"],
+  image28: ["image28"],
   section15: ["section15", "paragraph25"],
   paragraph25: ["paragraph25"],
   section16: ["section16", "heading9", "paragraph26"],
@@ -5758,76 +4564,20 @@ export const PlasmicGoogleUx = Object.assign(
     richTextImg21: makeNodeComponent("richTextImg21"),
     image25: makeNodeComponent("image25"),
     text29: makeNodeComponent("text29"),
-    paragraph10: makeNodeComponent("paragraph10"),
-    blockquote: makeNodeComponent("blockquote"),
-    leftBorder: makeNodeComponent("leftBorder"),
-    quoteWrap: makeNodeComponent("quoteWrap"),
-    quote: makeNodeComponent("quote"),
-    text9: makeNodeComponent("text9"),
-    paragraph11: makeNodeComponent("paragraph11"),
-    richTextImg6: makeNodeComponent("richTextImg6"),
-    image6: makeNodeComponent("image6"),
-    text10: makeNodeComponent("text10"),
-    richTextImg7: makeNodeComponent("richTextImg7"),
-    image7: makeNodeComponent("image7"),
-    text11: makeNodeComponent("text11"),
     paragraph12: makeNodeComponent("paragraph12"),
     richTextImg8: makeNodeComponent("richTextImg8"),
     image8: makeNodeComponent("image8"),
     text12: makeNodeComponent("text12"),
     paragraph13: makeNodeComponent("paragraph13"),
-    richTextImg9: makeNodeComponent("richTextImg9"),
-    image9: makeNodeComponent("image9"),
-    text13: makeNodeComponent("text13"),
-    paragraph14: makeNodeComponent("paragraph14"),
-    richTextImg10: makeNodeComponent("richTextImg10"),
-    image10: makeNodeComponent("image10"),
-    text14: makeNodeComponent("text14"),
-    paragraph15: makeNodeComponent("paragraph15"),
-    richTextImg11: makeNodeComponent("richTextImg11"),
-    image11: makeNodeComponent("image11"),
-    text15: makeNodeComponent("text15"),
-    paragraph16: makeNodeComponent("paragraph16"),
-    richTextImg12: makeNodeComponent("richTextImg12"),
-    image12: makeNodeComponent("image12"),
-    text16: makeNodeComponent("text16"),
+    richTextImg22: makeNodeComponent("richTextImg22"),
+    image26: makeNodeComponent("image26"),
     section8: makeNodeComponent("section8"),
     heading8: makeNodeComponent("heading8"),
     paragraph17: makeNodeComponent("paragraph17"),
-    richTextImg13: makeNodeComponent("richTextImg13"),
-    image13: makeNodeComponent("image13"),
-    text17: makeNodeComponent("text17"),
+    image27: makeNodeComponent("image27"),
+    blockquote: makeNodeComponent("blockquote"),
     section9: makeNodeComponent("section9"),
-    paragraph18: makeNodeComponent("paragraph18"),
-    section10: makeNodeComponent("section10"),
-    paragraph19: makeNodeComponent("paragraph19"),
-    richTextImg14: makeNodeComponent("richTextImg14"),
-    image14: makeNodeComponent("image14"),
-    text18: makeNodeComponent("text18"),
-    section11: makeNodeComponent("section11"),
-    paragraph20: makeNodeComponent("paragraph20"),
-    richTextImg15: makeNodeComponent("richTextImg15"),
-    image15: makeNodeComponent("image15"),
-    text19: makeNodeComponent("text19"),
-    section12: makeNodeComponent("section12"),
-    paragraph21: makeNodeComponent("paragraph21"),
-    section13: makeNodeComponent("section13"),
-    paragraph22: makeNodeComponent("paragraph22"),
-    richTextImg16: makeNodeComponent("richTextImg16"),
-    frame180: makeNodeComponent("frame180"),
-    frame174: makeNodeComponent("frame174"),
-    image16: makeNodeComponent("image16"),
-    image17: makeNodeComponent("image17"),
-    frame181: makeNodeComponent("frame181"),
-    image18: makeNodeComponent("image18"),
-    image19: makeNodeComponent("image19"),
-    text20: makeNodeComponent("text20"),
-    frame173: makeNodeComponent("frame173"),
-    paragraph23: makeNodeComponent("paragraph23"),
-    buttonBase: makeNodeComponent("buttonBase"),
-    text21: makeNodeComponent("text21"),
-    section14: makeNodeComponent("section14"),
-    paragraph24: makeNodeComponent("paragraph24"),
+    image28: makeNodeComponent("image28"),
     section15: makeNodeComponent("section15"),
     paragraph25: makeNodeComponent("paragraph25"),
     section16: makeNodeComponent("section16"),

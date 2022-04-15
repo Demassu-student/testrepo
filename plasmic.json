@@ -292,6 +292,19 @@
           "cssFilePath": "plasmic/portfolio_bener/PlasmicGoogleUx.module.css",
           "scheme": "blackbox",
           "componentType": "page"
+        },
+        {
+          "id": "iof-KKxyHO",
+          "name": "Heading1GoogleUxChallenge",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/portfolio_bener/PlasmicHeading1GoogleUxChallenge.jsx",
+          "importSpec": {
+            "modulePath": "Heading1GoogleUxChallenge.jsx"
+          },
+          "cssFilePath": "plasmic/portfolio_bener/PlasmicHeading1GoogleUxChallenge.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -1121,6 +1134,31 @@
           "id": "VHPUAXr22",
           "name": "01 - Home + Nav Flow 1.png",
           "filePath": "../public/plasmic/portfolio_bener/images/_01HomeNavFlow1Png.png"
+        },
+        {
+          "id": "doQRwXX36",
+          "name": "Galaxy Note 20 Ultra-2.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/galaxyNote20Ultra2Png.png"
+        },
+        {
+          "id": "UMrzoXJ3F",
+          "name": "Sumsung-1.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/sumsung1Png.png"
+        },
+        {
+          "id": "CQ5IWQAmv",
+          "name": "Galaxy Note 20 Ultra-1.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/galaxyNote20Ultra1Png.png"
+        },
+        {
+          "id": "7RGD_8Q5H",
+          "name": "Galaxy Note 20 Ultra.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/galaxyNote20Ultrapng.png"
+        },
+        {
+          "id": "pldj0H_KR",
+          "name": "High fidelity Prototyping.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/highFidelityPrototypingpng.png"
         }
       ],
       "indirect": false,

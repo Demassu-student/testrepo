@@ -19,6 +19,7 @@ import {
   ensureGlobalVariants
 } from "@plasmicapp/react-web";
 import Heading1CoCreateRevampHome from "../../Heading1CoCreateRevampHome"; // plasmic-import: opFq_mjndRgD1H/component
+import Heading1GoogleUxChallenge from "../../Heading1GoogleUxChallenge"; // plasmic-import: iof-KKxyHO/component
 import Heading1BillieHome from "../../Heading1BillieHome"; // plasmic-import: UFO_FR1k5hVzkR/component
 import NavigationBar from "../../NavigationBar"; // plasmic-import: BLtbByl5tB5/component
 import Select from "../../Select"; // plasmic-import: 3Vr7VM3BiE8vGJ/component
@@ -875,43 +876,16 @@ function PlasmicHomepage__RenderFunc(props) {
                                 sty.frame135
                               )}
                             >
-                              <div
-                                data-plasmic-name={"frame142"}
-                                data-plasmic-override={overrides.frame142}
+                              <Heading1GoogleUxChallenge
+                                data-plasmic-name={"heading1GoogleUxChallenge"}
+                                data-plasmic-override={
+                                  overrides.heading1GoogleUxChallenge
+                                }
                                 className={classNames(
-                                  projectcss.all,
-                                  sty.frame142
+                                  "__wab_instance",
+                                  sty.heading1GoogleUxChallenge
                                 )}
-                              >
-                                <div
-                                  data-plasmic-name={"heading2"}
-                                  data-plasmic-override={overrides.heading2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    projectcss.__wab_text,
-                                    sty.heading2
-                                  )}
-                                >
-                                  {"Google UX Course Challenge"}
-                                </div>
-
-                                <div
-                                  data-plasmic-name={"iconWrap2"}
-                                  data-plasmic-override={overrides.iconWrap2}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.iconWrap2
-                                  )}
-                                >
-                                  <ArrowUpRightIcon
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.svg__bkrQp
-                                    )}
-                                    role={"img"}
-                                  />
-                                </div>
-                              </div>
+                              />
 
                               <div
                                 data-plasmic-name={"supportingText2"}
@@ -1060,72 +1034,6 @@ function PlasmicHomepage__RenderFunc(props) {
                           </p.Stack>
                         </p.Stack>
                       </p.Stack>
-
-                      <div
-                        data-plasmic-name={"tooltip"}
-                        data-plasmic-override={overrides.tooltip}
-                        className={classNames(projectcss.all, sty.tooltip)}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__ncCyP
-                          )}
-                        >
-                          <TooltipIcon
-                            className={classNames(
-                              projectcss.all,
-                              sty.svg__tnr0P
-                            )}
-                            role={"img"}
-                          />
-                        </div>
-
-                        <div
-                          data-plasmic-name={"content"}
-                          data-plasmic-override={overrides.content}
-                          className={classNames(projectcss.all, sty.content)}
-                        >
-                          <p.Stack
-                            as={"div"}
-                            data-plasmic-name={"textAndSupportingText"}
-                            data-plasmic-override={
-                              overrides.textAndSupportingText
-                            }
-                            hasGap={true}
-                            className={classNames(
-                              projectcss.all,
-                              sty.textAndSupportingText
-                            )}
-                          >
-                            <div
-                              data-plasmic-name={"text15"}
-                              data-plasmic-override={overrides.text15}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text15
-                              )}
-                            >
-                              {"I’m uploading this project"}
-                            </div>
-
-                            <div
-                              data-plasmic-name={"supportingText3"}
-                              data-plasmic-override={overrides.supportingText3}
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.supportingText3
-                              )}
-                            >
-                              {
-                                "This project is done, I just hasn’t uploaded it yet"
-                              }
-                            </div>
-                          </p.Stack>
-                        </div>
-                      </div>
                     </p.Stack>
                   </p.Stack>
 
@@ -2361,9 +2269,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -2378,11 +2284,6 @@ const PlasmicDescendants = {
     "badge8",
     "badgeBase8",
     "text14",
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3",
     "frame145",
     "articleModal3",
     "frame126",
@@ -2523,9 +2424,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -2540,11 +2439,6 @@ const PlasmicDescendants = {
     "badge8",
     "badgeBase8",
     "text14",
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3",
     "frame145",
     "articleModal3",
     "frame126",
@@ -2738,9 +2632,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -2755,11 +2647,6 @@ const PlasmicDescendants = {
     "badge8",
     "badgeBase8",
     "text14",
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3",
     "frame145",
     "articleModal3",
     "frame126",
@@ -2842,9 +2729,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -2859,11 +2744,6 @@ const PlasmicDescendants = {
     "badge8",
     "badgeBase8",
     "text14",
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3",
     "frame145",
     "articleModal3",
     "frame126",
@@ -2945,9 +2825,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -2962,11 +2840,6 @@ const PlasmicDescendants = {
     "badge8",
     "badgeBase8",
     "text14",
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3",
     "frame145",
     "articleModal3",
     "frame126",
@@ -3047,9 +2920,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -3063,12 +2934,7 @@ const PlasmicDescendants = {
     "text13",
     "badge8",
     "badgeBase8",
-    "text14",
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3"
+    "text14"
   ],
 
   articleModal: [
@@ -3166,9 +3032,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -3182,12 +3046,7 @@ const PlasmicDescendants = {
     "text13",
     "badge8",
     "badgeBase8",
-    "text14",
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3"
+    "text14"
   ],
 
   contentContainer: [
@@ -3197,9 +3056,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -3222,9 +3079,7 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2",
     "categories2",
     "badge5",
@@ -3245,24 +3100,13 @@ const PlasmicDescendants = {
     "frame134",
     "author2",
     "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
+    "heading1GoogleUxChallenge",
     "supportingText2"
   ],
 
   author2: ["author2"],
-  frame135: [
-    "frame135",
-    "frame142",
-    "heading2",
-    "iconWrap2",
-    "supportingText2"
-  ],
-
-  frame142: ["frame142", "heading2", "iconWrap2"],
-  heading2: ["heading2"],
-  iconWrap2: ["iconWrap2"],
+  frame135: ["frame135", "heading1GoogleUxChallenge", "supportingText2"],
+  heading1GoogleUxChallenge: ["heading1GoogleUxChallenge"],
   supportingText2: ["supportingText2"],
   categories2: [
     "categories2",
@@ -3292,18 +3136,6 @@ const PlasmicDescendants = {
   badge8: ["badge8", "badgeBase8", "text14"],
   badgeBase8: ["badgeBase8", "text14"],
   text14: ["text14"],
-  tooltip: [
-    "tooltip",
-    "content",
-    "textAndSupportingText",
-    "text15",
-    "supportingText3"
-  ],
-
-  content: ["content", "textAndSupportingText", "text15", "supportingText3"],
-  textAndSupportingText: ["textAndSupportingText", "text15", "supportingText3"],
-  text15: ["text15"],
-  supportingText3: ["supportingText3"],
   frame145: [
     "frame145",
     "articleModal3",
@@ -3757,9 +3589,7 @@ export const PlasmicHomepage = Object.assign(
     frame134: makeNodeComponent("frame134"),
     author2: makeNodeComponent("author2"),
     frame135: makeNodeComponent("frame135"),
-    frame142: makeNodeComponent("frame142"),
-    heading2: makeNodeComponent("heading2"),
-    iconWrap2: makeNodeComponent("iconWrap2"),
+    heading1GoogleUxChallenge: makeNodeComponent("heading1GoogleUxChallenge"),
     supportingText2: makeNodeComponent("supportingText2"),
     categories2: makeNodeComponent("categories2"),
     badge5: makeNodeComponent("badge5"),
@@ -3774,11 +3604,6 @@ export const PlasmicHomepage = Object.assign(
     badge8: makeNodeComponent("badge8"),
     badgeBase8: makeNodeComponent("badgeBase8"),
     text14: makeNodeComponent("text14"),
-    tooltip: makeNodeComponent("tooltip"),
-    content: makeNodeComponent("content"),
-    textAndSupportingText: makeNodeComponent("textAndSupportingText"),
-    text15: makeNodeComponent("text15"),
-    supportingText3: makeNodeComponent("supportingText3"),
     frame145: makeNodeComponent("frame145"),
     articleModal3: makeNodeComponent("articleModal3"),
     frame126: makeNodeComponent("frame126"),

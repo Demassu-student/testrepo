@@ -9,7 +9,6 @@
 // Plasmic Project: 578p2KiWp3ZSUFPY7FrhK3
 // Component: 4mxLKLJaWtnt2
 import * as React from "react";
-import Head from "next/head";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
@@ -54,16 +53,13 @@ export const PlasmicHomepage__ArgProps = new Array("children");
 
 function PlasmicHomepage__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });
 
   return (
     <React.Fragment>
-      <Head>
-        <meta name="twitter:card" content="summary" />
-      </Head>
-
       <style>{`
         body {
           margin: 0;
@@ -378,206 +374,208 @@ function PlasmicHomepage__RenderFunc(props) {
               />
             </div>
 
-            <div
-              data-plasmic-name={"frame147"}
-              data-plasmic-override={overrides.frame147}
-              className={classNames(projectcss.all, sty.frame147)}
-            >
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__hJkUt)}
-                displayHeight={"1226px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"1226px"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/new_ones/images/ellipse2.svg",
-                  fullWidth: 1226,
-                  fullHeight: 1226,
-                  aspectRatio: 1
-                }}
-              />
-
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__suXvg)}
-                displayHeight={"1226px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"1226px"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/new_ones/images/ellipse6.svg",
-                  fullWidth: 1226,
-                  fullHeight: 1226,
-                  aspectRatio: 1
-                }}
-              />
-
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img___6EzeH)}
-                displayHeight={"1226px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"1226px"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/new_ones/images/ellipse3.svg",
-                  fullWidth: 1226,
-                  fullHeight: 1226,
-                  aspectRatio: 1
-                }}
-              />
-
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__neP5E)}
-                displayHeight={"1226px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"1226px"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/new_ones/images/ellipse1.svg",
-                  fullWidth: 1226,
-                  fullHeight: 1226,
-                  aspectRatio: 1
-                }}
-              />
-
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__qk0Js)}
-                displayHeight={"1226px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"1226px"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/new_ones/images/ellipse5.svg",
-                  fullWidth: 1226,
-                  fullHeight: 1226,
-                  aspectRatio: 1
-                }}
-              />
-
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__pnIlf)}
-                displayHeight={"1226px"}
-                displayMaxHeight={"none"}
-                displayMaxWidth={"100%"}
-                displayMinHeight={"0"}
-                displayMinWidth={"0"}
-                displayWidth={"1226px"}
-                loading={"lazy"}
-                src={{
-                  src: "/plasmic/new_ones/images/ellipse4.svg",
-                  fullWidth: 1226,
-                  fullHeight: 1226,
-                  aspectRatio: 1
-                }}
-              />
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"frame148"}
-                data-plasmic-override={overrides.frame148}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.frame148)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text___5H8XD
-                  )}
-                >
-                  {"For Hiring"}
-                </div>
-              </p.Stack>
-
-              <Star1Icon
-                className={classNames(projectcss.all, sty.svg__eh26)}
-                role={"img"}
-              />
-
-              <p.Stack
-                as={"div"}
-                data-plasmic-name={"frame154"}
-                data-plasmic-override={overrides.frame154}
-                hasGap={true}
-                className={classNames(projectcss.all, sty.frame154)}
-              >
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__etYNz
-                  )}
-                >
-                  {"I am open to any kind of UI/UX designer opportunities"}
-                </div>
-
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__fVWx
-                  )}
-                >
-                  {
-                    "passionate about working on digital experience and crafting interface needs"
-                  }
-                </div>
-              </p.Stack>
-
+            {true ? (
               <div
-                data-plasmic-name={"frame153"}
-                data-plasmic-override={overrides.frame153}
-                className={classNames(projectcss.all, sty.frame153)}
+                data-plasmic-name={"frame147"}
+                data-plasmic-override={overrides.frame147}
+                className={classNames(projectcss.all, sty.frame147)}
               >
                 <p.PlasmicImg
                   alt={""}
-                  className={classNames(sty.img___03Hny)}
-                  displayHeight={"36px"}
+                  className={classNames(sty.img__hJkUt)}
+                  displayHeight={"1226px"}
                   displayMaxHeight={"none"}
                   displayMaxWidth={"100%"}
                   displayMinHeight={"0"}
                   displayMinWidth={"0"}
-                  displayWidth={"36px"}
+                  displayWidth={"1226px"}
                   loading={"lazy"}
                   src={{
-                    src: "/plasmic/new_ones/images/circleDown.svg",
-                    fullWidth: 36,
-                    fullHeight: 36,
+                    src: "/plasmic/new_ones/images/ellipse2.svg",
+                    fullWidth: 1226,
+                    fullHeight: 1226,
                     aspectRatio: 1
                   }}
                 />
 
-                <div
-                  className={classNames(
-                    projectcss.all,
-                    projectcss.__wab_text,
-                    sty.text__nkWoS
-                  )}
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__suXvg)}
+                  displayHeight={"1226px"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"1226px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/new_ones/images/ellipse6.svg",
+                    fullWidth: 1226,
+                    fullHeight: 1226,
+                    aspectRatio: 1
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img___6EzeH)}
+                  displayHeight={"1226px"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"1226px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/new_ones/images/ellipse3.svg",
+                    fullWidth: 1226,
+                    fullHeight: 1226,
+                    aspectRatio: 1
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__neP5E)}
+                  displayHeight={"1226px"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"1226px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/new_ones/images/ellipse1.svg",
+                    fullWidth: 1226,
+                    fullHeight: 1226,
+                    aspectRatio: 1
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__qk0Js)}
+                  displayHeight={"1226px"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"1226px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/new_ones/images/ellipse5.svg",
+                    fullWidth: 1226,
+                    fullHeight: 1226,
+                    aspectRatio: 1
+                  }}
+                />
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__pnIlf)}
+                  displayHeight={"1226px"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"100%"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"1226px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/new_ones/images/ellipse4.svg",
+                    fullWidth: 1226,
+                    fullHeight: 1226,
+                    aspectRatio: 1
+                  }}
+                />
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"frame148"}
+                  data-plasmic-override={overrides.frame148}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.frame148)}
                 >
-                  {"Scroll down"}
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text___5H8XD
+                    )}
+                  >
+                    {"For Hiring"}
+                  </div>
+                </p.Stack>
+
+                <Star1Icon
+                  className={classNames(projectcss.all, sty.svg__eh26)}
+                  role={"img"}
+                />
+
+                <p.Stack
+                  as={"div"}
+                  data-plasmic-name={"frame154"}
+                  data-plasmic-override={overrides.frame154}
+                  hasGap={true}
+                  className={classNames(projectcss.all, sty.frame154)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__etYNz
+                    )}
+                  >
+                    {"I am open to any kind of UI/UX designer opportunities"}
+                  </div>
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__fVWx
+                    )}
+                  >
+                    {
+                      "passionate about working on digital experience and crafting interface needs"
+                    }
+                  </div>
+                </p.Stack>
+
+                <div
+                  data-plasmic-name={"frame153"}
+                  data-plasmic-override={overrides.frame153}
+                  className={classNames(projectcss.all, sty.frame153)}
+                >
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img___03Hny)}
+                    displayHeight={"36px"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"36px"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/new_ones/images/circleDown.svg",
+                      fullWidth: 36,
+                      fullHeight: 36,
+                      aspectRatio: 1
+                    }}
+                  />
+
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__nkWoS
+                    )}
+                  >
+                    {"Scroll down"}
+                  </div>
                 </div>
               </div>
-            </div>
+            ) : null}
 
             <p.Stack
               as={"div"}

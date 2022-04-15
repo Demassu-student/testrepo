@@ -30,6 +30,7 @@ export const PlasmicSelect__Overlay__ArgProps = new Array("children");
 
 function PlasmicSelect__Overlay__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const superContexts = {
     Select: React.useContext(SUPER__PlasmicSelect.Context)
   };

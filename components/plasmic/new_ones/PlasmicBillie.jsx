@@ -25,7 +25,6 @@ import { useScreenVariants as useScreenVariantstU3UFp3Zwbn8D } from "./PlasmicGl
 import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
 import sty from "./PlasmicBillie.module.css"; // plasmic-import: 7aD6yu2k-doCHn/css
-import TooltipIcon from "./icons/PlasmicIcon__Tooltip"; // plasmic-import: jbJru8BSTWZZmG/icon
 import Divider2Icon from "./icons/PlasmicIcon__Divider2"; // plasmic-import: wszRZDHrfCJaE9/icon
 import ArrowUpRight2Icon from "./icons/PlasmicIcon__ArrowUpRight2"; // plasmic-import: J3O_4eStjkD7ZV/icon
 import CopyIcon from "./icons/PlasmicIcon__Copy"; // plasmic-import: 3hWh_eWxbClQvX/icon
@@ -39,6 +38,7 @@ export const PlasmicBillie__ArgProps = new Array("children2");
 
 function PlasmicBillie__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });
@@ -232,66 +232,6 @@ function PlasmicBillie__RenderFunc(props) {
                     </div>
                   </div>
                 </p.Stack>
-
-                <div
-                  data-plasmic-name={"tooltip"}
-                  data-plasmic-override={overrides.tooltip}
-                  className={classNames(projectcss.all, sty.tooltip)}
-                >
-                  <div
-                    data-plasmic-name={"freeBox"}
-                    data-plasmic-override={overrides.freeBox}
-                    className={classNames(projectcss.all, sty.freeBox)}
-                  >
-                    <TooltipIcon
-                      className={classNames(projectcss.all, sty.svg__z0FvN)}
-                      role={"img"}
-                    />
-                  </div>
-
-                  <div
-                    data-plasmic-name={"content3"}
-                    data-plasmic-override={overrides.content3}
-                    className={classNames(projectcss.all, sty.content3)}
-                  >
-                    <p.Stack
-                      as={"div"}
-                      data-plasmic-name={"textAndSupportingText2"}
-                      data-plasmic-override={overrides.textAndSupportingText2}
-                      hasGap={true}
-                      className={classNames(
-                        projectcss.all,
-                        sty.textAndSupportingText2
-                      )}
-                    >
-                      <div
-                        data-plasmic-name={"text28"}
-                        data-plasmic-override={overrides.text28}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text28
-                        )}
-                      >
-                        {"You're on a pre-published view"}
-                      </div>
-
-                      <div
-                        data-plasmic-name={"supportingText7"}
-                        data-plasmic-override={overrides.supportingText7}
-                        className={classNames(
-                          projectcss.all,
-                          projectcss.__wab_text,
-                          sty.supportingText7
-                        )}
-                      >
-                        {
-                          "This page is on a repairment for text hierarchy & legibility"
-                        }
-                      </div>
-                    </p.Stack>
-                  </div>
-                </div>
               </p.Stack>
             </p.Stack>
 
@@ -2456,12 +2396,6 @@ const PlasmicDescendants = {
     "text2",
     "badgeBase3",
     "text3",
-    "tooltip",
-    "freeBox",
-    "content3",
-    "textAndSupportingText2",
-    "text28",
-    "supportingText7",
     "section",
     "container",
     "content",
@@ -2631,12 +2565,6 @@ const PlasmicDescendants = {
     "text2",
     "badgeBase3",
     "text3",
-    "tooltip",
-    "freeBox",
-    "content3",
-    "textAndSupportingText2",
-    "text28",
-    "supportingText7",
     "section",
     "container",
     "content",
@@ -2803,13 +2731,7 @@ const PlasmicDescendants = {
     "badgeBase2",
     "text2",
     "badgeBase3",
-    "text3",
-    "tooltip",
-    "freeBox",
-    "content3",
-    "textAndSupportingText2",
-    "text28",
-    "supportingText7"
+    "text3"
   ],
 
   frame170: [
@@ -2824,13 +2746,7 @@ const PlasmicDescendants = {
     "badgeBase2",
     "text2",
     "badgeBase3",
-    "text3",
-    "tooltip",
-    "freeBox",
-    "content3",
-    "textAndSupportingText2",
-    "text28",
-    "supportingText7"
+    "text3"
   ],
 
   frame176: ["frame176", "subheading", "frame175", "heading", "supportingText"],
@@ -2852,25 +2768,6 @@ const PlasmicDescendants = {
   text2: ["text2"],
   badgeBase3: ["badgeBase3", "text3"],
   text3: ["text3"],
-  tooltip: [
-    "tooltip",
-    "freeBox",
-    "content3",
-    "textAndSupportingText2",
-    "text28",
-    "supportingText7"
-  ],
-
-  freeBox: ["freeBox"],
-  content3: ["content3", "textAndSupportingText2", "text28", "supportingText7"],
-  textAndSupportingText2: [
-    "textAndSupportingText2",
-    "text28",
-    "supportingText7"
-  ],
-
-  text28: ["text28"],
-  supportingText7: ["supportingText7"],
   section: [
     "section",
     "container",
@@ -3774,12 +3671,6 @@ export const PlasmicBillie = Object.assign(
     text2: makeNodeComponent("text2"),
     badgeBase3: makeNodeComponent("badgeBase3"),
     text3: makeNodeComponent("text3"),
-    tooltip: makeNodeComponent("tooltip"),
-    freeBox: makeNodeComponent("freeBox"),
-    content3: makeNodeComponent("content3"),
-    textAndSupportingText2: makeNodeComponent("textAndSupportingText2"),
-    text28: makeNodeComponent("text28"),
-    supportingText7: makeNodeComponent("supportingText7"),
     section: makeNodeComponent("section"),
     container: makeNodeComponent("container"),
     content: makeNodeComponent("content"),

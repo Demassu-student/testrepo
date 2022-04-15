@@ -9,7 +9,6 @@
 // Plasmic Project: 578p2KiWp3ZSUFPY7FrhK3
 // Component: QvmlKls91-xsuV
 import * as React from "react";
-import Head from "next/head";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
@@ -38,16 +37,13 @@ export const PlasmicUxWriting__ArgProps = new Array(
 
 function PlasmicUxWriting__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });
 
   return (
     <React.Fragment>
-      <Head>
-        <meta name="twitter:card" content="summary" />
-      </Head>
-
       <style>{`
         body {
           margin: 0;

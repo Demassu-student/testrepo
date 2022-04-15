@@ -144,6 +144,7 @@
   backdrop-filter: none;
   isolation: auto;
   filter: drop-shadow(19px 15px 10px #0000000d);
+  -webkit-backdrop-filter: none;
 }
 .img__dquD4 > picture > img {
   object-fit: cover;
@@ -166,6 +167,7 @@
     backdrop-filter: none;
     isolation: auto;
     filter: drop-shadow(19px 15px 10px #0000000d);
+    -webkit-backdrop-filter: none;
   }
 }
 @media (min-width: 0px) and (max-width: 768px) {

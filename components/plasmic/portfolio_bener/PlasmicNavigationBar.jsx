@@ -31,6 +31,7 @@ export const PlasmicNavigationBar__ArgProps = new Array("children");
 
 function PlasmicNavigationBar__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });

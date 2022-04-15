@@ -31,6 +31,7 @@ export const PlasmicHeading36PxUxWritingPage__ArgProps = new Array();
 
 function PlasmicHeading36PxUxWritingPage__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });

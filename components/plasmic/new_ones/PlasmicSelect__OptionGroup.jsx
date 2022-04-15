@@ -35,6 +35,7 @@ export const PlasmicSelect__OptionGroup__ArgProps = new Array(
 
 function PlasmicSelect__OptionGroup__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const superContexts = {
     Select: React.useContext(SUPER__PlasmicSelect.Context)
   };

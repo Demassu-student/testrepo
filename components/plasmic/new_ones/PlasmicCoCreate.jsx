@@ -38,6 +38,7 @@ export const PlasmicCoCreate__ArgProps = new Array("children2");
 
 function PlasmicCoCreate__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });

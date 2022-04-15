@@ -279,6 +279,19 @@
           "cssFilePath": "plasmic/portfolio_bener/PlasmicHeading36PxUxWritingPage.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "rApXcfRnVYy",
+          "name": "GoogleUx",
+          "type": "managed",
+          "projectId": "578p2KiWp3ZSUFPY7FrhK3",
+          "renderModuleFilePath": "plasmic/portfolio_bener/PlasmicGoogleUx.jsx",
+          "importSpec": {
+            "modulePath": "../pages/google-ux.jsx"
+          },
+          "cssFilePath": "plasmic/portfolio_bener/PlasmicGoogleUx.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -1063,6 +1076,51 @@
           "id": "36icOCYJw",
           "name": "Background text.png",
           "filePath": "../public/plasmic/portfolio_bener/images/backgroundTextpng.png"
+        },
+        {
+          "id": "BXvovc-MB",
+          "name": "User persona.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/userPersonapng.png"
+        },
+        {
+          "id": "Y6oOiOOIW",
+          "name": "Google UX Design Certificate - Starter User Journey Map  - Stannis .png",
+          "filePath": "../public/plasmic/portfolio_bener/images/googleUxDesignCertificateStarterUserJourneyMapStannisPng.png"
+        },
+        {
+          "id": "RDj4PqOoN",
+          "name": "image 45",
+          "filePath": "../public/plasmic/portfolio_bener/images/image45.png"
+        },
+        {
+          "id": "ypJ0kVfyy",
+          "name": "Wireframe - Product Page.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/wireframeProductPagepng.png"
+        },
+        {
+          "id": "mNmAdQ_nC",
+          "name": "Wireframe - Product Homepage.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/wireframeProductHomepagepng.png"
+        },
+        {
+          "id": "0V9kaqvWW",
+          "name": "Digital LOFI prototype.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/digitalLofiPrototypepng.png"
+        },
+        {
+          "id": "5_7RwaBeb",
+          "name": "02 - Product Page.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/_02ProductPagepng.png"
+        },
+        {
+          "id": "XOzgS__ju",
+          "name": "01 - Home + Nav.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/_01HomeNavpng.png"
+        },
+        {
+          "id": "VHPUAXr22",
+          "name": "01 - Home + Nav Flow 1.png",
+          "filePath": "../public/plasmic/portfolio_bener/images/_01HomeNavFlow1Png.png"
         }
       ],
       "indirect": false,
@@ -1096,6 +1154,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.175",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.175/dist/plasmic.schema.json"
+  "cliVersion": "0.1.176",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.176/dist/plasmic.schema.json"
 }

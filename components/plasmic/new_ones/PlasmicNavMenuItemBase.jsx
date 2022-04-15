@@ -32,6 +32,7 @@ export const PlasmicNavMenuItemBase__ArgProps = new Array();
 
 function PlasmicNavMenuItemBase__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   return (
     <p.Stack
       as={p.PlasmicLink}

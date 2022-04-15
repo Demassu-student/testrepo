@@ -48,6 +48,7 @@ const PlasmicSelectContext = React.createContext(undefined);
 
 function PlasmicSelect__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const [isRootFocusVisibleWithin, triggerRootFocusVisibleWithinProps] =
     useTrigger("useFocusVisibleWithin", {
       isTextInput: false

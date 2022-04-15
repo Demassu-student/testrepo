@@ -9,7 +9,6 @@
 // Plasmic Project: 578p2KiWp3ZSUFPY7FrhK3
 // Component: GCTBXpXYeaF
 import * as React from "react";
-import Head from "next/head";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
@@ -34,12 +33,9 @@ export const PlasmicUxWritingBlogExercise2__ArgProps = new Array("children3");
 
 function PlasmicUxWritingBlogExercise2__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   return (
     <React.Fragment>
-      <Head>
-        <meta name="twitter:card" content="summary" />
-      </Head>
-
       <style>{`
         body {
           margin: 0;

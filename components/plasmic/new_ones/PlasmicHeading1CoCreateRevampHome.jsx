@@ -30,6 +30,7 @@ export const PlasmicHeading1CoCreateRevampHome__ArgProps = new Array();
 
 function PlasmicHeading1CoCreateRevampHome__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });

@@ -9,7 +9,6 @@
 // Plasmic Project: 578p2KiWp3ZSUFPY7FrhK3
 // Component: 4dfVIiGXb7
 import * as React from "react";
-import Head from "next/head";
 import * as p from "@plasmicapp/react-web";
 import {
   hasVariant,
@@ -32,16 +31,13 @@ export const PlasmicUiuxDesign__ArgProps = new Array("children", "children2");
 
 function PlasmicUiuxDesign__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantstU3UFp3Zwbn8D()
   });
 
   return (
     <React.Fragment>
-      <Head>
-        <meta name="twitter:card" content="summary" />
-      </Head>
-
       <style>{`
         body {
           margin: 0;

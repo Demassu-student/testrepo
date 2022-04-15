@@ -27,6 +27,7 @@ export const PlasmicHeading1BillieHome__ArgProps = new Array();
 
 function PlasmicHeading1BillieHome__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
+  const $props = props.args;
   return (
     <p.PlasmicLink
       data-plasmic-name={"root"}

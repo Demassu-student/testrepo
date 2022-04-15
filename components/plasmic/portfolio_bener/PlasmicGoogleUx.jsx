@@ -25,8 +25,6 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "../new_ones/plasmic_new_ones.module.css"; // plasmic-import: 578p2KiWp3ZSUFPY7FrhK3/projectcss
 import sty from "./PlasmicGoogleUx.module.css"; // plasmic-import: rApXcfRnVYy/css
 import TooltipIcon from "../new_ones/icons/PlasmicIcon__Tooltip"; // plasmic-import: jbJru8BSTWZZmG/icon
-import ChecksvgIcon from "../new_ones/icons/PlasmicIcon__Checksvg"; // plasmic-import: C3f3FgCnH9VKtI/icon
-import Icon4Icon from "../new_ones/icons/PlasmicIcon__Icon4"; // plasmic-import: bbY45N8hXda0bx/icon
 import Divider2Icon from "../new_ones/icons/PlasmicIcon__Divider2"; // plasmic-import: wszRZDHrfCJaE9/icon
 import CopyIcon from "../new_ones/icons/PlasmicIcon__Copy"; // plasmic-import: 3hWh_eWxbClQvX/icon
 import SocialIconIcon from "../new_ones/icons/PlasmicIcon__SocialIcon"; // plasmic-import: 4p046xg_E92q0B/icon
@@ -35,12 +33,7 @@ import Group9Icon from "../new_ones/icons/PlasmicIcon__Group9"; // plasmic-impor
 
 export const PlasmicGoogleUx__VariantProps = new Array();
 
-export const PlasmicGoogleUx__ArgProps = new Array(
-  "children2",
-  "startIcon",
-  "children",
-  "endIcon"
-);
+export const PlasmicGoogleUx__ArgProps = new Array("children2");
 
 function PlasmicGoogleUx__RenderFunc(props) {
   const { variants, args, overrides, forNode } = props;
@@ -565,88 +558,45 @@ function PlasmicGoogleUx__RenderFunc(props) {
 
                           <p.Stack
                             as={p.PlasmicLink}
+                            data-plasmic-name={"buttonBase6"}
+                            data-plasmic-override={overrides.buttonBase6}
                             hasGap={true}
                             className={classNames(
                               projectcss.all,
                               projectcss.a,
-                              sty.link__peOBy
+                              sty.buttonBase6
                             )}
                             component={Link}
                             href={
-                              "https://drive.google.com/file/d/1wYeRj8TBL8YlUQSG4dW5Su_K6OGL0BMa/view?usp=sharing"
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? "#selection_work"
+                                : "https://drive.google.com/file/d/1wYeRj8TBL8YlUQSG4dW5Su_K6OGL0BMa/view?usp=sharing"
                             }
                             platform={"nextjs"}
+                            target={"_blank"}
+                            title={
+                              hasVariant(globalVariants, "screen", "mobileOnly")
+                                ? ""
+                                : ""
+                            }
                           >
-                            {false ? (
-                              <div
-                                data-plasmic-name={"startIconContainer"}
-                                data-plasmic-override={
-                                  overrides.startIconContainer
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.startIconContainer
-                                )}
-                              >
-                                {p.renderPlasmicSlot({
-                                  defaultContents: (
-                                    <ChecksvgIcon
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.svg__lsebA
-                                      )}
-                                      role={"img"}
-                                    />
-                                  ),
-
-                                  value: args.startIcon,
-                                  className: classNames(sty.slotTargetStartIcon)
-                                })}
-                              </div>
-                            ) : null}
-
                             <div
-                              data-plasmic-name={"contentContainer"}
-                              data-plasmic-override={overrides.contentContainer}
+                              data-plasmic-name={"text9"}
+                              data-plasmic-override={overrides.text9}
                               className={classNames(
                                 projectcss.all,
-                                sty.contentContainer
+                                projectcss.__wab_text,
+                                sty.text9
                               )}
                             >
-                              {p.renderPlasmicSlot({
-                                defaultContents: "Pdf",
-                                value: args.children,
-                                className: classNames(sty.slotTargetChildren)
-                              })}
+                              {hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobileOnly"
+                              )
+                                ? "Case Study"
+                                : "Pdf"}
                             </div>
-
-                            {false ? (
-                              <div
-                                data-plasmic-name={"endIconContainer"}
-                                data-plasmic-override={
-                                  overrides.endIconContainer
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.endIconContainer
-                                )}
-                              >
-                                {p.renderPlasmicSlot({
-                                  defaultContents: (
-                                    <Icon4Icon
-                                      className={classNames(
-                                        projectcss.all,
-                                        sty.svg__dLZlC
-                                      )}
-                                      role={"img"}
-                                    />
-                                  ),
-
-                                  value: args.endIcon,
-                                  className: classNames(sty.slotTargetEndIcon)
-                                })}
-                              </div>
-                            ) : null}
                           </p.Stack>
                         </p.Stack>
                       </p.Stack>
@@ -1664,11 +1614,13 @@ function PlasmicGoogleUx__RenderFunc(props) {
                             </div>
 
                             <p.PlasmicLink
+                              data-plasmic-name={"link"}
+                              data-plasmic-override={overrides.link}
                               className={classNames(
                                 projectcss.all,
                                 projectcss.a,
                                 projectcss.__wab_text,
-                                sty.link__uB37W
+                                sty.link
                               )}
                               component={Link}
                               platform={"nextjs"}
@@ -3210,9 +3162,8 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer",
+    "buttonBase6",
+    "text9",
     "container3",
     "content2",
     "richText",
@@ -3273,6 +3224,7 @@ const PlasmicDescendants = {
     "paragraph31",
     "richTextImg18",
     "image21",
+    "link",
     "text25",
     "section21",
     "paragraph42",
@@ -3369,9 +3321,8 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer",
+    "buttonBase6",
+    "text9",
     "container3",
     "content2",
     "richText",
@@ -3432,6 +3383,7 @@ const PlasmicDescendants = {
     "paragraph31",
     "richTextImg18",
     "image21",
+    "link",
     "text25",
     "section21",
     "paragraph42",
@@ -3585,9 +3537,8 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer",
+    "buttonBase6",
+    "text9",
     "container3",
     "content2",
     "richText",
@@ -3648,6 +3599,7 @@ const PlasmicDescendants = {
     "paragraph31",
     "richTextImg18",
     "image21",
+    "link",
     "text25",
     "section21",
     "paragraph42",
@@ -3723,9 +3675,8 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer"
+    "buttonBase6",
+    "text9"
   ],
 
   content: [
@@ -3744,9 +3695,8 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer"
+    "buttonBase6",
+    "text9"
   ],
 
   containerHighlighted: [
@@ -3764,9 +3714,8 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer"
+    "buttonBase6",
+    "text9"
   ],
 
   containter: [
@@ -3790,9 +3739,8 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer"
+    "buttonBase6",
+    "text9"
   ],
 
   frame179: [
@@ -3803,27 +3751,18 @@ const PlasmicDescendants = {
     "supportingText5",
     "timeline2",
     "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer"
+    "buttonBase6",
+    "text9"
   ],
 
   projectObjective: ["projectObjective", "supportingText4"],
   supportingText4: ["supportingText4"],
   timeline: ["timeline", "supportingText5"],
   supportingText5: ["supportingText5"],
-  timeline2: [
-    "timeline2",
-    "supportingText8",
-    "startIconContainer",
-    "contentContainer",
-    "endIconContainer"
-  ],
-
+  timeline2: ["timeline2", "supportingText8", "buttonBase6", "text9"],
   supportingText8: ["supportingText8"],
-  startIconContainer: ["startIconContainer"],
-  contentContainer: ["contentContainer"],
-  endIconContainer: ["endIconContainer"],
+  buttonBase6: ["buttonBase6", "text9"],
+  text9: ["text9"],
   container3: [
     "container3",
     "content2",
@@ -3885,6 +3824,7 @@ const PlasmicDescendants = {
     "paragraph31",
     "richTextImg18",
     "image21",
+    "link",
     "text25",
     "section21",
     "paragraph42",
@@ -4003,6 +3943,7 @@ const PlasmicDescendants = {
     "paragraph31",
     "richTextImg18",
     "image21",
+    "link",
     "text25",
     "section21",
     "paragraph42",
@@ -4120,6 +4061,7 @@ const PlasmicDescendants = {
     "paragraph31",
     "richTextImg18",
     "image21",
+    "link",
     "text25",
     "section21",
     "paragraph42",
@@ -4272,10 +4214,19 @@ const PlasmicDescendants = {
   richTextImg17: ["richTextImg17", "image20", "text24"],
   image20: ["image20"],
   text24: ["text24"],
-  section20: ["section20", "paragraph31", "richTextImg18", "image21", "text25"],
+  section20: [
+    "section20",
+    "paragraph31",
+    "richTextImg18",
+    "image21",
+    "link",
+    "text25"
+  ],
+
   paragraph31: ["paragraph31"],
-  richTextImg18: ["richTextImg18", "image21", "text25"],
-  image21: ["image21"],
+  richTextImg18: ["richTextImg18", "image21", "link", "text25"],
+  image21: ["image21", "link"],
+  link: ["link"],
   text25: ["text25"],
   section21: ["section21", "paragraph42", "richTextImg19", "image22", "text26"],
   paragraph42: ["paragraph42"],
@@ -4482,9 +4433,8 @@ export const PlasmicGoogleUx = Object.assign(
     supportingText5: makeNodeComponent("supportingText5"),
     timeline2: makeNodeComponent("timeline2"),
     supportingText8: makeNodeComponent("supportingText8"),
-    startIconContainer: makeNodeComponent("startIconContainer"),
-    contentContainer: makeNodeComponent("contentContainer"),
-    endIconContainer: makeNodeComponent("endIconContainer"),
+    buttonBase6: makeNodeComponent("buttonBase6"),
+    text9: makeNodeComponent("text9"),
     container3: makeNodeComponent("container3"),
     content2: makeNodeComponent("content2"),
     richText: makeNodeComponent("richText"),
@@ -4545,6 +4495,7 @@ export const PlasmicGoogleUx = Object.assign(
     paragraph31: makeNodeComponent("paragraph31"),
     richTextImg18: makeNodeComponent("richTextImg18"),
     image21: makeNodeComponent("image21"),
+    link: makeNodeComponent("link"),
     text25: makeNodeComponent("text25"),
     section21: makeNodeComponent("section21"),
     paragraph42: makeNodeComponent("paragraph42"),
